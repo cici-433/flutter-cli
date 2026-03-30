@@ -9,6 +9,10 @@ import 'package:dio/dio.dart';
 /// - 请求/响应/错误的关键信息打印
 /// - 可选打印 headers 与 body，支持长度截断
 /// - 统计单次请求耗时
+///
+/// 安全建议：
+/// - 生产环境谨慎开启 [logHeaders]/[logRequestBody]/[logResponseBody]，避免泄露 Token/隐私数据
+/// - 可在上层通过自定义 [logger] 做脱敏与采样
 class DioLoggingInterceptor extends Interceptor {
   DioLoggingInterceptor({
     this.logHeaders = false,

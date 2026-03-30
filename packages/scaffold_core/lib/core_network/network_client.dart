@@ -12,6 +12,11 @@ import 'types.dart';
 /// - 统一请求/响应/错误模型
 /// - 固定使用 Dio 作为底层引擎（支持配置 BaseOptions/拦截器）
 /// - 序列化策略可替换（默认 JSON）
+///
+/// 与 Dio 的关系：
+/// - 本类将 [NetworkRequest] 映射为 Dio 的 [RequestOptions] 并发起请求
+/// - Dio 拦截器链照常生效（Header/鉴权/日志/重试/超时等建议通过 Dio Interceptor 注入）
+/// - 响应统一以 bytes 形式取回，再由 [NetworkSerializer] 按 [NetworkResponseType] 解码
 class NetworkClient {
   NetworkClient({
     NetworkClientOptions options = const NetworkClientOptions(),
@@ -45,10 +50,10 @@ class NetworkClient {
   ///
   /// 流程：
   /// 1. 取消令牌检查
-  /// 2. onRequest 链改写请求
-  /// 3. 发送 + 组装响应
-  /// 4. onResponse 链处理响应（逆序）
-  /// 5. 错误归一化 + onError 链处理（逆序）
+  /// 2. [NetworkRequest] -> Dio [Options]/data
+  /// 3. 通过 Dio 发送请求（拦截器链在 Dio 内部执行）
+  /// 4. 将 Dio Response 解码为 [NetworkResponse]
+  /// 5. 将底层异常归一化为 [NetworkException]
   Future<NetworkResponse<T>> request<T>(
     NetworkRequest request, {
     CancelToken? cancelToken,
@@ -88,6 +93,7 @@ class NetworkClient {
       final options = Options(
         method: current.method.name.toUpperCase(),
         headers: headers,
+        connectTimeout: _options.connectTimeout,
         sendTimeout: _options.connectTimeout,
         receiveTimeout: current.timeout ?? _options.receiveTimeout,
         responseType: ResponseType.bytes,
@@ -122,11 +128,88 @@ class NetworkClient {
     }
   }
 
+  /// 业务协议请求入口（JSON object）
+  ///
+  /// 适配常见后端返回形态：`{ code, message/msg, data }`。
+  ///
+  /// - 本方法会强制以 [NetworkResponseType.json] 解析响应
+  /// - 如果 JSON 不是 object（Map），会抛出 [NetworkException]（serialization）
+  /// - 如果业务码不等于 [successCode]，会抛出 [NetworkException]（business）
+  /// - 可通过 [mapper] 完全接管解析（用于复杂协议或字段变体）
+  Future<NetworkResponse<ApiResponse<T>>> requestApi<T>(
+    NetworkRequest request, {
+    CancelToken? cancelToken,
+    ApiResponse<T> Function(Map<String, dynamic> json)? mapper,
+    int successCode = 0,
+    String codeKey = 'code',
+    List<String> messageKeys = const <String>['message', 'msg'],
+    String dataKey = 'data',
+  }) async {
+    final resp = await this.request<Object?>(
+      request.copyWith(responseType: NetworkResponseType.json),
+      cancelToken: cancelToken,
+    );
+
+    final data = resp.data;
+    if (data is! Map) {
+      throw NetworkException(
+        type: NetworkErrorType.serialization,
+        message: 'Expected JSON object but got ${data.runtimeType}',
+        request: resp.request,
+        statusCode: resp.statusCode,
+        responseHeaders: resp.headers,
+      );
+    }
+
+    final json = Map<String, dynamic>.from(data);
+    final api = mapper != null
+        ? mapper(json)
+        : ApiResponse<T>(
+            code: (json[codeKey] as num?)?.toInt() ?? 0,
+            message: _firstString(json, messageKeys) ?? '',
+            data: json[dataKey] as T?,
+            raw: json,
+          );
+
+    if (api.code != successCode) {
+      throw NetworkException(
+        type: NetworkErrorType.business,
+        message: api.message,
+        request: resp.request,
+        code: api.code,
+        statusCode: resp.statusCode,
+        responseHeaders: resp.headers,
+        businessCode: api.code,
+        businessPayload: api.raw,
+      );
+    }
+
+    return NetworkResponse<ApiResponse<T>>(
+      request: resp.request,
+      statusCode: resp.statusCode,
+      headers: resp.headers,
+      data: api,
+      rawBytes: resp.rawBytes,
+    );
+  }
+
+  String? _firstString(Map<String, dynamic> json, List<String> keys) {
+    for (final k in keys) {
+      final v = json[k];
+      if (v is String) return v;
+    }
+    return null;
+  }
+
 
   /// 兼容型快捷方法：POST JSON Map
+  ///
+  /// - 适合快速接入 legacy 接口
+  /// - 默认以 JSON 解码并要求返回为 Map
+  /// - 若返回不是 Map，将抛出 [NetworkException]（serialization）
   Future<Map<String, dynamic>> post(
     String path, {
-    required Map<String, dynamic> body,
+    Object? body,
     Map<String, String> headers = const <String, String>{},
     Map<String, String> queryParameters = const <String, String>{},
     Duration? timeout,
@@ -156,6 +239,10 @@ class NetworkClient {
   }
 
   /// 兼容型快捷方法：GET JSON List<Map>
+  ///
+  /// - 默认以 JSON 解码并要求返回为 List
+  /// - 会将 List 中的每个元素尝试转换为 `Map<String, dynamic>`
+  /// - 若返回不是 List，将抛出 [NetworkException]（serialization）
   Future<List<Map<String, dynamic>>> getList(
     String path, {
     Map<String, String> headers = const <String, String>{},
@@ -189,6 +276,10 @@ class NetworkClient {
   }
 
   /// 解析 URL（支持相对路径 + baseUrl）
+  ///
+  /// - 当 [path] 为绝对 URL（http/https）时直接使用
+  /// - 否则将 [NetworkClientOptions.baseUrl] 与 path 直接拼接
+  /// - queryParameters 会与 URL 自带 query 合并，同名参数以后者覆盖前者
   Uri _resolveUri(String path, Map<String, String> queryParameters) {
     final isAbsolute = path.startsWith('http://') || path.startsWith('https://');
     final base = _options.baseUrl ?? '';
@@ -206,6 +297,11 @@ class NetworkClient {
   }
 
   /// 组装统一响应并进行解码（基于 Dio Response）
+  ///
+  /// 约定：
+  /// - 仅将 2xx 视为成功响应，否则抛出 [NetworkException]（badResponse）
+  /// - 底层以 bytes 读取响应，再由 [NetworkSerializer] 解码
+  /// - 始终保留原始字节到 [NetworkResponse.rawBytes]，便于调试/二次解析
   NetworkResponse<T> _decodeResponse<T>(
     NetworkRequest request,
     Response<dynamic> resp,
@@ -267,6 +363,7 @@ class NetworkClient {
   }
 
   NetworkException _mapDioError(DioException e, NetworkRequest request) {
+    // Dio 的 error type 在不同平台/版本下可能有所差异，这里做最小可用的归一化映射。
     final type = e.type;
     switch (type) {
       case DioExceptionType.connectionTimeout:

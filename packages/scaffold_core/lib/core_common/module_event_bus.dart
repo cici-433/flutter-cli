@@ -30,6 +30,8 @@ class ModuleEvent {
 ///
 /// - 广播模式：允许多个订阅者同时接收事件
 /// - 与具体 UI/框架无关：可在任意 Dart 环境使用
+/// - 不做持久化：仅用于进程内事件分发，刷新/重启后事件不会保留
+/// - 不做队列与背压控制：如需高频事件治理建议在应用层增加节流/采样
 class ModuleEventBus {
   final StreamController<ModuleEvent> _controller =
       StreamController<ModuleEvent>.broadcast();

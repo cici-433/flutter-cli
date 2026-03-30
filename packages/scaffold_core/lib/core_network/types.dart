@@ -7,6 +7,32 @@ enum NetworkMethod { get, post, put, patch, delete }
 /// - bytes：直接返回字节数组
 enum NetworkResponseType { json, text, bytes }
 
+/// 常见“业务协议”响应模型
+///
+/// 这是一个不绑定具体后端实现的通用约定，用于适配大量接口返回形态：
+/// - code：业务码（通常 0 表示成功）
+/// - message：错误描述或提示文案
+/// - data：业务数据（可为空）
+/// - raw：原始 JSON（保留用于调试/埋点/二次解析）
+///
+/// 在 [NetworkClient.requestApi] 中可通过 `successCode/codeKey/messageKeys/dataKey`
+/// 自定义解析策略。
+class ApiResponse<T> {
+  const ApiResponse({
+    required this.code,
+    required this.message,
+    required this.data,
+    required this.raw,
+  });
+
+  final int code;
+  final String message;
+  final T? data;
+  final Map<String, dynamic> raw;
+
+  bool get isSuccess => code == 0;
+}
+
 /// 网络请求模型
 ///
 /// 设计目标：
