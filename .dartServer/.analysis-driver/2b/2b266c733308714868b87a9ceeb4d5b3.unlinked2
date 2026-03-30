@@ -1,0 +1,1090 @@
+€ÖsetupParentDatacomputeMinIntrinsicWidthcomputeMaxIntrinsicWidthcomputeMinIntrinsicHeightcomputeMaxIntrinsicHeightcomputeDistanceToActualBaselinecomputeDryBaselinecomputeDryLayoutperformLayoutcomputeSizeForNoChildhitTestChildrenapplyPaintTransformpaintdeferToChildopaquetranslucentbehaviorhitTesthitTestSelfdebugFillPropertiesadditionalConstraints_additionalConstraintsdebugPaintSizemaxWidth	_maxWidth	maxHeight
+_maxHeight_limitConstraints_computeSizeaspectRatio_aspectRatio_applyAspectRatio	stepWidth
+_stepWidth
+stepHeight_stepHeight
+_applyStep_childConstraintsalwaysNeedsCompositingisRepaintBoundary_alphaopacity_opacityalwaysIncludeSemantics_alwaysIncludeSemanticspaintsChildupdateCompositedLayervisitChildrenForSemantics_currentlyIsRepaintBoundaryattachdetach_updateOpacitylayershaderCallback_shaderCallback	blendMode
+_blendModeenabled_enabledfilterfilterConfig_filterConfigbackdropKey_backdropKey_reclipaddListenerremoveListenergetClipgetApproximateClipRectshouldRecliptoStringshapetextDirectionclipper_clipper_markNeedsClip_defaultClip_clipclipBehavior_clipBehavior_updateClipdescribeApproximatePaintClip_debugPaint
+_debugTextdisposeborderRadius_borderRadius_textDirection_cachedRect_cachedPath_getClipPath	elevation
+_elevationshadowColor_shadowColorcolor_color_shape
+background
+foreground_painter
+decoration_decorationposition	_positionconfiguration_configurationorigin_origin	alignment
+_alignmenttransformHitTests
+_transform	transformfilterQuality_filterQualitysetIdentityrotateXrotateYrotateZ	translatescale_effectiveTransform_resolve_resolvedAlignment_markNeedResolution_fitAffectsLayoutfit_fit_hasVisualOverflow_clearPaintData_updatePaintData_paintChildWithTransformtranslation_translationonPointerDownonPointerMoveonPointerUponPointerHoveronPointerCancelonPointerPanZoomStartonPointerPanZoomUpdateonPointerPanZoomEndonPointerSignalhandleEvent_opaquehitTestBehavioronEnteronHoveronExitcursor_cursorvalidForMouseTracker_validForMouseTrackertoImagetoImageSyncdebugSymmetricPaintCount_debugSymmetricPaintCountdebugAsymmetricPaintCount_debugAsymmetricPaintCountdebugResetMetrics!debugRegisterRepaintBoundaryPaintignoring	_ignoringignoringSemantics_ignoringSemanticsdescribeSemanticsConfigurationoffstage	_offstagesizedByParentperformResizedebugDescribeChildren	absorbing
+_absorbingmetaDatavalidActions_validActionsonTap_onTaponLongPress_onLongPressonHorizontalDragUpdate_onHorizontalDragUpdateonVerticalDragUpdate_onVerticalDragUpdatescrollFactor_isValidAction_performSemanticScrollLeft_performSemanticScrollRight_performSemanticScrollUp_performSemanticScrollDownblocking	_blocking	excluding
+_excludingindex_indexlink_link_previousLayoutSizeshowWhenUnlinked_showWhenUnlinkedoffset_offsetleaderAnchor_leaderAnchorfollowerAnchor_followerAnchorgetCurrentTransformvalue_valuesized_sized_layerHandle8RenderProxyBoxRenderProxyBoxMixinHitTestBehavior!RenderProxyBoxWithHitTestBehaviorRenderConstrainedBoxRenderLimitedBoxRenderAspectRatioRenderIntrinsicWidthRenderIntrinsicHeightRenderIgnoreBaselineRenderOpacityRenderAnimatedOpacityMixinRenderAnimatedOpacityShaderCallbackRenderShaderMaskRenderBackdropFilterCustomClipperShapeBorderClipper_RenderCustomClipRenderClipRectRenderClipRRectRenderClipRSuperellipseRenderClipOvalRenderClipPath_RenderPhysicalModelBaseRenderPhysicalModelRenderPhysicalShapeDecorationPositionRenderDecoratedBoxRenderTransformRenderFittedBoxRenderFractionalTranslationPointerDownEventListenerPointerMoveEventListenerPointerUpEventListenerPointerCancelEventListener PointerPanZoomStartEventListener!PointerPanZoomUpdateEventListenerPointerPanZoomEndEventListenerPointerSignalEventListenerRenderPointerListenerRenderMouseRegionRenderRepaintBoundaryRenderIgnorePointerRenderOffstageRenderAbsorbPointerRenderMetaDataRenderSemanticsGestureHandlerRenderSemanticsAnnotationsRenderBlockSemanticsRenderMergeSemanticsRenderExcludeSemanticsRenderIndexedSemanticsRenderLeaderLayerRenderFollowerLayerRenderAnnotatedRegion¾ColorGradientImageImageFilterPointerCancelEventPointerDownEventPointerEventPointerMoveEventPointerUpEventRenderProxySliver	RenderBoxRenderObjectWithChildMixinchildoptionalTypeArgsToverridevoidRenderObject
+parentData
+ParentDatadoublegetMinIntrinsicWidthgetMaxIntrinsicWidthgetMinIntrinsicHeightgetMaxIntrinsicHeightTextBaselinegetDistanceToActualBaselinecomputeDistanceToActualBaseline	protectedBoxConstraintsgetDryBaselinecomputeDryBaselineSizegetDryLayoutcomputeSizeForNoChildsizelayoutconstraintsparentUsesSizesmallestboolBoxHitTestResultOffsethitTestpositionMatrix4PaintingContext
+paintChilddeferToChildcontainshitTestChildrentranslucentaddBoxHitTestEntryopaqueDiagnosticPropertiesBuilderdebugFillPropertiesEnumPropertydefaultValuedebugAssertIsValidmarkNeedsLayouthasBoundedWidthhasTightWidthminWidthcomputeMinIntrinsicWidthisFinitehasInfiniteWidthconstrainWidthcomputeMaxIntrinsicWidthhasBoundedHeighthasTightHeight	minHeightcomputeMinIntrinsicHeighthasInfiniteHeightconstrainHeightcomputeMaxIntrinsicHeightenforce	constrainzerodebugPaintSizePaintisEmptycolorcanvasdrawRectDiagnosticsPropertymaxWidth	maxHeightinfinityChildLayouterlayoutChildChildLayoutHelperdryLayoutChildDoublePropertyFlutterErrorruntimeTypeisTighttightAlignRowCrossAxisAlignmentstretchceiltightenwidthheightColumnNullgetAlphaFromOpacityintmarkNeedsCompositingBitsUpdatemarkNeedsCompositedLayerUpdatemarkNeedsSemanticsUpdateparentOffsetLayerOpacityLayeroldLayeralphapaintRenderObjectVisitorFlagPropertyvalueifTrueRenderSliverAnimatedOpacityRenderSliver_currentlyIsRepaintBoundary_alpha	Animation_opacityattachedopacityremoveListener_updateOpacityaddListener_alwaysIncludeSemanticsPipelineOwnerattachdetachalwaysIncludeSemanticsShaderRect
+ShaderMasklinear	BlendModemodulateShaderMaskLayerlayermarkNeedsPaintneedsCompositingshadermaskRect	blendMode	pushLayerdebugCreatorsrcOverImageFilterConfigBackdropKeyBackdropFilterLayerblurnew
+DeprecatedfilterBackdropGroupresolveImageFilterContextboundsbackdropKeyClipRectClipPath	ClipRRectClipOvalShapeBorder
+ListenablereclipVoidCallbackStringobjectRuntimeTypePathTextDirectiongetOuterPathtextDirectionshapeClip	antiAliasshouldRecliphasSizeperformLayoutgetClipnonehardEdgeantiAliasWithSaveLayergetApproximateClipRectTextPainterTileModerepeatedstrokeWidthstylePaintingStylestroketextTextSpan	TextStylefontSizertldisposeclipperclipBehavior_clipper_updateClip_clippushClipRectClipRectLayershift_debugPaint
+_debugTextRRectBorderRadiusBorderRadiusGeometry_markNeedsCliptoRRectpushClipRRect	outerRectClipRRectLayer	drawRRect	tlRadiusXRSuperellipsetoRSuperellipsepushClipRSuperellipseClipRSuperellipseLayerdrawRSuperellipseaddOvalcenterdxdydistanceSquaredpushClipPathClipPathLayerdrawPathaddRectdebugDisableShadowsalwaysNeedsCompositingColorProperty	elevationBoxShape	rectanglecircle
+fromRectXYaddRRectshadowColorCanvas
+drawShadow	drawPaint
+DecorationImageConfiguration
+backgroundempty
+BoxPainterBoxDecorationImageProvidercreateBoxPaintercopyWithgetSaveCount	fromPartsDiagnosticsNodeErrorSummaryErrorDescriptionDiagnosticsTreeStyleerrorProperty	isComplexsetIsComplexHint
+foregroundtoDiagnosticsNodenameAlignmentGeometryFilterQuality	transform	alignmentfilterQualityoriginAlignmentDirectionalcenterStart	Alignmentxltr	centerEndlocalToGlobalglobalToLocalcopysetIdentityrotateXrotateYrotateZtranslateByDoubleyzscaleByDoubleidentity	alongSizemultiplyaddWithPaintTransformMatrixUtilsgetAsTranslationdeterminantpushTransformTransformLayertranslationValuesmatrixstorageImageFilterLayerfilterLayerimageFilterTransformPropertyBoxFitcontain	scaleDowncoverfill	fitHeightfitWidthloosensizeConstraints,constrainSizeAndAttemptToPreserveAspectRatiounconstrainedSizeFittedSizesapplyBoxFitdestinationsourceinscribelefttopeverysetZerodebugNeedsLayoutaddWithPaintOffsetoffsetListenerPointerPanZoomStartEventPointerPanZoomUpdateEventPointerPanZoomEndEventPointerSignalEventbehaviorPointerHoverEventListenerbiggestHitTestEntrydebugHandleEventcallPointerHoverEventFlagsSummaryFunctionifEmptyMouseRegionMouseTrackerAnnotationMouseCursordeferPointerEnterEventListenerPointerExitEventListenerifFalsedebugDumpRenderTree
+pixelRatiodebugNeedsPainttoImageFuturetoImageSyncincludedParentincludedChildMessagePropertyPercentPropertyunittooltipmessageSemanticsNodevisitChildrenForSemanticsSemanticsConfigurationdescribeSemanticsConfigurationisBlockingUserActionsdescription%markNeedsLayoutForSizedByParentChangecomputeDryLayoutperformResizeListoffstagesparsedynamicGestureTapCallbackGestureLongPressCallbackGestureDragUpdateCallbackSemanticsActiontap
+scrollLeftscrollRightSet	setEqualsonTap	longPressonLongPressonScrollRightonScrollLeftscrollUp
+onScrollUp
+scrollDownonScrollDownDragUpdateDetailsdeltaprimaryDeltaglobalPositionIterablePropertySemanticsAnnotationsMixinSemanticsPropertiesattributedLabelLocaleinitSemanticsAnnotations
+properties	containerexplicitChildNodesexcludeSemanticsblockUserActionslocaleForSubtree+isBlockingSemanticsOfPreviouslyPaintedNodesisSemanticBoundaryisMergingSemanticsOfDescendants
+ScrollViewscrollIndexCustomScrollViewindexInParentCompositedTransformTargetLeaderLayer	LayerLink
+leaderSizelinkCompositedTransformFollowerFollowerLayertopLeft
+bottomLeftgetLastTransformleadershowWhenUnlinkedlinkedOffsetunlinkedOffsetchildPaintBoundsfromLTRBnegativeInfinityAnnotatedRegionLayerLayerfindObjectLayerHandle	RenderBoxRenderObjectWithChildMixinRenderProxyBoxMixinRenderProxyBoxRenderAnimatedOpacityMixin
+ListenableCustomClipper_RenderCustomClip_RenderPhysicalModelBase!RenderProxyBoxWithHitTestBehaviorMouseTrackerAnnotationSemanticsAnnotationsMixinDBóä²“Õ½RqŞ<3åÉ‚ôƒMPointerCancelEventPointerDownEventPointerEventPointerMoveEventPointerUpEvent ‚Épackage:flutter/gestures.dart ;cColorGradientImageImageFilter %   58ui8dart:ui  g   package:flutter/animation.dart     package:flutter/foundation.dart  º   package:flutter/gestures.dart  â   package:flutter/semantics.dart  ‚   package:flutter/services.dart  ‚4   binding.dart  ‚K   box.dart  ‚^   image_filter_config.dart  ‚   
+layer.dart  ‚–   layout_helper.dart  ‚³   object.dartÀg£ ÀhV’Ô <€†€¤€¥€Ô€Ø€ü#$ef¹á‚
+‚2‚3‚J‚]‚€‚•‚²‚È‚É‚ğƒOƒPƒƒ”ƒİ„+„z„¾„Â……b…±…Å…É…×…Û†+†<†c†´†Ö†Ü‡$‡q‡ƒ‡ª‡Â‡Æ‡È‡É‡ñ‡õˆ2ˆ}ˆÈˆÌ‰‰L‰^‰»‰Ç‰ôŠ@ŠcŠŠµŠ»Š¿ŠÀŠÌŠÿ‹6‹:‹;‹G‹z‹±‹µ‹¶‹Â‹õŒ,Œ0Œ1Œ=ŒpŒ§Œ«Œ¬Œ¸Œû6ost€é2x|}‰–Ö)-.:S^£ÏÛßà)m¨ÉÍÎÚ‘(‘h‘l‘m‘y‘¾‘¿‘Ë’’+’D’R’X’’ƒ’…’†’ª’Á““K“[“\“§“ö””””k”¦”µ”·”¸”÷••[••”•Ø•ş–0–F–[–\–­–ğ–ö—(—.—u—‘—’——ä—ÿ˜"˜z˜¼˜ñ˜ù˜ÿ™™™™&™q™r™~™Ã™îšKšOšQšRšƒš‡šÖ››o›|›€›Ğœœ6œjœ œ¦œà:tª¾¿ÿEn¢ÊõŸŸ	Ÿ-ŸDŸHŸIŸUŸˆŸâ   W s § â è ú ş ÿ¡¡>¡˜¡Æ¡Ì¢¢)¢]¢˜¢¢°¢´¢µ¢Á¢ô£P££…£Ç£ä¤¤V¤\¤o¤s¤t¤€¤³¥¥>¥D¥†¥£¥Ø¦¦¦.¦2¦3¦?¦›¦ô¦ø¦ù§§§W§p§È§â§ï¨>¨D¨H¨I¨U¨b¨¢¨ñ©;©?©@©L©Œ©·©Ç©àªªLªƒª‹ªª¨ª¬ª­ª¹ªş«)«=«˜«Ÿ«£«¥«¦«ß¬"¬&¬s¬¾­	­X­q­u­À®®®F®—®Ì®Ò¯¯-¯B¯X¯¯§¯Ç¯è°°$°9°:°°³°Ç°æ± ±±,±2±I±`±d±e±¼±â±÷²²1²P²^²d²|²“²—²˜²Ù²ô³³F³g³™³Á³ï´´E´L´P´Q´²´ËµµLµRµ’µ–µ—µ£µ°µğ¶R¶V¶W¶c¶|¶Û¶ß¶à¶ì·1·\·µ¸¸¸¸¸R¸V¸¢¸ñ¹?¹C¹‹¹Ûºººdº²»»H»L»˜»é¼:¼ˆ¼Ö½$½r½À¾¾S¾“¾Ä¿¿¿J¿¿°¿Ô¿öÀ @
+À @À @5À @;À @‹À @ÒÀ @üÀ AÀ A5À ANÀ AjÀ A‹À A™À AŸÀ A¹À AĞÀ AÔÀ AÕÀ AáÀ BÀ B/À BSÀ BYÀ BÀ B”À B•À B¡À BÔÀ BïÀ CÀ CÀ CPÀ CTÀ CUÀ CaÀ C”À C®À CÑÀ C×À DÀ DÀ DÀ DÀ DRÀ DlÀ DÀ D•À DÌÀ DĞÀ DÑÀ EÀ E6À EFÀ E‘À E­À EãÀ F:À F‹À FİÀ FûÀ GÀ GÀ G!À G+À G,À GKÀ GnÀ GtÀ GuÀ GÀ G±À G²À GÿÀ HKÀ HbÀ H|À H¡À H®À HÔÀ HùÀ HÿÀ I À INÀ I˜À IäÀ IûÀ IüÀ J$À JHÀ JmÀ JsÀ JtÀ JÀ JÄÀ JéÀ JïÀ JğÀ KÀ K<À KaÀ KgÀ KhÀ K’À K¸À KİÀ KãÀ KäÀ LÀ LÀ L À L,À L9À LyÀ L¤À L¨À L©À LµÀ MÀ MgÀ MkÀ MlÀ MxÀ M‘À M·À MæÀ MêÀ MëÀ M÷À N<À NgÀ N§À N«À N­À N®À NêÀ NîÀ O;À O‹À O¿À OÃÀ PÀ P_À P«À PõÀ QBÀ QjÀ QnÀ Q¾À R
+À RHÀ RLÀ R™À RçÀ S6À SMÀ SQÀ S_À ScÀ S²À SùÀ TGÀ TZÀ T¦À TéÀ U6À UjÀ UÀ UîÀ UôÀ VDÀ VeÀ V·À VëÀ W!À W?À W_À WsÀ WtÀ W¿À WÅÀ WíÀ XÀ X*À XKÀ XuÀ X”À X¢À X¨À XÀÀ X×À XÛÀ XÜÀ Y(À Y.À YVÀ YÀ Y–À Y¸À YâÀ ZÀ ZÀ ZÀ Z/À ZFÀ ZJÀ ZKÀ Z„À Z À Z¸À ZÌÀ ZÒÀ ZûÀ ZÿÀ [ À [À [?À [hÀ [lÀ [mÀ [yÀ [¬À [ÅÀ [×À [İÀ \À \EÀ \IÀ \JÀ \VÀ \‰À \¢À \´À \ºÀ \ÕÀ ]
+À ]À ],À ]kÀ ]—À ]›À ]œÀ ]¨À ]ÛÀ ]ôÀ ^À ^À ^'À ^\À ^bÀ ^~À ^½À ^éÀ ^íÀ ^îÀ _@À _`À _‡À _˜À _ïÀ `À `!À `yÀ `€À `„À `…À `æÀ aÀ a(À aGÀ aŒÀ aÀ a‘À aÀ aªÀ aêÀ bLÀ bPÀ bQÀ b]À b¯À bØÀ c+À c/À c0À c<À cUÀ c´À c¸À c¹À cÅÀ d
+À d5À dqÀ d¯À d³À dµÀ d¶À dëÀ dïÀ e=À eÀ eÂÀ eÆÀ fÀ fbÀ f°À fûÀ gIÀ grÀ gvÀ gÃÀ hÀ h`À hwÀ h{À h‰À hÀ hÜÀ i$À isÀ i†À iÕÀ jÀ jhÀ jÀ jÒÀ k#À k_À k`À klÀ kŸÀ k¸À kÊÀ kĞÀ kìÀ l*À l0À lMÀ l}À lÀ l‚À lÀ lÁÀ lÚÀ lìÀ lòÀ mÀ mLÀ mRÀ moÀ mŸÀ m£À m¤À m°À mãÀ nÀ nÀ nÀ ncÀ n‰À nŸÀ nùÀ nıÀ nşÀ o_À oˆÀ o¡À oÀÀ pÀ p	À p
+À pÀ p#À pcÀ pÅÀ pÉÀ pÊÀ pÖÀ q(À qQÀ q¤À q¨À q©À qµÀ qÎÀ r-À r1À r3À r4À ruÀ r©À sÀ sGÀ sHÀ sTÀ s”À s¥À s©À sªÀ s¶À tÀ t À t$À t&À t'À tRÀ tVÀ t¦À tÛÀ tßÀ u*À utÀ u¼À vÀ v9À vnÀ vtÀ v¹À wÀ wHÀ wbÀ wšÀ wĞÀ wäÀ wåÀ wñÀ x3À x4À x@À xxÀ xyÀ x‡À xˆÀ x½À xÃÀ yÀ y,À y2À yvÀ y½À yÎÀ yğÀ zÀ z!À zKÀ zhÀ zvÀ z|À z¸À zÜÀ zòÀ {'À {_À {‡À {À {³À {õÀ |À |À |!À |"À |hÀ |nÀ |¬À |²À |ËÀ }	À })À }TÀ }€À }À }”À }¹À }ÙÀ }İÀ }ŞÀ }êÀ ~À ~2À ~IÀ ~MÀ ~NÀ ~ZÀ ~­À ~èÀ À À À À %À \À „À ’À ˜À ºÀ ¾À ¿À ËÀ €À €OÀ €fÀ €lÀ €pÀ €qÀ €}À €ÂÀ €íÀ %À 9À MÀ oÀ –À ÀÀ ÉÀ ĞÀ ÔÀ ÖÀ ×À ‚(À ‚,À ‚{À ‚ĞÀ ƒÀ ƒnÀ ƒ}À ƒ~À ƒŠÀ ƒÙÀ ƒşÀ ƒÿÀ „À „^À „ À „ÁÀ „ÚÀ „ŞÀ „ßÀ …À …#À …sÀ …ŒÀ …’À …ÛÀ †À †	À †YÀ † À †ÎÀ †íÀ ‡À ‡3À ‡AÀ ‡GÀ ‡oÀ ‡À ‡£À ‡¹À ‡ÍÀ ‡øÀ ‡şÀ ˆÀ ˆÀ ˆÀ ˆ_À ˆeÀ ˆ£À ˆ©À ˆÂÀ ˆÈÀ ‰À ‰_À ‰À ‰¿À ‰êÀ ŠÀ Š$À Š*À ŠOÀ ŠoÀ ŠsÀ ŠtÀ Š€À Š¥À Š¾À ŠçÀ ‹.À ‹2À ‹3À ‹?À ‹QÀ ‹}À ‹‘À ‹•À ‹–À ‹°À ‹ÒÀ ŒÀ Œ*À ŒnÀ ŒŸÀ ŒïÀ À !À IÀ sÀ —À ŸÀ ¥À ©À ªÀ ¶À ßÀ À À #À $À 0À gÀ ~À ŒÀ ’À ´À ¸À ¹À ÅÀ À IÀ `À fÀ jÀ kÀ wÀ ¼À çÀ 7À KÀ _À À ¨À ÒÀ ÛÀ âÀ æÀ èÀ éÀ ‘0À ‘4À ‘…À ‘±À ’À ’FÀ ’`À ’ˆÀ ’±À ’ÇÀ ’İÀ ’ùÀ “3À “7À “9À “:À “ƒÀ “‡À “ÃÀ “úÀ “ûÀ ”4À ”8À ”‡À ”¼À ”ìÀ •DÀ •YÀ •oÀ •›À •ÉÀ •òÀ –À –&À –'À –3À –tÀ –uÀ –³À –¹À —À —QÀ —WÀ ——À —±À —ÿÀ ˜7À ˜oÀ ˜‘À ˜¾À ˜âÀ ˜ğÀ ˜öÀ ™À ™)À ™-À ™.À ™rÀ ™xÀ ™ÇÀ šÀ š;À šSÀ švÀ š•À š£À š©À šÁÀ š×À šÛÀ šÜÀ šèÀ ›À ›À ›)À ›`À ›yÀ ›™À ›¼À ›ÉÀ œ À œ#À œEÀ œ{À œÀ œ¹À œÎÀ œÚÀ œçÀ œûÀ À À À À VÀ ZÀ ªÀ ¾À òÀ À À [À À ¤À äÀ ıÀ ŸÀ Ÿ/À ŸTÀ ŸÀ ŸšÀ Ÿ¸À ŸÇÀ ŸøÀ  4À  >À  MÀ  ~À  »À  ÅÀ ¡À ¡#À ¡BÀ ¡eÀ ¡zÀ ¡{À ¡‡À ¡ĞÀ ¡ÑÀ ¢"À ¢BÀ ¢SÀ ¢oÀ ¢‹À ¢™À ¢ŸÀ ¢µÀ ¢ËÀ ¢ÏÀ ¢ĞÀ £À £À £dÀ £wÀ £}À £ËÀ ¤À ¤^À ¤À ¤…À ¤ÊÀ ¤àÀ ¤æÀ ¥!À ¥nÀ ¥{À ¥ŠÀ ¥«À ¥åÀ ¥éÀ ¦À ¦À ¦6À ¦–À ¦À ¦¾À ¦ÂÀ ¦ÃÀ ¦èÀ §À §À §À §qÀ §wÀ §ÇÀ §ÚÀ §àÀ ¨.À ¨wÀ ¨ÁÀ ¨âÀ ¨èÀ ©0À ©XÀ ©À ©²À ©àÀ ªÀ ªÀ ªÀ ª1À ªGÀ ªKÀ ªLÀ ª¥À ª´À ªºÀ ªòÀ «À «3À «VÀ «uÀ «ƒÀ «‰À «¡À «·À «»À «¼À ¬À ¬À ¬À ¬WÀ ¬‡À ¬¤À ¬ÌÀ ¬íÀ ¬ûÀ ­À ­À ­1À ­5À ­6À ­BÀ ­vÀ ­wÀ ­ƒÀ ­ºÀ ­ÏÀ ­óÀ ®À ®À ®À ®JÀ ®{À ®‚À ®ƒÀ ®œÀ ®¼À ®ãÀ ¯
+À ¯/À ¯XÀ ¯À ¯ À ¯ÌÀ ¯áÀ ¯íÀ ¯úÀ °À °À °À °À °%À °jÀ °•À °©À ±	À ±À ±UÀ ±¥À ±©À ±«À ±¬À ±ÙÀ ±İÀ ²&À ²7À ²;À ²ŒÀ ²À ²ÙÀ ³%À ³6À ³:À ³…À ³ÓÀ ´$À ´tÀ ´xÀ ´†À ´ŠÀ ´ÓÀ µÀ µgÀ µ°À µÿÀ ¶4À ¶TÀ ¶ZÀ ¶«À ¶ëÀ ¶ìÀ ·	À ·
+À ·MÀ ·SÀ ·¢À ·òÀ ¸	À ¸À ¸bÀ ¸cÀ ¸³À ¸äÀ ¸êÀ ¹9À ¹‰À ¹ À ¹¬À ¹ÿÀ º À ºKÀ ºoÀ º‡À ºˆÀ ºÍÀ »À »DÀ »JÀ »À »ÕÀ ¼À ¼_À ¼ŸÀ ¼ À ¼íÀ ½>À ½À ½àÀ ½æÀ ¾.À ¾}À ¾ŠÀ ¾À ¾ŞÀ ¾êÀ ¾ğÀ ¿6À ¿‚À ¿¶À ¿òÀ ¿óÀ ¿ÿÀ À@À ÀBÀ ÀCÀ ÀŠÀ ÀÁÀ ÀèÀ ÀîÀ Á6À Á…À ÁÒÀ ÂÀ Â\À Â]À ÂœÀ Â·À Â¸À Ã À ÃÀ ÃQÀ ÃxÀ ÃÀ ÃŸÀ ÃÔÀ ÃàÀ ÃüÀ ÄMÀ ÄQÀ ÄRÀ Ä^À Ä”À ÄÌÀ ÄßÀ ÄåÀ Å#À Å€À Å„À Å†À Å‡À ÅÄÀ ÅÚÀ ÅğÀ ÆÀ Æ7À ÆRÀ ÆwÀ ÆŒÀ ÆÀ ÆËÀ ÆøÀ ÇÀ ÇDÀ ÇfÀ ÇtÀ ÇzÀ Ç­À ÇÈÀ ÇşÀ ÈÀ È:À ÈvÀ È¥À È½À ÈÃÀ È×À É	À É8À É>À ÉBÀ ÉCÀ ÉOÀ ÉtÀ ÉÀ É¸À É¼À É½À ÉÉÀ ÉÛÀ Ê	À ÊÀ Ê!À Ê"À Ê<À ÊNÀ ÊdÀ Ê„À ÊˆÀ Ê‰À ÊŸÀ Ê«À Ê¬À ÊÖÀ Ê÷À ËÀ Ë6À ËNÀ ËTÀ ËXÀ ËYÀ ËoÀ ËpÀ Ë|À Ë•À ËÆÀ ËáÀ ËüÀ ÌÀ ÌÀ ÌÀ ÌÀ Ì2À ÌiÀ ÌmÀ ÌnÀ ÌzÀ ÌµÀ ÌÑÀ ÌçÀ ÌüÀ ÍÀ Í1À ÍYÀ Í¦À Í¬À Í°À Í±À ÍÇÀ ÍâÀ ÍîÀ Î.À Î>À Î\À ÎƒÀ ÎšÀ Î¾À ÎÑÀ ÎöÀ ÏÀ Ï@À ÏeÀ ÏrÀ ÏÀ Ï»À ÏÅÀ ÏáÀ Ğ	À Ğ+À ĞIÀ Ğ^À Ğ¤À Ğ¯À ĞÿÀ ÑÀ Ñ%À Ñ/À Ñ3À Ñ4À Ñ@À ÑSÀ ÑnÀ Ñ…À ÑšÀ ÑÀ Ñ À Ñ¡À ÑÈÀ ÑÌÀ ÒÀ ÒkÀ ÒÀ Ò¸À ÒÚÀ ÒàÀ Ó0À ÓAÀ ÓGÀ ÓŒÀ ÓĞÀ ÓÑÀ ÓİÀ ÔÀ ÔÀ ÔÀ Ô_À Ô{À ÔÀ Ô­À ÔÕÀ ÔëÀ ÔóÀ ÔùÀ Õ/À Õ3À Õ4À Õ@À ÕwÀ ÕÀ Õ·À ÕÎÀ ÕôÀ ÖÀ Ö"À Ö4À ÖKÀ ÖqÀ ÖÀ Ö©À Ö¸À ÖäÀ ÖúÀ ×À ×À ×#À ×)À ×-À ×.À ×:À ×zÀ ×ŠÀ ×¥À ×ÔÀ ×ıÀ ØDÀ ØaÀ Ø}À ØÙÀ ØæÀ ØğÀ ØøÀ ÙÀ ÙÀ ÙÀ ÙÀ ÙÀ ÙKÀ ÙOÀ ÙŸÀ ÙíÀ ÚÀ Ú<À ÚfÀ ÚlÀ Ú¼À ÚØÀ ÚŞÀ ÛÀ Û$À ÛiÀ Û}À ÛÀ ÛÉÀ ÛÜÀ ÛôÀ ÜÀ Ü;À ÜbÀ ÜcÀ Ü“À Ü™À ÜäÀ ÜÿÀ İÀ İ;À İuÀ İ›À İÌÀ İîÀ İüÀ ŞÀ ŞÀ Ş3À Ş7À Ş8À ŞwÀ Ş­À ŞÎÀ ŞúÀ ßÀ ß+À ß1À ßMÀ ßcÀ ßgÀ ßhÀ ßtÀ ßÒÀ ßÓÀ ßßÀ à%À àAÀ àVÀ àsÀ à›À à±À à¹À à¿À àõÀ àùÀ àúÀ áÀ á=À áVÀ á}À á”À á»À á×À áéÀ âÀ âÀ â.À âTÀ â‚À âÀ âœÀ âÈÀ âŞÀ âæÀ âóÀ ãÀ ãÀ ãÀ ãÀ ãÀ ã^À ãnÀ ã‰À ã¸À ãáÀ ä)À äFÀ äbÀ ä¼À äÉÀ äÓÀ äÛÀ äîÀ äøÀ äüÀ äşÀ äÿÀ å1À å5À åÀ åÈÀ åñÀ åõÀ æAÀ æŠÀ æµÀ æ»À çÀ ç'À ç-À çrÀ çÀ çŸÀ çÚÀ çíÀ èÀ è'À èLÀ èsÀ ètÀ è¤À èªÀ èõÀ éÀ éÀ éLÀ é†À é¬À éİÀ éÿÀ êÀ êÀ ê.À êDÀ êHÀ êIÀ êˆÀ ê¾À êßÀ ëÀ ë.À ë<À ëBÀ ë^À ëtÀ ëxÀ ëyÀ ë…À ë©À ëùÀ ëúÀ ìÀ ìLÀ ìhÀ ì}À ìšÀ ìÌÀ ìâÀ ìêÀ ìğÀ í&À í*À í+À í7À ínÀ í‡À í®À íÅÀ íôÀ îÀ î"À î>À îPÀ îgÀ îÀ îÃÀ îÎÀ îİÀ ï	À ïÀ ï'À ï4À ïHÀ ïNÀ ïRÀ ïSÀ ï_À ïŸÀ ï¯À ïÊÀ ïùÀ ğ"À ğrÀ ğÀ ğ«À ñÀ ñÀ ñÀ ñ$À ñ7À ñAÀ ñEÀ ñGÀ ñHÀ ñkÀ ñoÀ ñ½À òÀ òPÀ ò‡À òªÀ ò°À ó À óÀ ó#À óhÀ ó¬À ó­À óÂÀ óÛÀ óÜÀ óıÀ ôÀ ô6À ôiÀ ôoÀ ô‡À ô‹À ôŒÀ ô˜À ôÇÀ ôÈÀ ôÔÀ õÀ õ-À õHÀ õqÀ õ½À õØÀ öÀ ö9À ö@À öuÀ öÀ ö·À öËÀ öÑÀ ÷À ÷À ÷À ÷À ÷OÀ ÷hÀ ÷À ÷¦À ÷ÌÀ ÷èÀ ÷úÀ øÀ ø,À øCÀ øiÀ ø–À ø¡À ø°À øÜÀ øòÀ øúÀ ùÀ ùÀ ù!À ù%À ù&À ù2À ùrÀ ù‚À ùÀ ùÌÀ ùõÀ úJÀ úgÀ úƒÀ ú˜À ú°À úìÀ û)À û<À ûIÀ ûSÀ û[À ûnÀ ûxÀ û|À û~À ûÀ û¡À û¥À ûêÀ ü+À ü/À ümÀ ü‹À üÀ üÉÀ ı	À ıLÀ ıƒÀ ıÀ ı¤À ıõÀ şBÀ ş’À ş¥À ş«À şğÀ ÿ4À ÿ5À ÿAÀ ÿÀ ÿ‚À ÿÀ ÿÔÀ ÿğÀ À "À JÀ `À hÀ nÀ ¤À ¨À ©À µÀ ìÀÀ,ÀCÀiÀ…À—ÀµÀÇÀŞÀÀ1À<ÀKÀwÀÀ•À¢À¶À¼ÀÀÀÁÀÍÀÀÀ8ÀgÀÀ×ÀÀÀÀ1À;À?ÀAÀBÀ†ÀŠÀÛÀÀ[À‘À®ÀÈÀçÀÀ!ÀEÀXÀyÀ˜À¯ÀÒÀÓÀ"À(ÀIÀOÀÀËÀñÀÀ&À@À^ÀlÀrÀ®ÀÆÀşÀ	&À	,À	BÀ	FÀ	GÀ	_À	ˆÀ	À	¿À	ßÀ	íÀ	óÀ
+À
+#À
+'À
+(À
+DÀ
+aÀ
+qÀ
+ŒÀ
+¦À
+´À
+ºÀ
+ÎÀ
+äÀ
+èÀ
+éÀ
+õÀ;ÀgÀ¤ÀØÀÀÀÀÀ^ÀmÀqÀµÀùÀ#À)ÀHÀNÀ„ÀœÀ­ÀÖÀîÀÀ)ÀCÀtÀ•À¬ÀÑÀÒÀğÀöÀEÀ]À}ÀÀ®ÀÈÀÖÀÜÀğÀÀ
+ÀÀ;ÀAÀŒÀ§À­ÀøÀşÀ8ÀkÀŠÀ´ÀÕÀãÀéÀÀÀÀÀ+ÀFÀ[À…À¢ÀñÀCÀJÀNÀOÀ[À¡À½ÀÒÀïÀÀ-À5À;ÀqÀuÀvÀ‚À¹ÀÒÀæÀôÀúÀûÀÀBÀÀœÀ¬ÀÍÀìÀÀ)À=ÀaÀÀ½ÀÊÀÔÀòÀúÀÀÀÀBÀnÀÇÀÍÀÀ.ÀkÀqÀ”À¬ÀºÀÔÀâÀÀ0ÀlÀ»À
+ÀNÀŠÀ”ÀºÀÃÀíÀÀÀÀ'ÀQÀdÀnÀrÀsÀÀÅÀñÀ5À‹ÀÀ‘À’À×ÀÛÀÀ#À1À5ÀÀ‘ÀÔÀûÀÀ:À@ÀvÀÀŸÀÏÀçÀÀÀMÀnÀoÀ{À»À¼ÀÈÀ À *À ?À \À „À šÀ ¢À ¨À ŞÀ âÀ ãÀ ïÀ!&À!?À!SÀ!aÀ!gÀ!hÀ!{À!­À!ÊÀ!ÚÀ!ûÀ"À"=À"UÀ"iÀ"À"ºÀ"éÀ"öÀ# À#À#&À#9À#CÀ#DÀ#nÀ#šÀ#ìÀ#òÀ$9À$SÀ$À$”À$¶À$ÎÀ$ÜÀ$öÀ%À%5À%RÀ%À%İÀ&,À&pÀ&¬À&¶À&ÜÀ&åÀ'À'0À'7À'8À'HÀ'rÀ'…À'À'“À'”À' À'æÀ(À(eÀ(iÀ(kÀ(lÀ(‘À(«À(ßÀ(íÀ(îÀ)'À)5À)7À)8À){À)­À)ÌÀ)ÒÀ* À*_À*eÀ*´À*ßÀ*öÀ+À+[À+œÀ+²À+ÓÀ+ğÀ,À,,À,-À,EÀ,FÀ,fÀ,lÀ,À,ºÀ,ÔÀ,ùÀ-À-'À--À-FÀ-[À-tÀ-ŠÀ-À-À-ÚÀ.
+À.*À.UÀ.sÀ.À.‡À.À.´À.¸À.¹À/À/HÀ/bÀ/hÀ/«À/ñÀ0+À0PÀ0€À0£À0±À0·À0ÓÀ0éÀ0íÀ0îÀ0úÀ1À1%À1:À1NÀ1“À1ÜÀ2(À2tÀ2¯À2ÅÀ2ÉÀ2ÊÀ2ÖÀ2éÀ3À3À3À3À3(À3NÀ3ªÀ3®À3¯À3»À3òÀ41À4ˆÀ4½À4ØÀ4êÀ5"À57À5CÀ5‡À5™À5ØÀ6À6,À6ˆÀ6—À6µÀ7À7qÀ7ÎÀ7İÀ8
+À8.À8HÀ8À8À8½À8ŞÀ8öÀ9/À9>À9LÀ9VÀ9kÀ9wÀ9™À9½À9ÅÀ9ËÀ9íÀ:"À:fÀ:ˆÀ:¬À:´À:ºÀ:¾À:¿À:ËÀ;À;;À;‚À;ßÀ;ãÀ;åÀ;æÀ<À<MÀ<†À<šÀ<ºÀ<ÎÀ<ğÀ=À=5À=WÀ=mÀ=ƒÀ=£À=ÃÀ=ëÀ>À>-À>1À>2À>‚À>ºÀ>ÀÀ?À?RÀ?sÀ?†À?¤À?ÀÀ?ÎÀ?ÔÀ?éÀ?ÿÀ@À@#À@$À@hÀ@nÀ@ºÀAÀA
+ÀAZÀAšÀAêÀB9ÀBxÀBÉÀBûÀCÀCHÀCgÀCuÀC{ÀC“ÀC©ÀCÉÀCÍÀCÎÀD
+ÀDÀD_ÀD—ÀDÍÀDîÀEÀE=ÀEKÀEQÀEmÀEƒÀE£ÀE§ÀE¨ÀE´ÀFÀFÀFPÀF™ÀF¼ÀFÂÀGÀGcÀG}ÀG~ÀG•ÀG–ÀGåÀHÀH
+ÀHVÀH¥ÀHÊÀHõÀIÀI5ÀICÀIIÀIoÀI…ÀI¥ÀI©ÀIªÀIüÀJÀJBÀJxÀJ™ÀJÅÀJèÀJöÀJüÀK8ÀKTÀKŒÀK´ÀKºÀKĞÀKÔÀKÕÀLÀLÀL<ÀLRÀLrÀLvÀLwÀLºÀLÛÀLıÀMÀM3ÀM7ÀM8ÀM{ÀMœÀM¾ÀMÔÀMôÀMøÀMùÀN<ÀN]ÀNÀN•ÀNµÀN¹ÀNºÀNüÀO;ÀOjÀO€ÀO ÀO¤ÀO¥ÀOÔÀPÀP:ÀPPÀPpÀPtÀPuÀPšÀPæÀQÀQ7ÀQ=ÀQdÀQÀQ¿ÀQÅÀQŞÀRÀR:ÀR€ÀR†ÀR¨ÀRÍÀSÀSÀS7ÀSyÀSÀS’ÀS–ÀS—ÀS£ÀSéÀT ÀT]ÀT›ÀTµÀTíÀTñÀTòÀTşÀULÀU‹ÀU´ÀUõÀVÀVKÀVÀV–ÀVÀV¡ÀV¢ÀV®ÀVåÀVşÀW4ÀWWÀW¤ÀWÇÀXÀX`ÀX–ÀXÁÀXÛÀXïÀXûÀY$ÀYBÀYVÀYmÀY†ÀY×ÀYäÀYõÀZ+ÀZCÀZMÀZ\ÀZ´ÀZÔÀ[À[?À[eÀ[À[™À[ÖÀ\À\À\LÀ\VÀ\À\¢À\ĞÀ\çÀ\õÀ\ıÀ]À]À]À]À]UÀ]ƒÀ]‡À]ˆÀ]”À]ÙÀ^À^KÀ^À^âÀ_GÀ_À_¢À_¤À_¥À_êÀ`À`MÀ`aÀ`‚À`¶À`ØÀ`îÀaÀa$ÀaCÀajÀaÀa¤Àa¥ÀaøÀbÀbÀb9ÀbXÀbnÀbrÀbsÀbšÀb­ÀbÊÀbßÀbúÀcÀc+ÀcHÀcdÀc|Àc’Àc˜ÀcœÀcÀcåÀcÿÀdÀd(ÀdAÀdOÀdUÀdvÀdˆÀdÊÀdãÀdğÀe	Àe!Àe'Àe+Àe,ÀeeÀekÀe»ÀfÀf<ÀfBÀfÀf©ÀfÚÀfúÀg%ÀgDÀgRÀgXÀgpÀg‡Àg¢Àg¦Àg§ÀgãÀgéÀh8ÀhpÀh¦ÀhÇÀhóÀiÀi$Ài*ÀiFÀi]ÀixÀi|Ài}Ài¾Ài¿ÀiËÀiØÀjÀj1Àj{Àj|Àj‘Àj°Àj÷Àk0ÀkxÀk³ÀkĞÀkëÀlÀl$ÀlBÀl\Àl²ÀlºÀlÇÀlêÀlğÀlôÀlõÀmÀm]Àm©Àm÷Àn;Àn?Àn@ÀnLÀneÀn~ÀnÁÀnÖÀnõÀo<ÀouÀo¿ÀoúÀpÀp2ÀpLÀpkÀp‰Àp£ÀpûÀqÀqÀq)ÀqLÀqRÀqVÀqWÀqsÀqŠÀq‹ÀqÁÀqÇÀqæÀrÀr2ÀrSÀruÀr’ÀrªÀrÌÀrÒÀrÖÀr×ÀròÀsÀs(Às,Às-ÀsIÀsgÀsuÀs{Às|Às•Às·ÀsŞÀsëÀt!ÀtKÀtÀtÙÀu%Àu†ÀuÅÀuàÀuüÀvÀv ÀvvÀv¨ÀwÀw5Àw{ÀwÆÀwÌÀwĞÀwÑÀx&ÀxqÀxÀx´ÀxÎÀxŞÀxóÀyÀyUÀy^ÀykÀyÀy£Ày´Ày¸Ày¹ÀyÅÀyüÀz<ÀzJÀzPÀzhÀzƒÀz¿ÀzãÀzıÀ{À{)À{KÀ{–À{ºÀ{ÃÀ{ĞÀ|	À|À|À|À| À|nÀ|¨À|¼À|ÂÀ|ÚÀ}À} À}:À}vÀ}¸À}ÁÀ}ÈÀ}ÌÀ}ÍÀ}ÙÀ}ÿÀ~!À~RÀ~VÀ~WÀ~cÀ~¤À~ÃÀ~ŞÀ~ëÀÀ,À2À6À7ÀCÀˆÀ³ÀéÀ€=À€¢À€¦À€¨À€©À€íÀ€ñÀAÀŠÀÁÀÅÀ‚À‚OÀ‚bÀ‚À‚áÀƒÀƒ"ÀƒEÀƒ[Àƒ~Àƒ“Àƒ”ÀƒİÀƒãÀ„2À„kÀ„•À„¬À„ÎÀ„ïÀ„ıÀ…À…À…3À…SÀ…WÀ…XÀ…dÀ…ªÀ…íÀ†*À†hÀ†‚À†ºÀ†¾À†¿À‡À‡UÀ‡xÀ‡~À‡ÎÀˆÀˆ9Àˆ:ÀˆFÀˆ”Àˆ³ÀˆÙÀˆùÀ‰GÀ‰YÀ‰sÀ‰¯À‰ñÀ‰úÀŠÀŠÀŠÀŠÀŠIÀŠhÀŠÀŠ”ÀŠ¥À‹À‹À‹À‹À‹À‹(À‹iÀ‹ËÀ‹ÏÀ‹ĞÀ‹ÜÀŒ!ÀŒLÀŒ™ÀŒğÀŒôÀŒöÀŒ÷À1À5ÀiÀ³À´ÀîÀòÀ&ÀpÀqÀ©À­ÀáÀ'À(ÀdÀhÀœÀêÀëÀ-À1ÀeÀ¿ÀÀÀ‘À‘À‘;À‘—À‘˜À‘ØÀ‘ÜÀ’À’fÀ’gÀ’£À’§À’ÛÀ“)À“*À“dÀ“hÀ“°À“üÀ” À”PÀ”–À”ÁÀ”ÅÀ•À•	À•XÀ• À•éÀ•ïÀ–9À–SÀ–kÀ–ƒÀ–™À–²À–ÌÀ–ìÀ—À—+À—EÀ—YÀ—jÀ—pÀ—qÀ—»À˜À˜À˜GÀ˜HÀ˜˜À˜ÃÀ˜ÄÀ™À™1À™XÀ™YÀ™§À™ÔÀ™ÕÀš%ÀšUÀš„Àš…ÀšÊÀ›À›À›/À›lÀ›mÀ›”À›ËÀ›ÌÀœÀœ7Àœ8ÀœDÀœÀœŸÀœ£Àœ¤Àœ°ÀœíÀÀ5ÀmÀ¥ÀÙÀÀOÀ—ÀáÀŸ%ÀŸaÀŸrÀŸyÀŸ}ÀŸ~ÀŸŠÀŸÏÀŸúÀ À NÀ mÀ ŒÀ §À ÈÀ ëÀ¡À¡KÀ¡vÀ¡™À¡¶À¡½À¡ÁÀ¡ÃÀ¡ÄÀ¢À¢À¢bÀ¢¯À¢ÍÀ¢ÑÀ£ À£pÀ£‘À£•À£ØÀ£ÜÀ¤.À¤2À¤@À¤DÀ¤†À¤¢À¤äÀ¥À¥UÀ¥[À¥§À¥òÀ¦À¦À¦,À¦=À¦iÀ¦À¦§À¦¸À¦÷À§À§EÀ§^À§¡À§¢À§®À§ôÀ¨5À¨9À¨:À¨FÀ¨ƒÀ¨¯À¨ÕÀ¨ñÀ¨÷À¨ûÀ¨üÀ©MÀ©À©¹À©¿ÀªÀªPÀª˜ÀªÓÀªÙÀ«*À«uÀ«šÀ« À«½À«ÛÀ«ëÀ¬À¬"À¬9À¬†À¬À¬¤À¬¨À¬©À¬ÑÀ¬×À­À­DÀ­tÀ­ºÀ­ÚÀ­õÀ®BÀ®ZÀ®`À®dÀ®eÀ®qÀ®—À®˜À®ãÀ®úÀ¯ À¯DÀ¯jÀ¯kÀ¯wÀ¯›À¯œÀ¯¨À¯ÍÀ¯äÀ°À°"À°9À°}À°ºÀ°ÒÀ°ØÀ°ÜÀ°İÀ°éÀ±#À±AÀ±BÀ±NÀ±sÀ±ŒÀ±®À±²À±³À±¿À±ÑÀ²À²wÀ²ŸÀ²ÂÀ²ÖÀ²ÚÀ²ÛÀ²çÀ³"À³BÀ³FÀ³GÀ³SÀ³˜À³ÃÀ³×À´À´1À´KÀ´cÀ´€À´‡À´›À´öÀ´ıÀµRÀµfÀµzÀµšÀµ¿ÀµÛÀ¶À¶À¶À¶À¶À¶À¶RÀ¶VÀ¶¢À¶îÀ·;À·‡À·ÕÀ¸&À¸AÀ¸EÀ¸”À¸âÀ¹3À¹‚À¹ÍÀºÀºkÀº®Àº²ÀºøÀ»EÀ»‘À»àÀ¼'À¼tÀ¼©À¼ÚÀ½À½À½#À½IÀ½JÀ½”À½¤À½ªÀ½úÀ¾6À¾<À¾À¾»À¾ÁÀ¿À¿HÀ¿—À¿æÀÀÀÀÀÀ$ÀÀ*ÀÀqÀÀ“ÀÀ™ÀÀ§ÀÀÔÀÀøÀÀşÀÁÀÁIÀÁQÀÁWÀÁŠÀÁµÀÁ»ÀÁæÀÂ_ÀÂšÀÂ÷ÀÃ<ÀÃWÀÃaÀÃgÀÃyÀÃ¦ÀÃÈÀÃäÀÃÿÀÄ ÀÄHÀÄœÀÄ­ÀÄ¼ÀÄÉÀÄÓÀÄÛÀÄåÀÄ÷ÀÄıÀÅÀÅÀÅXÀÅ¨ÀÅàÀÅşÀÆ-ÀÆyÀÆ}ÀÆ~ÀÆÈÀÆæÀÆìÀÇ<ÀÇxÀÇ~ÀÇÓÀÈÀÈÀÈUÀÈÀÈİÀÉ,ÀÉNÀÉTÀÉ¦ÀÉõÀÉûÀÊÀÊÀÊ^ÀÊŠÀÊÀÊÀÊÔÀËÀËÀËÀËdÀËlÀËrÀË·ÀËâÀËèÀÌÀÌ€ÀÌ¹ÀÌşÀÍÀÍÀÍ ÀÍMÀÍoÀÍ‹ÀÍ¦ÀÍÇÀÍñÀÎEÀÎVÀÎeÀÎrÀÎ|ÀÎ„ÀÎÀÎ ÀÎ¦ÀÎ¶ÀÎ¼ÀÏÀÏYÀÏÀÏ«ÀÏÚÀĞ*ÀĞ.ÀĞ/ÀĞÀĞÎÀÑÀÑgÀÑmÀÑºÀÑÆÀÑÌÀÒÀÒgÀÒ|ÀÒ½ÀÒâÀÒãÀÓ2ÀÓ€ÀÓÌÀÔÀÔaÀÔ—ÀÔÀÔêÀÔöÀÔüÀÕMÀÕ˜ÀÕ°ÀÕóÀÖÀÖÀÖfÀÖ|ÀÖ‚ÀÖÍÀÖêÀÖúÀ×À×EÀ×XÀ×bÀ×fÀ×gÀ×sÀ×ØÀ×èÀØÀØ=ÀØLÀØuÀØ}ÀØÀØšÀØÀØŸÀØ«ÀØğÀÙÀÙ9ÀÙIÀÙfÀÙºÀÙØÀÙğÀÚKÀÚVÀÚeÀÚ®ÀÚãÀÛÀÛUÀÛºÀÜÀÜÀÜ«ÀÜ¾ÀİÀİPÀİªÀŞÀŞÀŞÀŞ(ÀŞCÀŞZÀŞpÀŞŒÀŞåÀŞòÀŞıÀß>ÀßFÀßYÀßcÀß|Àß’ÀßñÀßúÀà ÀàÀàÀàÀàAÀàEÀà”ÀàãÀá4Àá]ÀáaÀárÀávÀáÃÀáÒÀáÖÀâÀâÀâLÀâPÀâ^ÀâbÀâ°ÀâŞÀãÀãQÀãiÀãÀã™ÀãªÀãúÀä6Àä<ÀäYÀävÀä¥ÀäºÀä»ÀäûÀåÀåRÀåŸÀå¥ÀåÜÀåşÀæÀæ-ÀæKÀæYÀæ_ÀævÀæ›Àæ½ÀæÃÀæÇÀæÈÀç(Àç.ÀçmÀçsÀçÂÀçÑÀèÀèYÀè]Àè’Àè®ÀèÕÀèüÀé
+ÀéÀé0ÀéPÀéTÀéUÀéaÀé§ÀéêÀéîÀéïÀéûÀê;ÀêbÀêpÀêvÀê¤Àê¨Àê©ÀêµÀêüÀë.ÀëÀëœÀëêÀëîÀëïÀëûÀì@ÀìkÀì±ÀìÅÀìæÀíÀíÀízÀíƒÀíŠÀíÀíÀí‘ÀíáÀî0ÀîHÀîvÀîŸÀï ÀïÀï>ÀïDÀïÀïàÀğÀğÀğPÀğrÀğ„Àğ¡Àğ¿ÀğÍÀğÓÀğêÀñÀñÀñÀñ(Àñ[ÀñoÀñÀñ‡ÀñºÀñ¾Àñ¿ÀñËÀñşÀòÀò$Àò*Àò]ÀòaÀòbÀònÀò¡ÀòµÀòÇÀòÍÀó ÀóÀóÀóÀóDÀóXÀójÀópÀó£Àó§Àó¨Àó´Àó÷ÀôÀôÀô$Àô`ÀôdÀôeÀôqÀô—Àô˜Àô¤ÀôöÀõDÀõHÀõIÀõUÀõbÀõ¢Àõ¶ÀõÙÀõßÀöÀöÀöÀö Àö9ÀöOÀöjÀönÀöoÀö{Àö”Àö¨ÀöÊÀö×ÀöôÀöúÀöşÀöÿÀ÷À÷QÀ÷”À÷˜À÷™À÷¥À÷ËÀ÷íÀøÀøÀøÀøÀøKÀø_ÀømÀøsÀø•Àø™ÀøšÀø¦ÀøæÀøúÀùÀùÀù<Àù@ÀùAÀùMÀù’Àù½ÀúÀúÀúÀúÀúEÀú^Àú€Àú†Àú¤ÀúÄÀúÛÀû2Àû;ÀûBÀûFÀûHÀûIÀû‡Àû‹ÀûÖÀü"ÀüsÀüÀÀüèÀüìÀüıÀıÀıNÀı]ÀıaÀı–ÀıšÀı×ÀıÛÀıéÀıíÀş7ÀşÀş´ÀşüÀÿÀÿ*ÀÿEÀÿVÀÿ¦ÀÿâÀÿèÀ À $À SÀ hÀ iÀ ¯À µÀ ÀOÀ_ÀeÀœÀÀÀÓÀñÀÀÀ$À<ÀaÀƒÀ‰ÀÀÀŞÀôÀúÀ9À?ÀÀÀëÀ%À)À^ÀzÀ¡ÀÈÀÖÀÜÀüÀÀ À!À-ÀsÀÏÀÓÀÔÀàÀ ÀGÀUÀ[À‰ÀÀÀšÀáÀÀdÀÀÏÀÓÀÔÀàÀ%ÀPÀ—À«ÀÌÀéÀ	À	]À	fÀ	mÀ	qÀ	sÀ	tÀ	£À	§À	øÀ
+IÀ
+”À
+¹À
+úÀ4À:À„ÀÄÀÅÀøÀÀÀÀ^À‰ÀÑÀÕÀ×ÀØÀÀ;À‹ÀÖÀøÀ	À(ÀSÀŠÀ¿ÀÜÀğÀÀ*ÀcÀ˜À™ÀèÀÀÀfÀ³ÀÔÀÚÀÀnÀ½ÀÀRÀpÀ«ÀÒÀÀ@ÀNÀTÀoÀÀ“À”ÀÊÀõÀÀ<ÀWÀeÀkÀ’À¦ÀÏÀñÀ÷ÀûÀüÀOÀŒÀ¶ÀëÀÀÀ ÀMÀgÀÀ²À¸À¼À½ÀıÀQÀ‡ÀÈÀôÀÀÀ@ÀeÀÀ°À¶ÀºÀ»ÀêÀ:ÀnÀ­À×ÀåÀëÀ!ÀDÀmÀÀ•À™ÀšÀİÀ$ÀdÀ£À¹ÀĞÀÑÀİÀ$ÀVÀWÀ—À³À¹ÀÀ-À3À]À–ÀÒÀÚÀÀLÀTÀZÀ‚À¸ÀîÀöÀ.ÀhÀpÀvÀzÀ{À«ÀîÀòÀóÀ À CÀ À  À »À çÀ!À!PÀ![À!dÀ!jÀ!nÀ!oÀ!–À!ÀÀ!ıÀ"À"7À"cÀ"‰À"ÌÀ"×À"àÀ"æÀ"êÀ"ëÀ#À#7À#vÀ#“À#®À#ÚÀ$ À$CÀ$NÀ$WÀ$]À$aÀ$bÀ$ˆÀ$°À$îÀ%À%&À%RÀ%xÀ%»À%ÆÀ%ÏÀ%ÕÀ%ÙÀ%ÚÀ%æÀ&+À&VÀ&uÀ&•À&ÂÀ'À'<À'CÀ'_À'}À'ƒÀ'ÇÀ'ËÀ'ÍÀ'ÎÀ(À(dÀ(§À(­À)À)7À)MÀ)zÀ)–À)»À)ŞÀ*À*À*AÀ*WÀ*uÀ*“À*¯À*İÀ+À+1À+[À+À+†À+ŠÀ+ŒÀ+À+ÜÀ+øÀ+üÀ,KÀ,À,³À-À-À-PÀ-lÀ-€À-À-ÎÀ.À.@À.RÀ.oÀ.À.›À.¡À.¸À.ØÀ.ÜÀ.İÀ.éÀ/0À/bÀ/¥À/©À/ªÀ/¶À/ûÀ0&À0kÀ0oÀ0qÀ0rÀ0µÀ0øÀ1À1À1WÀ1À1ĞÀ2À2RÀ2À2À2šÀ2áÀ3À3À3@À3pÀ3tÀ3vÀ3wÀ3©À3­À3üÀ4À4À4cÀ4À4ÔÀ5À5aÀ5À5“À5”À5ÙÀ5ıÀ6À6.À6MÀ6[À6aÀ6yÀ6™À6À6À6ªÀ6êÀ6ÿÀ7À7À7AÀ7EÀ7FÀ7RÀ7—À7ÂÀ8	À8À8À8À8MÀ8QÀ8›À8äÀ9À9@À9DÀ9RÀ9VÀ9™À9ÏÀ:À:€À:À:´À:ÏÀ:İÀ:öÀ;À;À;$À;8À;XÀ;\À;]À;iÀ;°À;âÀ<À<À<	À<À<ZÀ<…À<ÃÀ<ÇÀ<ÉÀ<ÊÀ<şÀ=À=À=À=RÀ=“À=ÄÀ=ıÀ>\À>]À>«À>ÉÀ>ÏÀ? À?:À?YÀ?lÀ?ŠÀ?¤À?²À?¸À?ÕÀ?èÀ@À@=À@CÀ@YÀ@]À@^À@jÀ@•À@–À@äÀA2ÀAtÀA‘ÀA’ÀAÀA·ÀAÒÀAòÀBÀBÀBÀBÀBVÀBoÀB¦ÀB³ÀBäÀBöÀCÀC'ÀC-ÀCfÀCvÀC ÀC³ÀC½ÀCÁÀCÂÀCÎÀDÀD>ÀD€ÀD„ÀD†ÀD‡ÀDÕÀEÀEÀEXÀE\ÀE§ÀEøÀFÀFÀFÀF"ÀFbÀF¥ÀFØÀGÀG+ÀGHÀGjÀG‹ÀG»ÀGíÀHÀHÀHEÀH^ÀHƒÀH¬ÀHÁÀHÂÀIÀI>ÀI]ÀIpÀIÀI¨ÀI¶ÀI¼ÀIÏÀIåÀIéÀIêÀJ.ÀJlÀJrÀJÃÀKÀKÀK\ÀK«ÀKßÀLÀL+ÀLPÀLvÀL„ÀLŠÀL©ÀL¿ÀLÃÀLÄÀMÀM;ÀM[ÀMmÀMŠÀM¦ÀM´ÀMºÀMÏÀMåÀMéÀMêÀN9ÀNRÀNXÀNÀNâÀO1ÀOsÀOÂÀPÀPEÀPnÀPƒÀP‰ÀP°ÀPßÀPúÀQ ÀQBÀQPÀQVÀQqÀQ‡ÀQ‹ÀQŒÀQØÀRÀRÀRZÀR`ÀR‡ÀRºÀR×ÀRÿÀS#ÀS1ÀS7ÀSTÀSjÀSnÀSoÀS{ÀSÀSŸÀS³ÀS·ÀS¸ÀSÄÀSïÀSğÀT&ÀT2ÀToÀTpÀTÀÀTÆÀUÀUGÀU–ÀU°ÀUÒÀVÀVÀVÀVÀVeÀV¦ÀVÚÀVîÀVôÀW/ÀWlÀWªÀWÄÀWüÀX ÀXÀXÀX[ÀX„ÀX¬ÀXÆÀYÀYDÀYMÀYTÀYXÀYYÀYeÀYœÀYÊÀYÖÀZ1ÀZ†ÀZÑÀZüÀ[À[?À[UÀ[²À[ËÀ[èÀ[üÀ\(À\UÀ\uÀ\~À\‹À\—À\®À\ÜÀ]À].À]4À]KÀ]YÀ]lÀ]À]¬À^
+À^+À^LÀ^eÀ^~À^‡À^À^À^ÈÀ^ÛÀ^åÀ^éÀ^êÀ^öÀ_7À_fÀ_jÀ_kÀ_wÀ_¼À_çÀ`)À`~À`ÁÀaÀaÀa!Àa"ÀaqÀauÀaƒÀa‡ÀaËÀbÀbWÀbÀb°Àb¶ÀcÀc5Àc;ÀcjÀc½ÀcÓÀcéÀd&Àd:Àd;ÀdtÀdÀd™Àd³ÀdÑÀdßÀdåÀdüÀeÀeÀeÀekÀe‡Àe–Àe°ÀeËÀeÙÀeßÀeóÀf	ÀfÀfÀfIÀfJÀfVÀf‚ÀfƒÀfÀfÆÀg ÀgKÀgXÀgyÀgÀg¥ÀgÅÀgøÀgüÀgıÀh	ÀhÀh;ÀhPÀhTÀhV   t/// @docImport 'package:flutter/widgets.dart';
+///
+/// @docImport 'proxy_sliver.dart';
+/// @docImport 'sliver.dart';$98;cf      ¹   á   ‚
+   ‚3   ‚J   ‚]   ‚€   ‚•   ‚²   ‚É‚ôƒM +ƒP„wƒP†B‚ë/// A base class for render boxes that resemble their children.
+///
+/// A proxy box has a single child and mimics all the properties of that
+/// child by calling through to the child for each function in the render box
+/// protocol. For example, a proxy box determines its size by asking its child
+/// to layout with the same constraints and then matching the size.
+///
+/// A proxy box isn't useful on its own because you might as well just replace
+/// the proxy box with its child. However, RenderProxyBox is a useful base class
+/// for render objects that wish to mimic most, but not all, of the properties
+/// of their child.
+///
+/// See also:
+///
+///  * [RenderProxySliver], a base class for render slivers that resemble their
+///    children. †¶‡… ‡…‡“ €Ä/// Creates a proxy render box.
+///
+/// Proxy render boxes are rarely created directly because they proxy
+/// the render box protocol to [child]. Instead, consider using one of the
+/// subclasses.‡•‡¡‡         ”¸…˜”¸• X/// A RenderProxyBox subclass that allows you to customize the
+/// hit-testing behavior. •]€ı•Ú •Ú•û v/// Initializes member variables for subclasses.
+///
+/// By default, the [behavior] is [HitTestBehavior.deferToChild].–,––  –4–@–?  ––!–"–M–R–X–S–^1—‡—‡/// How to behave during hit testing when deciding how the hit test propagates
+/// to children and whether to consider targets behind this one.
+///
+/// Defaults to [HitTestBehavior.deferToChild].
+///
+/// See [HitTestBehavior] for the allowed values and their meanings.   —”„—¥—¥  —­—¿—¾  —Ç—Ø—×  —”—•™T™-™-  ™9™A™@  ™™™t€Ú™…™…  ™™&™¶™µ  ™t™u šR‘RšRœ<ã/// Imposes additional constraints on its child.
+///
+/// A render constrained box proxies most functions in the render box protocol
+/// to its child, except that when laying out its child, it tightens the
+/// constraints provided by its parent by enforcing the [additionalConstraints]
+/// as well.
+///
+/// For example, if you wanted [child] to have a minimum height of 50.0 logical
+/// pixels, you could use `const BoxConstraints(minHeight: 50.0)` as the
+/// [additionalConstraints]. œlQœâ œâœö o/// Creates a render box that constrains its child.
+///
+/// The [additionalConstraints] argument must be valid.œø  
+-#"  @FqG\]op‘z“°µ»¶G%VV  Á€ƒ=/// Additional constraints to apply to [child] during layout.   p€×tt  Šš™   	ŸK²Ÿ^Ÿ^  ŸwŸŸ~  ŸKŸL¡²¡¡  ¡-¡5¡4  ¡¡¢·»¢Ê¢Ê  ¢ä¢ì¢ë  ¢·¢¸¤v»¤‰¤‰  ¤£¤«¤ª  ¤v¤w¦5€Â¦I¦I  ¦\$¦v¦u  ¦‚¦¦  ¦5¦6¦ûL§§   ¦û¦ü¨K€ó¨i¨i  ¨z$¨”¨“  ¨K¨L¨W¨X©Bi©S©S  ©b©s©r  ©{©ƒ©‚  ©B©Cª¯€óªÀªÀ  ªÔ&ªñªğ  ª¯ª° «¦Œo«¦®‚o/// Constrains the child's [BoxConstraints.maxWidth] and
+/// [BoxConstraints.maxHeight] if they're otherwise unconstrained.
+///
+/// This has the effect of giving the child a natural dimension in unbounded
+/// environments. For example, by providing a [maxHeight] to a widget that
+/// normally tries to be as big as possible, the widget will normally size
+/// itself to fit its parent, but when placed in a vertical list, it will take
+/// on the given height.
+///
+/// This is useful when composing widgets that normally try to match their
+/// parents' size, so that they behave reasonably in lists (which are
+/// unbounded). ®Hğ¯/ ¯/¯? €Ü/// Creates a render box that imposes a maximum width or maximum height on its
+/// child if the child is otherwise unconstrained.
+///
+/// The [maxWidth] and [maxHeight] arguments not be null and must be
+/// non-negative.¯F¯R¯Q  ¯\!¯d¯c  ¯ƒ"¯‹¯Š  ¯n¯t¯u¯–¯œ¯¯®¯´¯Ä¯¾¯µ¯Á¯Î¯Ô¯å¯ß¯Õ¯â¯ù¯ï¯û°°°°+°0°6°1°µ°¼°¼  ±ä±ë±ë  °<v°œ°œR/// The value to use for maxWidth if the incoming maxWidth constraint is infinite.   ±gz±É±ÉT/// The value to use for maxHeight if the incoming maxHeight constraint is infinite.   °É€š°Í°Í  °Ö°Ş°İ   ±ù€±ı±ı  ²²²   ²šµ²©²©  ²»²Ë²Ê   ´SB´X´X  ´f#´´~  ´‹"´£´¢   µ™€¼µ·µ·  µÈ$µâµá  µ™µšµ¥µ¦¶Y€…¶j¶j   ¶Y¶Z¶â1¶ó¶ó  ·&·$·#  ¶â¶ã ¸–•¸¾™†{/// Attempts to size the child to a specific aspect ratio.
+///
+/// The render object first tries the largest width permitted by the layout
+/// constraints. The height of the render object is determined by applying the
+/// given aspect ratio to the width, expressed as a ratio of width to height.
+///
+/// For example, a 16:9 width:height aspect ratio would have a value of
+/// 16.0/9.0. If the maximum width is infinite, the initial width is determined
+/// by applying the aspect ratio to the maximum height.
+///
+/// Now consider a second example, this time with an aspect ratio of 2.0 and
+/// layout constraints that require the width to be between 0.0 and 100.0 and
+/// the height to be between 0.0 and 100.0. We'll select a width of 100.0 (the
+/// biggest allowed) and a height of 50.0 (to match the aspect ratio).
+///
+/// In that same situation, if the aspect ratio is 0.5, we'll also select a
+/// width of 100.0 (still the biggest allowed) and we'll attempt to use a height
+/// of 200.0. Unfortunately, that violates the constraints because the child can
+/// be at most 100.0 pixels tall. The render object will then take that value
+/// and apply the aspect ratio again to obtain a width of 50.0. That width is
+/// permitted by the constraints and the child receives a width of 50.0 and a
+/// height of 100.0. If the width were not permitted, the render object would
+/// continue iterating through the constraints. If the render object does not
+/// find a feasible size after consulting each constraint, the render object
+/// will eventually select a size for the child that meets the layout
+/// constraints but fails to meet the aspect ratio constraints. ¾ÆC¿L ¿L¿] /// Creates as render object with a specific aspect ratio.
+///
+/// The [aspectRatio] argument must be a finite, positive value.¿_¿k¿j  ¿q¿‚¿  ¿•¿›¿­¿¨¿œ¿ª¿¶¿¼¿Ñ¿½¿È¿É¿ç¿Ú¿é¿üÀ @À @À @À @şÀ AÀ A  À @€îÀ @ßÀ @ß€¾/// The aspect ratio to attempt to use.
+///
+/// The aspect ratio is expressed as a ratio of width to height. For example,
+/// a 16:9 width:height aspect ratio would have a value of 16.0/9.0.   À A€¾À AÀ A  À A%À A-À A,   	À A×€¼À AêÀ Aê  À BÀ BÀ B
+  À A×À AØÀ B—€¼À BªÀ Bª  À BÃÀ BËÀ BÊ  À B—À B˜À CW€ºÀ CjÀ Cj  À C„À CŒÀ C‹  À CWÀ CXÀ D€ºÀ D(À D(  À DBÀ DJÀ DI  À DÀ DÀ DÓ‡KÀ DØÀ DØ  À DêÀ DúÀ Dù   À L"€…À L@À L@  À LQ$À LkÀ Lj  À L"À L#À L.À L/À L«€¿À L¿À L¿  À LÒÀ LâÀ Lá  À LîÀ LüÀ Lû  À L«À L¬À Mn{À MÀ M   À MnÀ MoÀ Mí€½À MşÀ Mş  À N&À N/À N.  À MíÀ Mî À N®–À N®À Up†¼/// Sizes its child to the child's maximum intrinsic width.
+///
+/// This class is useful, for example, when unlimited width is available and
+/// you would like a child that would otherwise attempt to expand infinitely to
+/// instead size itself to a more reasonable width.
+///
+/// The constraints that this object passes to its child will adhere to the
+/// parent's constraints, so if the constraints are not large enough to satisfy
+/// the child's maximum intrinsic width, then the child will get less width
+/// than it otherwise would. Likewise, if the minimum width constraint is
+/// larger than the child's maximum intrinsic width, the child will be given
+/// more width than it otherwise would.
+///
+/// If [stepWidth] is non-null, the child's width will be snapped to a multiple
+/// of the [stepWidth]. Similarly, if [stepHeight] is non-null, the child's
+/// height will be snapped to a multiple of the [stepHeight].
+///
+/// This class is relatively expensive, because it adds a speculative layout
+/// pass before the final layout phase. Avoid using it where possible. In the
+/// worst case, this render object can result in a layout that is O(NÂ²) in the
+/// depth of the tree.
+///
+/// See also:
+///
+///  * [Align], a widget that aligns its child within itself. This can be used
+///    to loosen the constraints passed to the [RenderIntrinsicWidth],
+///    allowing the [RenderIntrinsicWidth]'s child to be smaller than that of
+///    its parent.
+///  * [Row], which when used with [CrossAxisAlignment.stretch] can be used
+///    to loosen just the width constraints that are passed to the
+///    [RenderIntrinsicWidth], allowing the [RenderIntrinsicWidth]'s child's
+///    width to be smaller than that of its parent. À U ÒÀ Vg À VgÀ V{ €¾/// Creates a render object that sizes itself to its child's intrinsic width.
+///
+/// If [stepWidth] is non-null it must be > 0.0. Similarly If [stepHeight] is
+/// non-null it must be > 0.0.À V}À V†À V…  À VÀ V™À V˜  À V¤À V°À V¯  À V½À VÃÀ VèÀ VÖÀ VÎÀ VÄÀ VÑÀ VãÀ VÙÀ VåÀ VñÀ V÷À WÀ WÀ WÀ VøÀ WÀ WÀ WÀ WÀ W2À W'À W4À WQÀ WEÀ WSÀ WeÀ WjÀ WpÀ WkÀ XÀ XÀ X  À YÀ Y‰À Y‰  À Wv€À WûÀ Wûr/// If non-null, force the child's width to be a multiple of this value.
+///
+/// This value must be null or > 0.0.   À XŞ€ À YdÀ Yds/// If non-null, force the child's height to be a multiple of this value.
+///
+/// This value must be null or > 0.0.   À X,€®À X0À X0  À X:À XCÀ XB   À Y˜€±À YœÀ Yœ  À Y§À Y°À Y¯   À ZM€±À Z[À Z[  À ZfÀ ZnÀ Zm  À ZtÀ Z}À Z|   À [iÀ [À [  À [.À [6À [5  À [À [À [o€ÙÀ [‚À [‚  À [›À [£À [¢  À [oÀ [pÀ \LNÀ \_À \_  À \yÀ \À \€  À \LÀ \MÀ ]NÀ ]±À ]±  À ]ËÀ ]ÓÀ ]Ò  À ]À ]ŸÀ ^ğ“À ^ÿÀ ^ÿ  À _À _À _  À _"À _2À _1   À `‡À `ŒÀ `Œ  À `š"À `²À `±  À `¾#À `×À `Ö   À a“€¼À a±À a±  À aÂ$À aÜÀ aÛ  À a“À a”À aŸÀ a À bS€ÛÀ bgÀ bg  À bzÀ bŠÀ b‰  À b–À b¤À b£  À bSÀ bTÀ c2€…À cCÀ cC   À c2À c3À c»€÷À cÌÀ cÌ  À cà&À cıÀ cü  À c»À c¼ À d¶|À d¶À j£…ç/// Sizes its child to the child's intrinsic height.
+///
+/// This class is useful, for example, when unlimited height is available and
+/// you would like a child that would otherwise attempt to expand infinitely to
+/// instead size itself to a more reasonable height.
+///
+/// The constraints that this object passes to its child will adhere to the
+/// parent's constraints, so if the constraints are not large enough to satisfy
+/// the child's maximum intrinsic height, then the child will get less height
+/// than it otherwise would. Likewise, if the minimum height constraint is
+/// larger than the child's maximum intrinsic height, the child will be given
+/// more height than it otherwise would.
+///
+/// This class is relatively expensive, because it adds a speculative layout
+/// pass before the final layout phase. Avoid using it where possible. In the
+/// worst case, this render object can result in a layout that is O(NÂ²) in the
+/// depth of the tree.
+///
+/// See also:
+///
+///  * [Align], a widget that aligns its child within itself. This can be used
+///    to loosen the constraints passed to the [RenderIntrinsicHeight],
+///    allowing the [RenderIntrinsicHeight]'s child to be smaller than that of
+///    its parent.
+///  * [Column], which when used with [CrossAxisAlignment.stretch] can be used
+///    to loosen just the height constraints that are passed to the
+///    [RenderIntrinsicHeight], allowing the [RenderIntrinsicHeight]'s child's
+///    height to be smaller than that of its parent. À jÔ€ŠÀ k% À k%À k: N/// Creates a render object that sizes itself to its child's intrinsic height.À k<À kHÀ kG  À kQÀ kVÀ k\À kW   À kbÀ kuÀ ku  À kÀ k–À k•  À kbÀ kcÀ l„À l—À l—  À l°À l¸À l·  À l„À l…À m¦iÀ m¹À m¹  À mÓÀ mÛÀ mÚ  À m¦À m§À n€éÀ n"À n"  À n4À n?À n>  À nEÀ nUÀ nT   À o À oÀ o  À o"À o+À o*  À o7#À oPÀ oO   À p€¼À p*À p*  À p;$À pUÀ pT  À pÀ pÀ pÀ pÀ pÌ€ÛÀ pàÀ pà  À póÀ qÀ q  À qÀ qÀ q  À pÌÀ pÍÀ q«€…À q¼À q¼   À q«À q¬ À r4ñÀ r4À r{@/// Excludes the child from baseline computations in the parent. À r«€›À s À sÀ s" `/// Create a render object that causes the parent to ignore the child for baseline computations.À s$À s0À s/  À s9À s>À sDÀ s?   À sJ^À s[À s[  À s{À s‰À sˆ  À sJÀ sKÀ s¬wÀ s½À s½  À sĞ$À sêÀ sé  À söÀ tÀ t  À s¬À s­ À t'®À t'À vä/// Makes its child partially transparent.
+///
+/// This class paints its child into an intermediate buffer and then blends the
+/// child back into the scene partially transparent.
+///
+/// For values of opacity other than 0.0 and 1.0, this class is relatively
+/// expensive because it requires painting the child into an intermediate
+/// buffer. For the value 0.0, the child is not painted at all. For the
+/// value 1.0, the child is painted immediately without an intermediate buffer. À v;¨À v» À v»À vÈ y/// Creates a partially transparent render object.
+///
+/// The [opacity] argument must be between 0.0 and 1.0, inclusive.À vÊÀ vÒÀ vÑ  À và#À væÀ vå  À wÀ wÀ w   À vÛÀ vşÀ wÀ w$À wEÀ w4À w-À w%À w0À w?À w7À wBÀ wWÀ wNÀ wYÀ w€À whÀ w‚À w§À w À w©À w«À w¬À w±À w²À wÅÀ wÍÀ wÆÀ wÖÀ wÛÀ wáÀ wÜÀ x{
+À xÀ x  À yòÀ yùÀ yù  À }À }À }  À wçKÀ wüÀ wü   À wçÀ wèÀ x6AÀ xKÀ xK   À x6À x7À xŠeÀ yÛÀ yÛ5/// The fraction to scale the child's alpha value.
+///
+/// An opacity of 1.0 is fully opaque. An opacity of 0.0 is fully transparent
+/// (i.e., invisible).
+///
+/// Values 1.0 and 0.0 are painted with a fast path. Other values
+/// require painting the child into an intermediate buffer, which is
+/// expensive.   À |$€äÀ |ÖÀ |Ö€/// Whether child semantics are included regardless of the opacity.
+///
+/// If false, semantics are excluded when [opacity] is 0.0.
+///
+/// Defaults to false.   À z‚À z	À z	  À zÀ zÀ z   À }+€±À }/À }/  À }F
+À }LÀ }K   À }àlÀ }ñÀ }ñ  À }ıÀ ~À ~  À }àÀ }áÀ ~P€ÇÀ ~hÀ ~h  À ~ˆ À ~¡À ~   À ~PÀ ~QÀ €¢À ,À ,  À 2À CÀ B  À KÀ SÀ R  À À À Á€®À ÒÀ Ò  À ìÀ €À €   À ÁÀ ÂÀ €s`À €„À €„  À €˜&À €µÀ €´  À €sÀ €t À é‚OÀ éÀ ‘·€Ç/// Makes its child partially transparent, driven from an [Animation].
+///
+/// This is a variant of [RenderOpacity] that uses an [Animation<double>] rather
+/// than a [double] to control the opacity. À ’#À ’H À ’HÀ ’] 2/// Creates a partially transparent render object.À ’d"À ’€À ’  À ’Œ#À ’’À ’‘  À ’µÀ ’ÁÀ ’À  À ’ªÀ ’ÎÀ ’ÓÀ ’ÙÀ ’Ô     À “û‰À “ûÀ ”Â€À/// Applies a mask generated by a [Shader] to its child.
+///
+/// For example, [RenderShaderMask] can be used to gradually fade out the edge
+/// of a child by using a [ui.Gradient.linear] mask. À ”î7À •F À •FÀ •V U/// Creates a render object that applies a mask generated by a [Shader] to its child.À •]À •iÀ •h  À •s&À •ŒÀ •‹  À •Ÿ(À •ªÀ •©  À •µÀ •¾À •¿À •àÀ •ĞÀ •âÀ –À •ùÀ –À –À –À –#À –À ˜qÀ ˜€À ˜€  À š=À šGÀ šG  À –)JÀ –JÀ –J   À –)À –*À –w÷À ˜LÀ ˜L-/// Called to creates the [Shader] that generates the mask.
+///
+/// The shader callback is called with the current size of the child so that
+/// it can customize the shader to the size and location of the child.
+///
+/// The rectangle will always be at the origin when called by
+/// [RenderShaderMask].   À ™0
+À š"À š"€Û/// The [BlendMode] to use when applying the shader to the child.
+///
+/// The default, [BlendMode.modulate], is useful for applying an alpha blend
+/// to the child. Other blend modes can be used to create other effects.   À šŞ=À šóÀ šó   À šŞÀ šßÀ ˜“€™À ˜—À ˜—  À ˜¦À ˜¶À ˜µ   À šU€…À šYÀ šY  À šcÀ šnÀ šm   À ›åÀ ›0À ›0  À ›6À ›GÀ ›F  À ›OÀ ›WÀ ›V  À ›À ›  À ”¢À À Ä€µ/// Applies a filter to the existing painted content and then paints [child].
+///
+/// This effect is relatively expensive, especially if the filter is non-local,
+/// such as a blur. À ôƒ…À æ À æÀ ú €å/// Creates a backdrop filter.
+///
+/// Exactly one of [filter] or [filterConfig] must be provided.
+/// Providing both or neither will result in an assertion error.
+///
+/// The [blendMode] argument defaults to [BlendMode.srcOver].À ŸÀ ŸÀ Ÿ  À ŸÀ Ÿ(À Ÿ'  À Ÿ3À ŸGÀ ŸF  À ŸX'À ŸcÀ Ÿb  À Ÿ…À Ÿ‹À ŸŠ  À ŸÀ Ÿ¬À Ÿ«  2À ŸnÀ ŸwÀ ŸxÀ Ÿ”À Ÿ¿À ŸÅÀ ŸöÀ  ;À ŸßÀ Ÿ×À ŸĞÀ ŸÚÀ ŸïÀ ŸâÀ ŸòÀ  À  EÀ  KÀ  |À  ÂÀ  eÀ  ]À  VÀ  `À  uÀ  hÀ  xÀ  ‡À  ÚÀ  ÌÀ  éÀ  ÜÀ  ìÀ  ıÀ ¡À ¡À  şÀ ¡À ¡À ¡À ¡5À ¡*À ¡7À ¡VÀ ¡IÀ ¡XÀ ¡lÀ ¡qÀ ¡wÀ ¡rÀ ¢DÀ ¢IÀ ¢I  À ©‘À ©£À ©£  À «À «'À «'  À ¬‰À ¬–À ¬–  À ¡}RÀ ¡¢À ¡¢   À ¡}À ¡~À ¡ÓnÀ ¢-À ¢-N/// Whether or not the backdrop filter operation will be applied to the child.   À ¢ÒƒïÀ ¥şÀ ¥ş‚Š/// The image filter to apply to the existing painted content.
+///
+/// For example, consider using [ui.ImageFilter.blur] to create a backdrop
+/// blur effect.
+///
+/// The [filter] property is equivalent to [filterConfig] (with the help of
+/// the [ImageFilterConfig.new] constructor), except for features only
+/// supported by [ImageFilterConfig] (such as the `bounds` parameter in
+/// [ImageFilterConfig.blur]).
+///
+/// Assigning a filter via this setter will overwrite any existing
+/// [filterConfig].
+///
+/// This getter should only be called when the filter is
+/// assigned via the [filter] setter, otherwise it will throw an assertion
+/// error.  À ¥}À ¥~À ¥ˆÀ ¥çÀ ¥À ¥¯À §‚rÀ ©pÀ ©p‚%/// The configuration for the image filter to apply to the existing painted content.
+///
+/// For example, consider using [ImageFilterConfig.blur] to create a backdrop
+/// blur effect.
+///
+/// The [filterConfig] property is equivalent to [filter] (with the help of
+/// the [ImageFilterConfig.new] constructor), except for features only
+/// supported by [ImageFilterConfig] (such as the `bounds` parameter in
+/// [ImageFilterConfig.blur]).
+///
+/// Assigning a new [filterConfig] will overwrite any existing filter
+/// assigned via the [filter] setter.   À ªN€ÌÀ «À «€/// The blend mode to use to apply the filtered background content onto the background
+/// surface.
+///
+/// {@macro flutter.widgets.BackdropFilter.blendMode}   À «¾€ÈÀ ¬jÀ ¬j€’/// The backdrop key that identifies the [BackdropGroup] this filter will
+/// read from.
+///
+/// The default value for the backdrop key is `null`.   À ­8=À ­MÀ ­M   À ­8À ­9À ¢UyÀ ¢YÀ ¢Y  À ¢a
+À ¢gÀ ¢f   À ¦ÅSÀ ¦ÉÀ ¦É  À ¦ĞÀ ¦àÀ ¦ß   À ©´€–À ©¸À ©¸  À ©ÅÀ ©ØÀ ©×   À «5€…À «9À «9  À «CÀ «NÀ «M   À ¬¦€À ¬ªÀ ¬ª  À ¬¶À ¬ÄÀ ¬Ã   À ­y‚À ­ŠÀ ­Š  À ­À ­¡À ­   À ­©À ­±À ­°  À ­yÀ ­zÀ °À °,À °,  À °@&À °]À °\  À °À ° À ±¬•À ±¬À ¶„R/// An interface for providing custom clips.
+///
+/// This class is used by a number of clip widgets (e.g., [ClipRect] and
+/// [ClipPath]).
+///
+/// The [getClip] method is called whenever the custom clip needs to be updated.
+///
+/// The [shouldReclip] method is called when a new instance of the class
+/// is provided, to check if the new instance actually represents different
+/// information.
+///
+/// The most efficient way to update the clip provided by this class is to
+/// supply a `reclip` argument to the constructor of the [CustomClipper]. The
+/// custom object will listen to this animation and update the clip whenever the
+/// animation ticks, avoiding both the build and layout phases of the pipeline.
+///
+/// See also:
+///
+///  * [ClipRect], which can be customized with a [CustomClipper<Rect>].
+///  * [ClipRRect], which can be customized with a [CustomClipper<RRect>].
+///  * [ClipOval], which can be customized with a [CustomClipper<Rect>].
+///  * [ClipPath], which can be customized with a [CustomClipper<Path>].
+///  * [ShapeBorderClipper], for specifying a clip path using a [ShapeBorder].À ¶À ¶À ¶À ¶6€´À ¶³ À ¶³À ¶À p/// Creates a custom clipper.
+///
+/// The clipper will update its clip whenever [reclip] notifies its listeners.À ¶ÂÀ ¶ÏÀ ¶Î  À ¶áÀ ¶ÙÀ ¶ãÀ ¶îÀ · À ·     À ·UÀ ¸À ¸€ô/// Register a closure to be notified when it is time to reclip.
+///
+/// The [CustomClipper] implementation merely forwards to the same method on
+/// the [Listenable] provided to the constructor in the `reclip` argument, if
+/// it was not null. À ¸(À ¸6À ¸5  À ¸À ¸À ¸e™À ¹³À ¹³0/// Remove a previously registered closure from the list of closures that the
+/// object notifies when it is time to reclip.
+///
+/// The [CustomClipper] implementation merely forwards to the same method on
+/// the [Listenable] provided to the constructor in the `reclip` argument, if
+/// it was not null. À ¹ÂÀ ¹ĞÀ ¹Ï  À ¹¢À ¹£À º€„À ºsÀ ºsj/// Returns a description of the clip given that the render object being
+/// clipped is of the given size. À º{	À ºÀ º€   À ºŠ‚À ¼fÀ ¼fÆ/// Returns an approximation of the clip returned by [getClip], as
+/// an axis-aligned Rect. This is used by the semantics layer to
+/// determine whether widgets should be excluded.
+///
+/// By default, this returns a rectangle that is the same size as
+/// the RenderObject. If getClip returns a shape that is roughly the
+/// same size as the RenderObject (e.g. it's a rounded rectangle
+/// with very small arcs in the corners), then this may be adequate. À ¼}	À ¼ƒÀ ¼‚   À ¼¢ƒOÀ ¿½À ¿½‚÷/// Called whenever a new instance of the custom clipper delegate class is
+/// provided to the clip object, or any time that a new clip object is created
+/// with a new instance of the custom clipper delegate class (which amounts to
+/// the same thing, because the latter is implemented in terms of the former).
+///
+/// If the new instance represents different information than the old
+/// instance, then the method should return true, otherwise it should return
+/// false.
+///
+/// If the method returns false, then the [getClip] call might be optimized
+/// away.
+///
+/// It's possible that the [getClip] method will get called even if
+/// [shouldReclip] returns false or if the [shouldReclip] method is never
+/// called at all (e.g. if the box changes size). À ¿Ê%À ¿æÀ ¿å   À ¿õJÀ ÀÀ À   À ¿õÀ ¿ö À ÀC…BÀ ÀCÀ ÀF/// A [CustomClipper] that clips to the outer path of a [ShapeBorder]. À ÀÃ˜À Â À ÂÀ Â/ G/// Creates a [ShapeBorder] clipper.
+///
+/// The [textDirection] argument must be provided non-null if [shape]
+/// has a text direction dependency (for example if it is expressed in terms
+/// of "start" and "end" instead of "left" and "right"). It may be null if
+/// the border will not need the text direction to paint itself.À Â1À Â@À Â?  À ÂFÀ ÂLÀ ÂK   À Â_VÀ Â°À Â°</// The shape border whose outer path this clipper clips to. À Âº€âÀ ÃÀ Ã€·/// The text direction to use for getting the outer path for [shape].
+///
+/// [ShapeBorder]s can depend on the text direction (e.g having a "dent"
+/// towards the start of the shape).   À Ã¡€¯À ÃçÀ Ãç2/// Returns the outer path of [shape] as the clip. À Ãï	À ÃõÀ Ãô  À ÃÖÀ Ã×À ÄT/À ÄeÀ Äe  À ÄrÀ Ä‡À Ä†  À ÄTÀ ÄU À Å‡ŒÀ Å‡À Å– À Å¨À Å¨À Å¨À ÅÆ€ÅÀ ÅÆ À ÅÆÀ Å×  À ÅŞÀ ÅêÀ Åé  À ÅôÀ ÆÀ Æ  À Æ"À ÆÀ Æ  À Æ'À Æ+À Æ,À ÆGÀ Æ>À ÆIÀ ÆgÀ ÆYÀ ÆiÀ Æ~À ÆƒÀ Æ‰À Æ„À ÆúÀ ÇÀ Ç  À Ê¡À Ê¤À Ê¤  À Ë[À Ë`À Ë`  À Í³À ÍºÀ Íº  À ÍÉÀ ÍÖÀ ÍÖ  À ÆhÀ ÆãÀ Æã;/// If non-null, determines which clip to use on the child.   À Ê‹À Ê‘À Ê‘    À Ê®'À Ê·À Ê·    À Ç‚)À ÇÀ Ç  À Ç$À Ç7À Ç6   À ÊØÀ ÊÜÀ ÊÜ  À Êé
+À ÊïÀ Êî   À ÉEvÀ ÉVÀ ÉV  À É]À ÉlÀ Ék  À ÉEÀ ÉFÀ É¿aÀ ÉĞÀ ÉĞ   À É¿À ÉÀÀ Ê$cÀ Ê)À Ê)    À Ër€§À ËƒÀ Ëƒ   À ËrÀ ËsÀ ÌOÀ Ì"À Ì"    À Ìp?À Ì‚À Ì‚  À ÌŸÀ Ì­À Ì¬  À ÌpÀ ÌqÀ ÍäƒNÀ ÍõÀ Íõ  À ÎÀ ÎÀ Î  À ÎÀ Î%À Î$  À ÍäÀ ÍåÀ Ñ6gÀ ÑGÀ ÑG   À Ñ6À Ñ7 À Ñ¡‡yÀ Ñ¡À Ò‡€ß/// Clips its child using a rectangle.
+///
+/// By default, [RenderClipRect] prevents its child from painting outside its
+/// bounds, but the size and location of the clip rect can be customized using a
+/// custom [clipper]. À ÒºÀ Ó À ÓÀ Óœ €Ç/// Creates a rectangular clip.
+///
+/// If [clipper] is null, the clip will match the layout size and position of
+/// the child.
+///
+/// If [clipBehavior] is [Clip.none], no clipping will be applied.À ÓÀ Ó¥À Ó¤  À Ó«À Ó²À Ó±  À ÓºÀ ÓÁÀ ÓÀ    À ÓÓ8À ÓèÀ Óè   À ÓÓÀ ÓÔ À Ô#À Ô À Ô   À Ô(À Ô:À Ô9  À ÔBÀ ÔSÀ ÔR  À ÔÀ ÔÀ Õ6öÀ ÕGÀ ÕG  À ÕMÀ Õ^À Õ]  À ÕfÀ ÕnÀ Õm  À Õ6À Õ7À ×0èÀ ×AÀ ×A  À ×PÀ ×aÀ ×`  À ×iÀ ×qÀ ×p  À ×0À ×1 À Ù‹áÀ ÙÀ Ú	€æ/// Clips its child using a rounded rectangle.
+///
+/// By default, [RenderClipRRect] uses its own bounds as the base rectangle for
+/// the clip, but the size and location of the clip can be customized using a
+/// custom [clipper]. À Ú>‚#À Ûk À ÛkÀ Ûz /// Creates a rounded-rectangular clip.
+///
+/// The [borderRadius] defaults to [BorderRadius.zero], i.e. a rectangle with
+/// right-angled corners.
+///
+/// If [clipper] is non-null, then [borderRadius] is ignored.
+///
+/// If [clipBehavior] is [Clip.none], no clipping will be applied.À ÛÀ ÛˆÀ Û‡  À Û’5À Û¨À Û§  À ÛÍÀ ÛÔÀ ÛÓ  À ÛàÀ ÛçÀ Ûæ  À ÛøÀ ÜÀ Ü  	À Û¶À ÛÂÀ ÛÃÀ Ü+À ÜÀ Ü-À ÜQÀ ÜBÀ ÜSÀ İw"À İŒÀ İŒ  À Ş¯À Ş¾À Ş¾  À ÜeÀ İVÀ İV€Ë/// The border radius of the rounded corners.
+///
+/// Values are clamped so that horizontal and vertical radii sums do not
+/// exceed width/height.
+///
+/// This value is ignored if [clipper] is non-null.   À Ş:rÀ ŞŒÀ ŞŒ</// The text direction with which to resolve [borderRadius].   À ßjgÀ ß€À ß€   À ßjÀ ßkÀ İ€™À İ¡À İ¡  À İ®À İÄÀ İÃ   À ŞĞ€–À ŞÔÀ ŞÔ  À ŞâÀ ŞòÀ Şñ   À ßÕ#À ßæÀ ßæ  À ßîÀ à À ßÿ  À àÀ àÀ à  À ßÕÀ ßÖÀ àü‚À áÀ á  À áÀ á$À á#  À á,À á4À á3  À àüÀ àıÀ ãçÀ ã%À ã%  À ã4À ãEÀ ãD  À ãMÀ ãUÀ ãT  À ãÀ ã À äÿŒGÀ äÿÀ æGA/// Clips its child using a rounded superellipse.
+///
+/// By default, [RenderClipRSuperellipse] uses its own bounds as the base
+/// rectangle for the clip, but the size and location of the clip can be
+/// customized using a custom [clipper].
+///
+/// Hit tests are performed based on the bounding box of the RSuperellipse. À æŒæÀ çt À çtÀ ç‹ €Û/// Creates a rounded-superellipse clip.
+///
+/// The [borderRadius] defaults to [BorderRadius.zero], i.e. a rectangle with
+/// right-angled corners.
+///
+/// If [clipBehavior] is [Clip.none], no clipping will be applied.À ç’À ç™À ç˜  À ç£5À ç¹À ç¸  À çŞÀ çåÀ çä  À çñÀ çøÀ ç÷  À è	À èÀ è  	À çÇÀ çÓÀ çÔÀ è<À è.À è>À èbÀ èSÀ èdÀ éˆ"À éÀ é  À êÀÀ êÏÀ êÏ  À èvÀ égÀ ég€Ë/// The border radius of the rounded corners.
+///
+/// Values are clamped so that horizontal and vertical radii sums do not
+/// exceed width/height.
+///
+/// This value is ignored if [clipper] is non-null.   À êKrÀ êÀ ê</// The text direction with which to resolve [borderRadius].   À ë{}À ë™À ë™   À ë{À ë|À é®€™À é²À é²  À é¿À éÕÀ éÔ   À êá€–À êåÀ êå  À êóÀ ëÀ ë   À ëü-À ìÀ ì  À ìÀ ì'À ì&  À ì/À ì@À ì?  À ëüÀ ëıÀ í-‚$À í>À í>  À íDÀ íUÀ íT  À í]À íeÀ íd  À í-À í.À ïUïÀ ïfÀ ïf  À ïuÀ ï†À ï…  À ïÀ ï–À ï•  À ïUÀ ïV À ñHŠ5À ñHÀ òV/// Clips its child using an oval.
+///
+/// By default, inscribes an axis-aligned oval into its layout dimensions and
+/// prevents its child from painting outside that oval, but the size and
+/// location of the clip oval can be customized using a custom [clipper]. À ò‰"À ój À ójÀ óx €Ô/// Creates an oval-shaped clip.
+///
+/// If [clipper] is null, the oval will be inscribed into the layout size and
+/// position of the child.
+///
+/// If [clipBehavior] is [Clip.none], no clipping will be applied.À ózÀ óÀ ó€  À ó‡À óÀ ó  À ó–À óÀ óœ   À ó¯À óµÀ óµ  À óÄÀ óÎÀ óÎ  À ô8À ô£À ô£   À ôÀ ô À óŞ€¬À óãÀ óã  À óğ	À óöÀ óõ   À ôÊ‚@À ôÛÀ ôÛ  À ôãÀ ôõÀ ôô  À ôıÀ õÀ õ  À ôÊÀ ôËÀ ÷‚À ÷À ÷  À ÷%À ÷6À ÷5  À ÷>À ÷FÀ ÷E  À ÷À ÷À ù(‚SÀ ù9À ù9  À ùHÀ ùYÀ ùX  À ùaÀ ùiÀ ùh  À ù(À ù) À ûˆÁÀ ûÀ ıRÌ/// Clips its child using a path.
+///
+/// Takes a delegate whose primary method returns a path that should
+/// be used to prevent the child from painting outside the path.
+///
+/// Clipping to a path is expensive. Certain shapes have more
+/// optimized render objects:
+///
+///  * To clip to a rectangle, consider [RenderClipRect].
+///  * To clip to an oval or circle, consider [RenderClipOval].
+///  * To clip to a rounded rectangle, consider [RenderClipRRect]. À ı…®À şò À şòÀ ÿ  \/// Creates a path clip.
+///
+/// If [clipper] is null, the clip will be a rectangle that matches the layout
+/// size and location of the child. However, rather than use this default,
+/// consider using a [RenderClipRect], which can achieve the same effect more
+/// efficiently.
+///
+/// If [clipBehavior] is [Clip.none], no clipping will be applied.À ÿÀ ÿ	À ÿ  À ÿÀ ÿÀ ÿ  À ÿÀ ÿ%À ÿ$    À ÿ7IÀ ÿLÀ ÿL   À ÿ7À ÿ8 À ÿ„#À ÿ•À ÿ•  À ÿÀ ÿ¯À ÿ®  À ÿ·À ÿÈÀ ÿÇ  À ÿ„À ÿ…À «‚À ¼À ¼  À ÂÀ ÓÀ Ò  À ÛÀ ãÀ â  À «À ¬ÀÃ{ÀÔÀÔ  ÀãÀôÀó  ÀüÀÀ  ÀÃÀÄ ÀB‡ÕÀBÀ €Î/// A physical model layer casts a shadow based on its [elevation].
+///
+/// The concrete implementations [RenderPhysicalModel] and [RenderPhysicalShape]
+/// determine the actual shape of the physical model.À9À9À9À]tÀ“ À“À« 3/// The [elevation] parameter must be non-negative.À²ÀÂÀÁ  ÀÌÀİÀÜ  ÀëÀûÀú  ÀÀÀ  À%À,À+  ÀIÀPÀO  À:À>À?À_ÀeÀvÀpÀfÀsÀ‹À€ÀÀ¦ÀŸÀ¨ÀÃÀ¶ÀÅÀóÀúÀú  À	ŠÀ	À	  À
+cÀ
+iÀ
+i  ÀÕÀØÀØ€ë/// The z-coordinate relative to the parent at which to place this material.
+///
+/// The value is non-negative.
+///
+/// If [debugDisableShadows] is set, this value is ignored and no shadow is
+/// drawn (an outline is rendered instead).   À	I>À	kÀ	k/// The shadow color.   À
+*6À
+PÀ
+P/// The background color.   À=ÀÀ  ÀÀÀ   À	 €†À	¤À	¤  À	°À	·À	¶   À
+stÀ
+wÀ
+w  À
+}À
+„À
+ƒ   À
+ë*À
+üÀ
+ü  À'À-À,  À
+ëÀ
+ì ÀwÀÀ»€›/// Creates a physical model layer that clips its child to a rounded
+/// rectangle.
+///
+/// A physical model layer casts a shadow based on its [elevation]. ÀûÕÀ† À†À™ €€/// Creates a rounded-rectangular clip.
+///
+/// The [color] is required.
+///
+/// The [elevation] parameter must be non-negative.À À§À¦  À±#À»Àº  ÀÚÀáÀà  ÀòÀÀ   ÀÀÀ  À-À=À<  ÀG+ÀNÀM  ÀÂÀÊÀËÀ$À[ÀaÀfÀqÀgÀ{ÀÀ’ÀŒÀ‚ÀÀ£ÀœÀ¥ÀÁÀ³ÀÃÀÀˆÀˆ  ÀmÀ{À{  ÀÔ€¨ÀlÀl€‚/// The shape of the layer.
+///
+/// Defaults to [BoxShape.rectangle]. The [borderRadius] affects the corners
+/// of the rectangle.   À]ÀLÀL/// The border radius of the rounded corners.
+///
+/// Values are clamped so that horizontal and vertical radii sums do not
+/// exceed width/height.
+///
+/// This property is ignored if the [shape] is not [BoxShape.rectangle].
+///
+/// The value null is treated like [BorderRadius.zero].   À!,À7À7   À!À"À’wÀ–À–  ÀœÀ¦À¥   ÀŒ€‘ÀÀ  ÀÀ¬À«   ÀQ#ÀbÀb  ÀjÀ|À{  À„À•À”  ÀQÀRÀx†ùÀ‰À‰  ÀÀ ÀŸ  À¨À°À¯  ÀxÀyÀuÀ†À†  Àš'À·À¶  ÀuÀv À’‹ØÀ’À—€ş/// Creates a physical shape layer that clips its child to a [Path].
+///
+/// A physical shape layer casts a shadow based on its [elevation].
+///
+/// See also:
+///
+///  * [RenderPhysicalModel], which is optimized for rounded rectangles and
+///    circles. ÀÖ—Àx ÀxÀ‹ €—/// Creates an arbitrary shape clip.
+///
+/// The [color] and [clipper] parameters are required.
+///
+/// The [elevation] parameter must be non-negative.À’À™À˜  À£*ÀÇÀÆ  ÀÓÀÚÀÙ  ÀëÀòÀñ  ÀÀÀ  À +À'À&  ÀıÀ4À:À?ÀJÀ@ÀTÀZÀkÀeÀ[Àh ÀqIÀ†À†   ÀqÀr À¾#ÀÏÀÏ  À×ÀéÀè  ÀñÀ À   À¾À¿À å†­À öÀ ö  À üÀ!À!  À!À!À!  À åÀ æÀ'–€ÒÀ'§À'§  À'»'À'ØÀ'×  À'–À'— À)8’¬À)8À)B/// Paints a [Decoration] either before or after its child paints. À)¯‚|À*á À*áÀ*ó #/// Creates a decorated box.
+///
+/// The [decoration], [position], and [configuration] arguments must not be
+/// null. By default the decoration paints behind the child.
+///
+/// The [ImageConfiguration] will be passed to the decoration (with the size
+/// filled in) to let it resolve images.À*úÀ+À+  À+;À+2À+1  À+_;À+sÀ+r  À+ À+¬À+«  À+<À+NÀ+OÀ+‚À+”À+•À+ÅÀ+¹À+ÇÀ+äÀ+ÚÀ+æÀ,À+÷À,À,À,#À,)À,$À,/À,;À,;  À,¼À,ÇÀ,Ç  À.À.À.  À0-!À0@À0@  À,HqÀ,ŸÀ,ŸA/// What decoration to paint.
+///
+/// Commonly a [BoxDecoration].   À-‘xÀ-óÀ-óH/// Whether to paint the box decoration behind or in front of the child.   À.»oÀ0
+À0
++/// The settings to pass to the decoration when painting, so that it can
+/// resolve images appropriately. See [ImageProvider.resolve] and
+/// [BoxPainter.paint].
+///
+/// The [ImageConfiguration.textDirection] field is also used by
+/// direction-sensitive [Decoration]s for painting and hit-testing.   À,Ö€·À,ÚÀ,Ú  À,åÀ,ñÀ,ğ   À.,€‹À.0À.0  À.9À.MÀ.L   À0R€šÀ0VÀ0V  À0dÀ0xÀ0w   À0ğØÀ1À1   À0ğÀ0ñÀ2ÌNÀ2İÀ2İ   À2ÌÀ2ÍÀ3€À3/À3/  À3;À3CÀ3B  À3À3À3±‡À3ÂÀ3Â  À3ÈÀ3ÙÀ3Ø  À3áÀ3éÀ3è  À3±À3²À:Á!À:ÒÀ:Ò  À:æ&À;À;  À:ÁÀ:Â À;æ£½À;æÀ<$7/// Applies a transformation before painting its child. À<OáÀ<ˆ À<ˆÀ<— 6/// Creates a render object that transforms its child.À<À<°À<¯  À<¾À<ÇÀ<Æ  À<ÒÀ<æÀ<å  À<ôÀ=À=  À=À=À=  À=9À=IÀ=H  À=[À=gÀ=f  À=/À=tÀ=yÀ=À=zÀ?uÀ?}À?}  ÀBıÀCÀC  ÀDÏÀDŞÀDŞ  ÀFvÀGjÀGjS/// When set to true, hit tests are performed based on the position of the
+/// child as it is painted. When set to false, hit tests are performed
+/// ignoring the transformation.
+///
+/// [applyPaintTransform], and therefore [localToGlobal] and [globalToLocal],
+/// always honor the transformation, regardless of the value of this property. ÀG€ÀG‰ÀG‰  ÀJzÀJ‰ÀJ‰  À>4>À?`À?`/// The origin of the coordinate system (relative to the upper left corner of
+/// this render object) in which to apply the matrix.
+///
+/// Setting an origin is equivalent to conjugating the transform matrix by a
+/// translation. This property is provided just for convenience.   À@&‚ÔÀBâÀBâ‚/// The alignment of the origin, relative to the size of the box.
+///
+/// This is equivalent to setting an origin based on the size of the box.
+/// If it is specified at the same time as an offset, both are applied.
+///
+/// An [AlignmentDirectional.centerStart] value is the same as an [Alignment]
+/// whose [Alignment.x] value is `-1.0` if [textDirection] is
+/// [TextDirection.ltr], and `1.0` if [textDirection] is [TextDirection.rtl].
+/// Similarly [AlignmentDirectional.centerEnd] is the same as an [Alignment]
+/// whose [Alignment.x] value is `1.0` if [textDirection] is
+/// [TextDirection.ltr], and `-1.0` if [textDirection] is [TextDirection.rtl].   ÀCĞ€üÀD¬ÀD¬€À/// The text direction with which to resolve [alignment].
+///
+/// This may be changed to null, but only after [alignment] has been changed
+/// to a value that does not depend on the direction.   ÀEªWÀE¿ÀE¿   ÀEªÀE«ÀI¬€ËÀJWÀJW€‘/// The filter quality with which to apply the transform as a bitmap operation.
+///
+/// {@macro flutter.widgets.Transform.optional.FilterQuality}   ÀPwƒÀP„ÀP„    À?ˆ€šÀ?ŒÀ?Œ  À?“À?œÀ?›   ÀC€®ÀC"ÀC"  ÀC,ÀC@ÀC?   ÀDğ€¶ÀDôÀDô  ÀEÀEÀE   ÀG˜‚ÀHûÀHû'/// The matrix to transform the child by during painting. The provided value
+/// is copied on assignment.
+///
+/// There is no getter for [transform], because [Matrix4] is mutable, and
+/// mutations outside of the control of the render object could not reliably
+/// be reflected in the rendering. ÀIÀIÀI   ÀJ›8ÀJŸÀJŸ  ÀJ­ÀJ½ÀJ¼   ÀK×€ÀLÀL./// Sets the transform to the identity matrix.   ÀLy€½ÀLÁÀLÁ@/// Concatenates a rotation about the x axis into the transform. ÀLÉÀLÑÀLĞ   ÀM:€½ÀM‚ÀM‚@/// Concatenates a rotation about the y axis into the transform. ÀMŠÀM’ÀM‘   ÀMû€½ÀNCÀNC@/// Concatenates a rotation about the z axis into the transform. ÀNKÀNSÀNR   ÀN¼€çÀOÀO?/// Concatenates a translation by (x, y, z) into the transform. ÀOÀOÀO  ÀOÀO ÀO  ÀO(ÀO0ÀO/  ÀO#ÀO3ÀO§€ÌÀOÛÀOÛ,/// Concatenates a scale into the transform. ÀOáÀOéÀOè  ÀOì	ÀOõÀOô  ÀO÷	ÀP ÀOÿ   ÀS™WÀSªÀSª  ÀS²ÀSÄÀSÃ  ÀSÌÀSİÀSÜ  ÀS™ÀSšÀTô¬ÀUÀU  ÀUÀU'ÀU&  ÀU/ÀU@ÀU?  ÀTôÀTõÀV¤†bÀVµÀVµ  ÀV»ÀVÌÀVË  ÀVÔÀVÜÀVÛ  ÀV¤ÀV¥À]
+|À]À]  À]/À]:À]9  À]@À]IÀ]H  À]
+À]À]Š‚À]›À]›  À]¯&À]ÌÀ]Ë  À]ŠÀ]‹ À_¥¡À_¥À_ğD/// Scales and positions its child within itself according to [fit]. À`ˆÀ`O À`OÀ`^ 1/// Scales and positions its child within itself.À`eÀ`mÀ`l  À`†.À`™À`˜  À`ºÀ`ÊÀ`É  À`ÜÀ`èÀ`ç  À`òÀ`øÀ`÷  À`rÀ`xÀ`yÀ`¤À`­À`®ÀaÀa
+ÀaÀaÀaÀaÀa6Àa+Àa8ÀaYÀaJÀa[ÀaÀaqÀaÀa–Àa›Àa¡ÀaœÀaúÀbÀb  ÀdÀdÀd  ÀfÜÀfîÀfî  Àh¨Àh·Àh·  ÀqYÀq_Àq_  ÀquÀq~Àq~  ÀrÀrÀr Àr'Àr+Àr,ÀcŸ_ÀcòÀcòE/// How to inscribe the child into the space allocated during layout.   Àe.«ÀfÁÀfÁl/// How to align the child within its parent's bounds.
+///
+/// An alignment of (0.0, 0.0) aligns the child to the top-left corner of its
+/// parent's bounds. An alignment of (1.0, 0.5) aligns the child to the middle
+/// of the right edge of its parent's bounds.
+///
+/// If this is set to an [AlignmentDirectional] object, then
+/// [textDirection] must not be null.   Àg©€üÀh…Àh…€À/// The text direction with which to resolve [alignment].
+///
+/// This may be changed to null, but only after [alignment] has been changed
+/// to a value that does not depend on the direction.   Àq€‚ÀqñÀqñT/// {@macro flutter.material.Material.clipBehavior}
+///
+/// Defaults to [Clip.none].   ÀdÀdÀd  ÀdÀd Àd   Àfü€©Àg Àg   Àg
+ÀgÀg   ÀhÉ€²ÀhÍÀhÍ  ÀhÛÀhëÀhê   Àr4€¡Àr8Àr8  ÀrE
+ÀrKÀrJ   Àa§PÀa±Àa±    ÀbUÀb!Àb!    Àbu&ÀbzÀbz  ÀbŒ
+Àb”Àb“   ÀiÁƒ2ÀißÀiß  Àiğ$Àj
+Àj	  ÀiÁÀiÂÀiÍÀiÎÀl÷GÀmÀm  Àm$Àm8Àm7  ÀmDÀmRÀmQ  Àl÷ÀløÀnBƒÀnSÀnS   ÀnBÀnCÀrÙRÀrŞÀrŞ    Às/„ Às4Às4    ÀwÓäÀwãÀwã  ÀwüÀxÀx  ÀxÀxÀx   Ày»‚WÀyÌÀyÌ  ÀyÒÀyãÀyâ  ÀyëÀyóÀyò  Ày»Ày¼À|µÀ|'À|'  À|7À|IÀ|H  À|QÀ|bÀ|a  À|À|À}Ï€†À}àÀ}à  À}ìÀ}÷À}ö  À}ÏÀ}ĞÀ~Y€ÜÀ~jÀ~j  À~~À~‰À~ˆ  À~À~˜À~—  À~YÀ~ZÀ9lÀJÀJ  À^&À{Àz  À9À: À€©ŒLÀ€©À‚h¸/// Applies a translation transformation before painting its child.
+///
+/// The translation is expressed as an [Offset] scaled to the child's size. For
+/// example, an [Offset] with a `dx` of 0.25 will result in a horizontal
+/// translation of one quarter the width of the child.
+///
+/// Hit tests will only be detected inside the bounds of the
+/// [RenderFractionalTranslation], even if the contents are offset such that
+/// they overflow. À‚Ÿ€óÀ‚ã À‚ãÀ‚ş A/// Creates a render object that translates its child's painting.ÀƒÀƒÀƒ  Àƒ&Àƒ,Àƒ+  ÀƒIÀƒUÀƒT  Àƒ?ÀƒoÀƒbÀƒqÀƒ…ÀƒŠÀƒÀƒ‹À„—À„À„  À†ÁvÀˆ&Àˆ&S/// When set to true, hit tests are performed based on the position of the
+/// child as it is painted. When set to false, hit tests are performed
+/// ignoring the transformation.
+///
+/// applyPaintTransform(), and therefore localToGlobal() and globalToLocal(),
+/// always honor the transformation, regardless of the value of this property. Àƒ–€şÀ„xÀ„x€Î/// The translation to apply to the child, scaled to the child's size.
+///
+/// For example, an [Offset] with a `dx` of 0.25 will result in a horizontal
+/// translation of one quarter the width of the child.   À„®€¨À„²À„²  À„¾À„ÆÀ„Å   À…ZcÀ…kÀ…k  À…sÀ……À…„  À…À…À…  À…ZÀ…[Àˆ<ÈÀˆMÀˆM  Àˆ]ÀˆoÀˆn  ÀˆwÀˆˆÀˆ‡  Àˆ<Àˆ=ÀŠÀŠÀŠ  ÀŠÀŠ0ÀŠ/  ÀŠ8ÀŠ@ÀŠ?  ÀŠÀŠ	À‹€°À‹/À‹/  À‹CÀ‹NÀ‹M  À‹TÀ‹]À‹\  À‹À‹À‹Ò!À‹ãÀ‹ã  À‹÷&ÀŒÀŒ  À‹ÒÀ‹Ó À“*˜À“*À•^‚-/// Calls callbacks in response to common pointer events.
+///
+/// It responds to events that can construct gestures, such as when the
+/// pointer is pointer is pressed and moved, and then released or canceled.
+///
+/// It does not respond to events that are exclusive to mouse, such as when the
+/// mouse enters and exits a region without pressing any buttons. For
+/// these events, use [RenderMouseRegion].
+///
+/// If it has a child, defers to the child for sizing behavior.
+///
+/// If it does not have a child, grows to fit the parent-provided constraints. À•¢ÍÀ–; À–;À–P €’/// Creates a render object that forwards pointer events to callbacks.
+///
+/// The [behavior] argument defaults to [HitTestBehavior.deferToChild].À–WÀ–]À–\  À–oÀ–uÀ–t  À–‡À–À–Œ  À–À–£À–¢  À–¶À–¼À–»  À–ĞÀ–ÖÀ–Õ  À–ğÀ–öÀ–õ  À—À—À—  À—/À—5À—4  À—IÀ—PÀ—O  À—]À—dÀ—c   	À—s€ÒÀ˜8À˜8€¤/// Called when a pointer comes into contact with the screen (for touch
+/// pointers), or has its button pressed (for mouse pointers) at this widget's
+/// location. À˜JwÀ˜´À˜´M/// Called when a pointer that triggered an [onPointerDown] changes position. À˜Æ€À™KÀ™Kh/// Called when a pointer that triggered an [onPointerDown] is no longer in
+/// contact with the screen. À™[wÀ™ÄÀ™ÄK/// Called when a pointer that has not an [onPointerDown] changes position. À™×€«ÀšsÀšs{/// Called when the input from a pointer that triggered an [onPointerDown] is
+/// no longer directed towards this receiver. Àš‡|ÀšîÀšîB/// Called when a pan/zoom begins such as from a trackpad gesture. À›bÀ›TÀ›T&/// Called when a pan/zoom is updated. À›oZÀ›¶À›¶$/// Called when a pan/zoom finishes. À›ÎgÀœ&Àœ&9/// Called when a pointer signal occurs over this object.   Àœ:hÀœKÀœK  ÀœaÀœqÀœp  Àœ:Àœ;Àœ¦‚ÖÀœ·Àœ·  ÀœÃÀœÑÀœĞ  Àœ×ÀœåÀœä  Àœ¦Àœ§ÀŸ€‚@ÀŸ‘ÀŸ‘  ÀŸ¥&ÀŸÂÀŸÁ  ÀŸ€ÀŸ À¡Ä”YÀ¡ÄÀ¤¨‚İ/// Calls callbacks in response to pointer events that are exclusive to mice.
+///
+/// It responds to events that are related to hovering, i.e. when the mouse
+/// enters, exits (with or without pressing buttons), or moves over a region
+/// without pressing buttons.
+///
+/// It does not respond to common events that construct gestures, such as when
+/// the pointer is pressed, moved, then released or canceled. For these events,
+/// use [RenderPointerListener].
+///
+/// If it has a child, it defers to the child for sizing behavior.
+///
+/// If it does not have a child, it grows to fit the parent-provided constraints.
+///
+/// See also:
+///
+///  * [MouseRegion], a widget that listens to hover events using
+///    [RenderMouseRegion]. À¥‚’À¥ô À¥ôÀ¦ €İ/// Creates a render object that forwards pointer events to callbacks.
+///
+/// All parameters are optional. By default this method creates an opaque
+/// mouse region with no callbacks and cursor being [MouseCursor.defer].À¦À¦À¦  À¦À¦$À¦#  À¦0À¦6À¦5  À¦A&À¦NÀ¦M  À¦m À¦sÀ¦r  À¦“À¦™À¦˜  À¦«À¦²À¦±  À¦¼9À¦ÎÀ¦Í  À¦VÀ¦aÀ¦bÀ¦‰À¦¡À¦ßÀ¦îÀ¦ïÀ§À¦şÀ§À§-À§À§/À§TÀ§LÀ§VÀ§eÀ§jÀ§À§sÀ§kÀ§…À§uÀ§ˆÀ§—À§˜À«İÀ«âÀ«â  À®g.À®À® À®gÀ®hÀ®š€ÎÀ¯aÀ¯a€£/// Triggered when a pointer has moved onto or within the region without
+/// buttons pressed.
+///
+/// This callback is not triggered by the movement of the object. À¯m,À¯“À¯“ À¯mÀ¯nÀ¯ÏÀ¯ÛÀ¯Û  À±%À±*À±*  À¨ş‚ÜÀ«ÈÀ«È‚¤/// Whether this object should prevent [RenderMouseRegion]s visually behind it
+/// from detecting the pointer, thus affecting how their [onHover], [onEnter],
+/// and [onExit] behave.
+///
+/// If [opaque] is true, this object will absorb the mouse pointer and
+/// prevent this object's siblings (or any other objects that are not
+/// ancestors or descendants of this object) from detecting the mouse
+/// pointer even when the pointer is within their areas.
+///
+/// If [opaque] is false, this object will not affect how [RenderMouseRegion]s
+/// behind it behave, which will detect the mouse pointer as long as the
+/// pointer is within their areas.
+///
+/// This defaults to true.   À¬«€˜À­'À­'`/// How to behave during hit testing.
+///
+/// This defaults to [HitTestBehavior.opaque] if null.   À¯.À¯ºÀ¯º   À¯À¯ŸÀ°ßCÀ°ôÀ°ô   À°ßÀ°àÀ«í€ºÀ«ñÀ«ñ  À«ø
+À«şÀ«ı   À­FÀ­JÀ­J  À­ZÀ­lÀ­k   À¯æ€õÀ¯êÀ¯ê  À¯ñÀ¯şÀ¯ı   À§¤€”À§µÀ§µ  À§½À§ÏÀ§Î  À§×À§èÀ§ç  À§¤À§¥À¨<€¾À¨MÀ¨M  À¨YÀ¨gÀ¨f  À¨mÀ¨{À¨z  À¨<À¨=À±DmÀ±UÀ±U  À±\À±kÀ±j  À±DÀ±EÀ±µ$À±ÆÀ±Æ   À±µÀ±¶À²İhÀ²îÀ²î  À³À³À³  À²İÀ²ŞÀ³I‚ÒÀ³ZÀ³Z  À³n&À³‹À³Š  À³IÀ³J À¶©æÀ¶À¼z†T/// Creates a separate display list for its child.
+///
+/// This render object creates a separate display list for its child, which
+/// can improve performance if the subtree repaints at different times than
+/// the surrounding parts of the tree. Specifically, when the child does not
+/// repaint but its parent does, we can re-use the display list we recorded
+/// previously. Similarly, when the child repaints but the surround tree does
+/// not, we can re-record its display list without re-recording the display list
+/// for the surround tree.
+///
+/// In some cases, it is necessary to place _two_ (or more) repaint boundaries
+/// to get a useful effect. Consider, for example, an e-mail application that
+/// shows an unread count and a list of e-mails. Whenever a new e-mail comes in,
+/// the list would update, but so would the unread count. If only one of these
+/// two parts of the application was behind a repaint boundary, the entire
+/// application would repaint each time. On the other hand, if both were behind
+/// a repaint boundary, a new e-mail would only change those two parts of the
+/// application and the rest of the application would not repaint.
+///
+/// To tell if a particular RenderRepaintBoundary is useful, run your
+/// application in debug mode, interacting with it in typical ways, and then
+/// call [debugDumpRenderTree]. Each RenderRepaintBoundary will include the
+/// ratio of cases where the repaint boundary was useful vs the cases where it
+/// was not. These counts can also be inspected programmatically using
+/// [debugAsymmetricPaintCount] and [debugSymmetricPaintCount] respectively. À¼«jÀ¼Ü À¼ÜÀ¼ñ ./// Creates a repaint boundary around [child].À¼óÀ¼ÿÀ¼ş  À½À½À½À½ÀÒ¿!ÀÒÃÀÒÃ ÀÒßÀÕõ"ÀÕùÀÕù ÀÖÀ½/À½.À½.   À½À½ÀĞ1‚‹ÀÒ†ÀÒ†‚6/// The number of times that this render object repainted at the same time as
+/// its parent. Repaint boundaries are only useful when the parent and child
+/// paint at different times. When both paint at the same time, the repaint
+/// boundary is redundant, and may be actually making performance worse.
+///
+/// Only valid when asserts are enabled. In release builds, always returns
+/// zero.
+///
+/// Can be reset using [debugResetMetrics]. See [debugAsymmetricPaintCount]
+/// for the corresponding count of times where only the parent or only the
+/// child painted.   ÀÒåƒÀÕºÀÕº‚²/// The number of times that either this render object repainted without the
+/// parent being painted, or the parent repainted without this object being
+/// painted. When a repaint boundary is used at a seam in the render tree
+/// where the parent tends to repaint at entirely different times than the
+/// child, it can improve performance by reducing the number of paint
+/// operations that have to be recorded each frame.
+///
+/// Only valid when asserts are enabled. In release builds, always returns
+/// zero.
+///
+/// Can be reset using [debugResetMetrics]. See [debugSymmetricPaintCount] for
+/// the corresponding count of times where both the parent and the child
+/// painted together.    À½L‰0ÀÅ»ÀÅ»‡ç/// Capture an image of the current state of this render object and its
+/// children.
+///
+/// The returned [ui.Image] has uncompressed raw RGBA bytes in the dimensions
+/// of the render object, multiplied by the [pixelRatio].
+///
+/// To use [toImage], the render object must have gone through the paint phase
+/// (i.e. [debugNeedsPaint] must be false).
+///
+/// The [pixelRatio] describes the scale between the logical pixels and the
+/// size of the output image. It is independent of the
+/// [dart:ui.FlutterView.devicePixelRatio] for the device, so specifying 1.0
+/// (the default) will give you a 1:1 mapping between logical pixels and the
+/// output pixels in the image.
+///
+/// {@tool snippet}
+///
+/// The following is an example of how to go from a `GlobalKey` on a
+/// `RepaintBoundary` to a PNG:
+///
+/// ```dart
+/// class PngHome extends StatefulWidget {
+///   const PngHome({super.key});
+///
+///   @override
+///   State<PngHome> createState() => _PngHomeState();
+/// }
+///
+/// class _PngHomeState extends State<PngHome> {
+///   GlobalKey globalKey = GlobalKey();
+///
+///   Future<void> _capturePng() async {
+///     final RenderRepaintBoundary boundary = globalKey.currentContext!.findRenderObject()! as RenderRepaintBoundary;
+///     final ui.Image image = await boundary.toImage();
+///     final ByteData? byteData = await image.toByteData(format: ui.ImageByteFormat.png);
+///     final Uint8List pngBytes = byteData!.buffer.asUint8List();
+///     print(pngBytes);
+///   }
+///
+///   @override
+///   Widget build(BuildContext context) {
+///     return RepaintBoundary(
+///       key: globalKey,
+///       child: Center(
+///         child: TextButton(
+///           onPressed: _capturePng,
+///           child: const Text('Hello World', textDirection: TextDirection.ltr),
+///         ),
+///       ),
+///     );
+///   }
+/// }
+/// ```
+/// {@end-tool}
+///
+/// See also:
+///
+///  * [OffsetLayer.toImage] for a similar API at the layer level.
+///  * [dart:ui.Scene.toImage] for more information about the image returned. ÀÅÄÀÅÌÀÅË  ÀÅØÀÆ€‰­ÀÏdÀÏdˆb/// Capture an image of the current state of this render object and its
+/// children synchronously.
+///
+/// The returned [ui.Image] has uncompressed raw RGBA bytes in the dimensions
+/// of the render object, multiplied by the [pixelRatio].
+///
+/// To use [toImageSync], the render object must have gone through the paint phase
+/// (i.e. [debugNeedsPaint] must be false).
+///
+/// The [pixelRatio] describes the scale between the logical pixels and the
+/// size of the output image. It is independent of the
+/// [dart:ui.FlutterView.devicePixelRatio] for the device, so specifying 1.0
+/// (the default) will give you a 1:1 mapping between logical pixels and the
+/// output pixels in the image.
+///
+/// This API functions like [toImage], except that rasterization begins eagerly
+/// on the raster thread and the image is returned before this is completed.
+///
+/// {@tool snippet}
+///
+/// The following is an example of how to go from a `GlobalKey` on a
+/// `RepaintBoundary` to an image handle:
+///
+/// ```dart
+/// class ImageCaptureHome extends StatefulWidget {
+///   const ImageCaptureHome({super.key});
+///
+///   @override
+///   State<ImageCaptureHome> createState() => _ImageCaptureHomeState();
+/// }
+///
+/// class _ImageCaptureHomeState extends State<ImageCaptureHome> {
+///   GlobalKey globalKey = GlobalKey();
+///
+///   void _captureImage() {
+///     final RenderRepaintBoundary boundary = globalKey.currentContext!.findRenderObject()! as RenderRepaintBoundary;
+///     final ui.Image image = boundary.toImageSync();
+///     print('Image dimensions: ${image.width}x${image.height}');
+///   }
+///
+///   @override
+///   Widget build(BuildContext context) {
+///     return RepaintBoundary(
+///       key: globalKey,
+///       child: Center(
+///         child: TextButton(
+///           onPressed: _captureImage,
+///           child: const Text('Hello World', textDirection: TextDirection.ltr),
+///         ),
+///       ),
+///     );
+///   }
+/// }
+/// ```
+/// {@end-tool}
+///
+/// See also:
+///
+///  * [OffsetLayer.toImageSync] for a similar API at the layer level.
+///  * [dart:ui.Scene.toImageSync] for more information about the image returned. ÀÏqÀÏyÀÏx  ÀÏ…ÀÖIÀÖÔÀÖÔ€ª/// Resets the [debugSymmetricPaintCount] and [debugAsymmetricPaintCount]
+/// counts to zero.
+///
+/// Only valid when asserts are enabled. Does nothing in release builds.   À×i4À×zÀ×z  À×À×£À×¢  À×¹À×¿À×¾  À×iÀ×jÀ×³À×ÎÀØ¡‡bÀØ²ÀØ²  ÀØÆ&ÀØãÀØâ  ÀØ¡ÀØ¢ ÀàˆÀàÀâä‚Ö/// A render object that is invisible during hit testing.
+///
+/// When [ignoring] is true, this render object (and its subtree) is invisible
+/// to hit testing. It still consumes space during layout and paints its child
+/// as usual. It just cannot be the target of located events, because its render
+/// object returns false from [hitTest].
+///
+/// ## Semantics
+///
+/// Using this class may also affect how the semantics subtree underneath is
+/// collected.
+///
+/// {@macro flutter.widgets.IgnorePointer.semantics}
+///
+/// {@macro flutter.widgets.IgnorePointer.ignoringSemantics}
+///
+/// See also:
+///
+///  * [RenderAbsorbPointer], which takes the pointer events but prevents any
+///    nodes in the subtree from seeing them. Àã¦ÀãS ÀãSÀãf =/// Creates a render object that is invisible to hit testing.ÀãmÀãyÀãx  ÀãƒÀã‰Àãˆ  Àã€ºÀäGÀäF  Àã“ÀãÀãÀã¨Àä:Àã°Àä ÀäjÀä`ÀälÀäÀä}Àä’Àä¬Àä±Àä·Àä²Àæ ÀæÀæ  Àè”ÀèšÀèš  Àä½@ÀåçÀåç/// Whether this render object is ignored during hit testing.
+///
+/// Regardless of whether this render object is ignored during hit testing, it
+/// will still consume space during layout and be visible during painting.
+///
+/// {@macro flutter.widgets.IgnorePointer.semantics}   ÀæÊÇÀèiÀèi€ï/// Whether the semantics of this render object is ignored when compiling the semantics tree.
+///
+/// {@macro flutter.widgets.IgnorePointer.ignoringSemantics}
+///
+/// See [SemanticsNode] for additional information about the semantics tree.  ÀçÄÀçÅÀçÏÀè[ÀçÕÀè#Àæ€´ÀæÀæ  Àæ
+Àæ%Àæ$   Àè°€£Àè´Àè´  ÀèÆÀèÍÀèÌ   ÀéW€–ÀéhÀéh  ÀépÀé‚Àé  ÀéŠÀé›Àéš  ÀéWÀéXÀéñ€¶ÀêÀê  ÀêÀê1Àê0  ÀéñÀéòÀê«BÀê¼Àê¼  ÀêÛÀêóÀêò  Àê«Àê¬ÀëñœÀìÀì  Àì&Àì3Àì2  ÀëñÀëò Àí‘¶Àí‘ÀîN€¶/// Lays the child out as if it was in the tree, but without painting anything,
+/// without making the child available for hit testing, and without taking any
+/// room in the parent. Àîx€‡Àî¡ Àî¡Àî¯ &/// Creates an offstage render object.Àî±Àî·Àî¶  ÀîÇÀîÓÀîÒ  ÀîÁÀîæÀîÜÀîèÀîòÀî÷ÀîıÀîøÀğtÀğyÀğy  ÀïnÀğ[Àğ[@/// Whether the child is hidden from the rest of the tree.
+///
+/// If true, the child is laid out as if it was in the tree, but without
+/// painting anything, without making the child available for hit testing, and
+/// without taking any room in the parent.
+///
+/// If false, the child is included in the tree as normal.   Àôg/Àô|Àô|   ÀôgÀôhÀğ†€”ÀğŠÀğŠ  Àğ“
+Àğ™Àğ˜   Àñ€ŸÀñ1Àñ1  ÀñJÀñRÀñQ  ÀñÀñÀñÁ€ŸÀñÔÀñÔ  ÀñíÀñõÀñô  ÀñÁÀñÂÀòd€ŸÀòwÀòw  Àò‘Àò™Àò˜  ÀòdÀòeÀó€ŸÀóÀó  Àó4Àó<Àó;  ÀóÀóÀóª€¹Àó¾Àó¾  ÀóŞÀóìÀóë  ÀóªÀó«Àôš€­Àô®Àô®  ÀôÁÀôÑÀôĞ  ÀôİÀôëÀôê  ÀôšÀô›ÀõK€ÇÀõiÀõi  Àõz$Àõ”Àõ“  ÀõKÀõLÀõWÀõXÀöWÀö'Àö'   ÀöÀöÀöq€ŒÀö‚Àö‚   ÀöqÀörÀ÷€–À÷À÷  À÷À÷,À÷+  À÷4À÷EÀ÷D  À÷À÷À÷›kÀ÷¬À÷¬  À÷¸À÷ÃÀ÷Â  À÷›À÷œÀø
+€ÀøÀø  Àø!Àø2Àø1  Àø:ÀøBÀøA  Àø
+ÀøÀøœ€£Àø­Àø­  ÀøÇÀøÜÀøÛ  ÀøœÀøÀùC€ÂÀùTÀùT  Àùh&Àù…Àù„  ÀùCÀùDÀú	<Àú+Àú+   Àú	Àú
+ ÀûI)ÀûIÀş‡ƒ7/// A render object that absorbs pointers during hit testing.
+///
+/// When [absorbing] is true, this render object prevents its subtree from
+/// receiving pointer events by terminating hit testing at itself. It still
+/// consumes space during layout and paints its child as usual. It just prevents
+/// its children from being the target of located events, because its render
+/// object returns true from [hitTest].
+///
+/// ## Semantics
+///
+/// Using this class may also affect how the semantics subtree underneath is
+/// collected.
+///
+/// {@macro flutter.widgets.AbsorbPointer.semantics}
+///
+/// {@macro flutter.widgets.AbsorbPointer.ignoringSemantics}
+///
+/// See also:
+///
+///  * [RenderIgnorePointer], which has the opposite effect: removing the
+///    subtree from considering entirely for the purposes of hit testing. Àş¶±Àşş ÀşşÀÿ E/// Creates a render object that absorbs pointers during hit testing.ÀÿÀÿ$Àÿ#  Àÿ.Àÿ4Àÿ3  ÀÿI€ºÀÿóÀÿò  Àÿ?ÀÿIÀÿJÀÿTÀÿæÀÿ\Àÿ¬À À À À >À +À @À ZÀ _À eÀ `ÀÂÀÇÀÇ  À`ÀfÀf  À kTÀ§À§$/// Whether this render object absorbs pointers during hit testing.
+///
+/// Regardless of whether this render object absorbs pointers during hit
+/// testing, it will still consume space during layout and be visible during
+/// painting.
+///
+/// {@macro flutter.widgets.AbsorbPointer.semantics}   ÀÍÀ5À5€ó/// Whether the semantics of this render object is ignored when compiling the
+/// semantics tree.
+///
+/// {@macro flutter.widgets.AbsorbPointer.ignoringSemantics}
+///
+/// See [SemanticsNode] for additional information about the semantics tree.  ÀÀ‘À›À'À¡ÀïÀÕ€·ÀÙÀÙ  Àã
+ÀéÀè   À|€£À€À€  À’À™À˜   À#€¯À4À4  À<ÀNÀM  ÀVÀgÀf  À#À$ÀÖ€¶ÀçÀç  ÀÀÀ  ÀÖÀ×ÀBÀ¡À¡  ÀÀÀØÀ×  ÀÀ‘ÀÖšÀçÀç  Àû&ÀÀ  ÀÖÀ× À	tƒbÀ	tÀ
+¿D/// Holds opaque meta data in the render tree.
+///
+/// Useful for decorating the render tree with information that will be consumed
+/// later. For example, you could store information in the render tree that will
+/// be used when the user interacts with the render tree but has no visual
+/// impact prior to the interaction. À
+ü€ÇÀ† À†À” €ƒ/// Creates a render object that hold opaque meta data.
+///
+/// The [behavior] argument defaults to [HitTestBehavior.deferToChild].À–ÀœÀ›  À¥À¬À«  ÀµÀ¼À»   ÀÇCÀÀ0/// Opaque meta data ignored by the render tree.   À€ÅÀ À   À4&ÀQÀP  ÀÀ ÀØšôÀØÀAb/// Listens for the specified gestures from the semantics server (e.g.
+/// an accessibility tool). À‚
+ÀØ ÀØÀõ H/// Creates a render object that listens for specific semantic gestures.ÀüÀÀ  ÀÀ"À!  À,%ÀGÀF  ÀW1ÀsÀr  À/ÀªÀ©  ÀÃÀÉÀÈ  ÀàÀçÀæ  À×ÀşÀ÷À ÀÀÀÀIÀ1ÀKÀ€ÀjÀ‚À­#ÀÃÀÃ  À÷ÀÀ  À&À¨À¨  ÀS2ÀnÀn  À<0ÀWÀW  Àœ2ÀÂÀÂ/// The fraction of the dimension of this render box to use when
+/// scrolling. For example, if this is 0.8 and the box is 200 pixels
+/// wide, then when a left-scroll action is received from the
+/// accessibility system, it will translate into a 160 pixel
+/// leftwards drag. À›ƒÀŒÀŒ‚¼/// If non-null, the set of actions to allow. Other actions will be omitted,
+/// even if their callback is provided.
+///
+/// For example, if [onTap] is non-null but [validActions] does not contain
+/// [SemanticsAction.tap], then the semantic description of this node will
+/// not claim to support taps.
+///
+/// This is normally used to filter the actions made available by
+/// [onHorizontalDragUpdate] and [onVerticalDragUpdate]. Normally, these make
+/// both the right and left, or up and down, actions available. For example,
+/// if [onHorizontalDragUpdate] is set but [validActions] only contains
+/// [SemanticsAction.scrollLeft], then the [SemanticsAction.scrollRight]
+/// action will be omitted.   À–^ÀäÀä3/// Called when the user taps on the render object.   Àş€ÀoÀoP/// Called when the user presses on the render object for a long period of time.   À¿€‘ÀÀ=/// Called when the user scrolls to the left or to the right.   À½|ÀÀ,/// Called when the user scrolls up or down.   ÀÔ€¾ÀØÀØ  ÀåÀüÀû   À€åÀÀ  ÀÀ4À3   À¸À¼À¼  ÀÈÀãÀâ   À‰0ÀÀ  À¤ ÀÀÀ¿   Àp(ÀtÀt  À‰ À¥À¤   ÀÓƒ¦ÀäÀä  ÀÀÀ  ÀÓÀÔÀ}tÀ‚À‚  À‘À¢À¡   ÀõxÀúÀú    À!qxÀ!vÀ!v    À"ísÀ"òÀ"ò    À$dtÀ$iÀ$i    À%ÜîÀ%íÀ%í  À&&À&À&  À%ÜÀ%İ À'Îƒ½À'ÎÀ(</// Add annotations to the [SemanticsNode] for this subtree. À(fƒ#À) À)À)4 €­/// Creates a render object that attaches a semantic annotation.
+///
+/// If the [SemanticsProperties.attributedLabel] is not null, the [textDirection] must also not be null.À);À)GÀ)F  À)Q'À)oÀ)n  À)~À)„À)ƒ  À)šÀ) À)Ÿ  À)¿À)ÅÀ)Ä  À)âÀ)èÀ)ç  À*À*À*  À*#À*3À*2  À)À)´À)×À)úÀ*HÀ*MÀ*SÀ*N     À+„ãÀ+À,…€ñ/// Causes the semantics of all earlier render objects below the same semantic
+/// boundary to be dropped.
+///
+/// This is useful in a stack where an opaque mask should prevent interactions
+/// with the render objects painted below the mask. À,µ€ÊÀ- À-À-% W/// Create a render object that blocks semantics for nodes below it in paint
+/// order.À-'À-3À-2  À-9À-?À->  À-IÀ-`À-VÀ-bÀ-rÀ-wÀ-}À-xÀ.BÀ.GÀ.G  À-ƒ€¼À.)À.)€˜/// Whether this render object is blocking semantics of previously painted
+/// [RenderObject]s below a common semantics boundary from the semantic tree.   À.T€‡À.XÀ.X  À.a
+À.gÀ.f   À.ß€ÉÀ.ğÀ.ğ  À/À/'À/&  À.ßÀ.àÀ/¬€ÂÀ/½À/½  À/Ñ&À/îÀ/í  À/¬À/­ À0rƒÀ0rÀ1Ö]/// Causes the semantics of all descendants to be merged into this
+/// node such that the entire subtree becomes a single leaf in the
+/// semantics tree.
+///
+/// Useful for combining the semantics of multiple render objects that
+/// form part of a single conceptual widget, e.g. a checkbox, a label,
+/// and the gesture detector that goes with them. À2€†À2T À2TÀ2h K/// Creates a render object that merges the semantics from its descendants.À2jÀ2vÀ2u  À2À2„À2ŠÀ2…   À2€ãÀ2¡À2¡  À2ÀÀ2ØÀ2×  À2À2‘ À3w„—À3wÀ4¤&/// Excludes this subtree from the semantic tree.
+///
+/// When [excluding] is true, this render object (and its subtree) is excluded
+/// from the semantic tree.
+///
+/// Useful e.g. for hiding text that is redundant with other text next
+/// to it (e.g. text included only for the visual effect). À4Ö€¼À5 À5À55 F/// Creates a render object that ignores the semantics of its subtree.À57À5CÀ5B  À5IÀ5OÀ5N  À5ZÀ5rÀ5gÀ5tÀ5…À5ŠÀ5À5‹À5ÿÀ6À6  À5–fÀ5äÀ5äB/// Whether this render object is excluded from the semantic tree.   À6€ŠÀ6À6  À6 
+À6&À6%   À6 €¤À6±À6±  À6ËÀ6àÀ6ß  À6 À6¡À7H€ÄÀ7YÀ7Y  À7m&À7ŠÀ7‰  À7HÀ7I À8„¸À8À9Ÿˆ/// A render objects that annotates semantics with an index.
+///
+/// Certain widgets will automatically provide a child index for building
+/// semantics. For example, the [ScrollView] uses the index of the first
+/// visible child semantics node to determine the
+/// [SemanticsConfiguration.scrollIndex].
+///
+/// See also:
+///
+///  * [CustomScrollView], for an explanation of scroll semantics. À9Ñ€®À:! À:!À:7 M/// Creates a render object that annotates the child semantics with an index.À:9À:EÀ:D  À:KÀ:YÀ:X  À:iÀ:bÀ:kÀ:rÀ:wÀ:}À:xÀ:Ñ
+À:ÕÀ:Õ  À:ƒKÀ:¾À:¾0/// The index used to annotated child semantics.   À:ß|À:ãÀ:ã  À:é	À:îÀ:í   À;_€¨À;pÀ;p  À;À;§À;¦  À;_À;`À<€»À<À<  À<0&À<MÀ<L  À<À< À<Ê‡»À<ÊÀ=™€È/// Provides an anchor for a [RenderFollowerLayer].
+///
+/// See also:
+///
+///  * [CompositedTransformTarget], the corresponding widget.
+///  * [LeaderLayer], the layer that this render object creates. À=Æ€•À=ÿ À=ÿÀ> 6/// Creates a render object that uses a [LeaderLayer].À>À>&À>%  À>+À>7À>6  À>FÀ>@À>HÀ>NÀ>SÀ>YÀ>TÀ?[À?eÀ?e  ÀAvÀA|ÀA|  À>_€ùÀ?JÀ?J€Ò/// The link object that connects this [RenderLeaderLayer] with one or more
+/// [RenderFollowerLayer]s.
+///
+/// The object must not be associated with another [RenderLeaderLayer] that is
+/// also being painted.   À@`4À@uÀ@u   À@`À@aÀ?n€îÀ?rÀ?r  À?wÀ?‚À?   ÀA”}ÀA¥ÀA¥   ÀA”ÀA•ÀB«ÀB&ÀB&  ÀB,ÀB=ÀB<  ÀBEÀBMÀBL  ÀBÀBÀCÄ€¿ÀCÕÀCÕ  ÀCé&ÀDÀD  ÀCÄÀCÅ ÀD‡œ™ÀD‡ÀF«‚/// Transform the child so that its origin is [offset] from the origin of the
+/// [RenderLeaderLayer] with the same [LayerLink].
+///
+/// The [RenderLeaderLayer] in question must be earlier in the paint order.
+///
+/// Hit testing on descendants of this render object will only work if the
+/// target position is within the box that this render object's parent considers
+/// to be hittable.
+///
+/// See also:
+///
+///  * [CompositedTransformFollower], the corresponding widget.
+///  * [FollowerLayer], the layer that this render object creates. ÀFÚæÀG ÀGÀG( 8/// Creates a render object that uses a [FollowerLayer].ÀG/ÀGCÀGB  ÀGLÀGRÀGQ  ÀGnÀGvÀGu  ÀG*ÀGšÀG™  ÀG¿,ÀGÊÀGÉ  ÀGñÀGıÀGü  ÀGdÀG~ÀG„ÀG…ÀG¨ÀG±ÀG²ÀGÚÀGãÀGäÀHÀH
+ÀHÀH1ÀHÀH3ÀHTÀHLÀHVÀHsÀHeÀHuÀHšÀHŠÀHœÀH³ÀH¸ÀH¾ÀH¹ÀI_ÀIiÀIi  ÀLÀLÀL  ÀM]ÀMdÀMd  ÀPáÀPëÀPë  ÀR¼ÀRÆÀRÆ  ÀHÄ€˜ÀINÀINw/// The link object that connects this [RenderFollowerLayer] with a
+/// [RenderLeaderLayer] earlier in the paint order.   ÀIì‚$ÀKêÀKêâ/// Whether to show the render object's contents when there is no
+/// corresponding [RenderLeaderLayer] with the same [link].
+///
+/// When the render object is linked, the child is positioned such that it has
+/// the same global position as the linked [RenderLeaderLayer].
+///
+/// When the render object is not linked, then: if [showWhenUnlinked] is true,
+/// the child is visible and not repositioned; if it is false, then child is
+/// hidden, and its hit testing is also disabled.   ÀLÆ€”ÀMHÀMHr/// The offset to apply to the origin of the linked [RenderLeaderLayer] to
+/// obtain this render object's origin.   ÀMì‚òÀPÀÀPÀ‚©/// The anchor point on the linked [RenderLeaderLayer] that [followerAnchor]
+/// will line up with.
+///
+/// {@template flutter.rendering.RenderFollowerLayer.leaderAnchor}
+/// For example, when [leaderAnchor] and [followerAnchor] are both
+/// [Alignment.topLeft], this [RenderFollowerLayer] will be top left aligned
+/// with the linked [RenderLeaderLayer]. When [leaderAnchor] is
+/// [Alignment.bottomLeft] and [followerAnchor] is [Alignment.topLeft], this
+/// [RenderFollowerLayer] will be left aligned with the linked
+/// [RenderLeaderLayer], and its top edge will line up with the
+/// [RenderLeaderLayer]'s bottom edge.
+/// {@endtemplate}
+///
+/// Defaults to [Alignment.topLeft].   ÀQ+ÀR—ÀR—€î/// The anchor point on this [RenderFollowerLayer] that will line up with
+/// [followerAnchor] on the linked [RenderLeaderLayer].
+///
+/// {@macro flutter.rendering.RenderFollowerLayer.leaderAnchor}
+///
+/// Defaults to [Alignment.topLeft].   ÀSº4ÀSÏÀSÏ   ÀSºÀS»ÀSò|ÀTGÀTG3/// The layer we created when we were last painted.  ÀT(ÀT)ÀIrvÀIvÀIv  ÀI{ÀI†ÀI…   ÀL-€•ÀL1ÀL1  ÀLB
+ÀLHÀLG   ÀMoyÀMsÀMs  ÀMzÀM‚ÀM   ÀPü€ÀQ ÀQ   ÀQÀQÀQ   ÀRÙ€”ÀRİÀRİ  ÀRìÀR÷ÀRö   ÀSqEÀS‚ÀS‚   ÀSqÀSrÀTrŸÀUºÀUº3/// Return the transform that was used in the last composition phase, if any.
+///
+/// If the [FollowerLayer] has not yet been created, was never composited, or
+/// was unable to determine the transform (see
+/// [FollowerLayer.getLastTransform]), this returns the identity matrix (see
+/// [Matrix4.identity].   ÀVêÀV&ÀV&  ÀV.ÀV@ÀV?  ÀVHÀVYÀVX  ÀVÀVÀXTÀXÀX  ÀX$ÀX6ÀX5  ÀX>ÀXOÀXN  ÀXÀXÀY[…ÀYlÀYl  ÀYrÀYƒÀY‚  ÀY‹ÀY“ÀY’  ÀY[ÀY\À^ì}À^ıÀ^ı  À_À_À_  À_"À_+À_*  À^ìÀ^íÀ_m±À_~À_~  À_’&À_¯À_®  À_mÀ_n Àa"‡3Àa"Àb€í/// Render object which inserts an [AnnotatedRegionLayer] into the layer tree.
+///
+/// See also:
+///
+///  * [Layer.find], for an example of how this value is retrieved.
+///  * [AnnotatedRegionLayer], the layer this render object creates.Àb,Àb,Àb,ÀbYàÀcl ÀclÀc /// Creates a new [RenderAnnotatedRegion] to insert [value] into the
+/// layer tree.
+///
+/// If [sized] is true, the layer is provided with the size of this render
+/// object to clip the results of [Layer.find].
+///
+/// Neither [value] nor [sized] can be null.ÀcƒÀcÀc  Àc•Àc¤Àc£  ÀcªÀc¶Àcµ  ÀcÊÀcÃÀcÌÀcàÀcÙÀcâÀcüÀcïÀcşÀd	Àd!Àd
+ÀdÀd ÀdÀd"Àd#Àd,Àd1Àd7Àd2ÀdÀd‘Àd‘  Àe‰ÀeÀe  Àf7Àf;Àf;  ÀfL4ÀfcÀfc ÀfLÀfMÀf|Àd=OÀd|Àd|6/// A value which can be retrieved using [Layer.find].   ÀemÀevÀevQ/// Whether the render object will pass its [size] to the [AnnotatedRegionLayer].   Àd›zÀdŸÀdŸ  Àd¥
+Àd¨Àd§   Àe˜tÀeœÀeœ  Àe¢
+Àe¨Àe§   Àf…vÀf–Àf–  ÀfœÀf­Àf¬  ÀfµÀf½Àf¼  Àf…Àf†ÀgÿTÀhÀh   ÀgÿÀh   ’†‚0’†’¯#/// How to behave during hit tests.  ’Ã€–“M“M€…/// Targets that defer to their children receive events within their bounds
+/// only if one of their children is hit by the hit test. “^€½””€°/// Opaque targets can be hit by hit tests, causing them to both receive
+/// events within their bounds and prevent targets visually behind them from
+/// also receiving events. ” €“”¨”¨€ƒ/// Translucent targets both receive events within their bounds and permit
+/// targets visually behind them to also receive events.     À(l€ÊÀ(lÀ(–$/// Where to paint a box decoration.  À(­>À(áÀ(á1/// Paint the box decoration behind the children. À(ğCÀ))À))6/// Paint the box decoration in front of the children.           	À “:€¿À “:À “Ë€ˆ/// Signature for a function that creates a [Shader] for a given [Rect].
+///
+/// Used by [RenderShaderMask] and the [ShaderMask] widget.  À “ìÀ “òÀ “ñ   ÀŒ÷€»ÀŒ÷Àqq/// Signature for listening to [PointerDownEvent] events.
+///
+/// Used by [Listener] and [RenderPointerListener].  ÀšÀ¬À«   À´€»À´À.q/// Signature for listening to [PointerMoveEvent] events.
+///
+/// Used by [Listener] and [RenderPointerListener].  ÀWÀiÀh   Àq€µÀqÀéo/// Signature for listening to [PointerUpEvent] events.
+///
+/// Used by [Listener] and [RenderPointerListener].  ÀÀ À   À(€ÁÀ(À¤s/// Signature for listening to [PointerCancelEvent] events.
+///
+/// Used by [Listener] and [RenderPointerListener].  ÀÏÀãÀâ   Àë€ÓÀëÀmy/// Signature for listening to [PointerPanZoomStartEvent] events.
+///
+/// Used by [Listener] and [RenderPointerListener].  ÀÀ¸À·   ÀÀ€ÖÀÀÀ‘Cz/// Signature for listening to [PointerPanZoomUpdateEvent] events.
+///
+/// Used by [Listener] and [RenderPointerListener].  À‘uÀ‘À‘   À‘˜€ÍÀ‘˜À’w/// Signature for listening to [PointerPanZoomEndEvent] events.
+///
+/// Used by [Listener] and [RenderPointerListener].  À’GÀ’_À’^   À’g€ÁÀ’gÀ’ãs/// Signature for listening to [PointerSignalEvent] events.
+///
+/// Used by [Listener] and [RenderPointerListener].  À“À“"À“!   ‡ÉŠ»‡É‰d‚/// Implementation of [RenderProxyBox].
+///
+/// Use this mixin in situations where the proxying behavior
+/// of [RenderProxyBox] is desired but inheriting from [RenderProxyBox] is
+/// impractical (e.g. because you want to inherit from a different class).
+///
+/// If a class already inherits from [RenderProxyBox] and also uses this mixin,
+/// you can safely delete the use of the mixin.‰x‰x‰x    ‰½‰Î‰Î  ‰Ş‰ì‰ë  ‰½‰¾ŠÂwŠÕŠÕ  ŠîŠöŠõ  ŠÂŠÃ‹=w‹P‹P  ‹i‹q‹p  ‹=‹>‹¸w‹Ë‹Ë  ‹å‹í‹ì  ‹¸‹¹Œ3wŒFŒF  Œ`ŒhŒg  Œ3Œ4Œ®€ÄŒÂŒÂ  ŒâŒğŒï  Œ®Œ¯v——  ª$ÄÃ  ĞŞİ  vw‚ƒ€­  ®$ÈÇ  €‹Œ0€®AA   01â€êtt€ˆ/// Calculate the size the [RenderProxyBox] would have under the given
+/// [BoxConstraints] for the case where it does not have a child. Šš™   Ğ€›áá  ñ‘‘  ‘‘‘  ĞÑ‘oN‘€‘€  ‘”‘¢‘¡  ‘¨‘±‘°  ‘o‘p‘Á€Á‘Ò‘Ò  ‘Ø‘é‘è  ‘ñ‘ù‘ø  ‘Á‘Â‰L‰MÀ ×À ×À ƒ:/// Implementation of [RenderAnimatedOpacity] and [RenderSliverAnimatedOpacity].
+///
+/// This mixin allows the logic of animating opacity to be used with different
+/// layout models, e.g. the way that [RenderAnimatedOpacity] uses it for [RenderBox]
+/// and [RenderSliverAnimatedOpacity] uses it for [RenderSliver].À ƒ3À ƒ3À ƒ3 À ƒpÀ ƒuÀ ƒu  À ƒÛ!À ƒáÀ ƒá  À †ĞÀ †ãÀ †ã  À ‰ À ‰¦À ‰¦  À ƒ€XÀ ƒ•À ƒ•   À ƒ€À ƒÀ „áìÀ †¸À †¸¬/// The animation that drives this render object's opacity.
+///
+/// An opacity of 1.0 is fully opaque. An opacity of 0.0 is fully transparent
+/// (i.e., invisible).
+///
+/// To change the opacity of a child in a static manner, not animated,
+/// consider [RenderOpacity] instead.
+///
+/// This getter cannot be read until the value has been set. It should be set
+/// by the constructor of the class in which this mixin is included.   À ˆ‚À ‰jÀ ‰j5/// Whether child semantics are included regardless of the opacity.
+///
+/// If false, semantics are excluded when [opacity] is 0.0.
+///
+/// Defaults to false.
+///
+/// This getter cannot be read until the value has been set. It should be set
+/// by the constructor of the class in which this mixin is included.   À †ï(À †óÀ †ó  À †ûÀ ‡À ‡   À ‰Á€±À ‰ÅÀ ‰Å  À ‰Ü
+À ‰âÀ ‰á   À „€ÜÀ „À „  À „9 À „RÀ „Q  À „À „À Šv€»À Š‡À Š‡  À ŠÀ ŠÀ Šœ  À ŠvÀ ŠwÀ ‹5_À ‹FÀ ‹F   À ‹5À ‹6À ‹˜‚À ‹À ‹    À ¬vÀ ½À ½  À ÉÀ ×À Ö  À ¬À ­À &€‘À 7À 7  À =À NÀ M  À VÀ ^À ]  À &À 'À »€®À ÌÀ Ì  À æÀ ûÀ ú  À »À ¼À mxÀ ~À ~  À ’&À ¯À ®  À mÀ n     €®  package:flutter/widgets.dart  €á  proxy_sliver.dart    sliver.dart ’Ô <€†€¤€¥€Ô€Ø€ü#$ef¹á‚
+‚2‚3‚J‚]‚€‚•‚²‚È‚É‚ğƒOƒPƒƒ”ƒİ„+„z„¾„Â……b…±…Å…É…×…Û†+†<†c†´†Ö†Ü‡$‡q‡ƒ‡ª‡Â‡Æ‡È‡É‡ñ‡õˆ2ˆ}ˆÈˆÌ‰‰L‰^‰»‰Ç‰ôŠ@ŠcŠŠµŠ»Š¿ŠÀŠÌŠÿ‹6‹:‹;‹G‹z‹±‹µ‹¶‹Â‹õŒ,Œ0Œ1Œ=ŒpŒ§Œ«Œ¬Œ¸Œû6ost€é2x|}‰–Ö)-.:S^£ÏÛßà)m¨ÉÍÎÚ‘(‘h‘l‘m‘y‘¾‘¿‘Ë’’+’D’R’X’’ƒ’…’†’ª’Á““K“[“\“§“ö””””k”¦”µ”·”¸”÷••[••”•Ø•ş–0–F–[–\–­–ğ–ö—(—.—u—‘—’——ä—ÿ˜"˜z˜¼˜ñ˜ù˜ÿ™™™™&™q™r™~™Ã™îšKšOšQšRšƒš‡šÖ››o›|›€›Ğœœ6œjœ œ¦œà:tª¾¿ÿEn¢ÊõŸŸ	Ÿ-ŸDŸHŸIŸUŸˆŸâ   W s § â è ú ş ÿ¡¡>¡˜¡Æ¡Ì¢¢)¢]¢˜¢¢°¢´¢µ¢Á¢ô£P££…£Ç£ä¤¤V¤\¤o¤s¤t¤€¤³¥¥>¥D¥†¥£¥Ø¦¦¦.¦2¦3¦?¦›¦ô¦ø¦ù§§§W§p§È§â§ï¨>¨D¨H¨I¨U¨b¨¢¨ñ©;©?©@©L©Œ©·©Ç©àªªLªƒª‹ªª¨ª¬ª­ª¹ªş«)«=«˜«Ÿ«£«¥«¦«ß¬"¬&¬s¬¾­	­X­q­u­À®®®F®—®Ì®Ò¯¯-¯B¯X¯¯§¯Ç¯è°°$°9°:°°³°Ç°æ± ±±,±2±I±`±d±e±¼±â±÷²²1²P²^²d²|²“²—²˜²Ù²ô³³F³g³™³Á³ï´´E´L´P´Q´²´ËµµLµRµ’µ–µ—µ£µ°µğ¶R¶V¶W¶c¶|¶Û¶ß¶à¶ì·1·\·µ¸¸¸¸¸R¸V¸¢¸ñ¹?¹C¹‹¹Ûºººdº²»»H»L»˜»é¼:¼ˆ¼Ö½$½r½À¾¾S¾“¾Ä¿¿¿J¿¿°¿Ô¿öÀ @
+À @À @5À @;À @‹À @ÒÀ @üÀ AÀ A5À ANÀ AjÀ A‹À A™À AŸÀ A¹À AĞÀ AÔÀ AÕÀ AáÀ BÀ B/À BSÀ BYÀ BÀ B”À B•À B¡À BÔÀ BïÀ CÀ CÀ CPÀ CTÀ CUÀ CaÀ C”À C®À CÑÀ C×À DÀ DÀ DÀ DÀ DRÀ DlÀ DÀ D•À DÌÀ DĞÀ DÑÀ EÀ E6À EFÀ E‘À E­À EãÀ F:À F‹À FİÀ FûÀ GÀ GÀ G!À G+À G,À GKÀ GnÀ GtÀ GuÀ GÀ G±À G²À GÿÀ HKÀ HbÀ H|À H¡À H®À HÔÀ HùÀ HÿÀ I À INÀ I˜À IäÀ IûÀ IüÀ J$À JHÀ JmÀ JsÀ JtÀ JÀ JÄÀ JéÀ JïÀ JğÀ KÀ K<À KaÀ KgÀ KhÀ K’À K¸À KİÀ KãÀ KäÀ LÀ LÀ L À L,À L9À LyÀ L¤À L¨À L©À LµÀ MÀ MgÀ MkÀ MlÀ MxÀ M‘À M·À MæÀ MêÀ MëÀ M÷À N<À NgÀ N§À N«À N­À N®À NêÀ NîÀ O;À O‹À O¿À OÃÀ PÀ P_À P«À PõÀ QBÀ QjÀ QnÀ Q¾À R
+À RHÀ RLÀ R™À RçÀ S6À SMÀ SQÀ S_À ScÀ S²À SùÀ TGÀ TZÀ T¦À TéÀ U6À UjÀ UÀ UîÀ UôÀ VDÀ VeÀ V·À VëÀ W!À W?À W_À WsÀ WtÀ W¿À WÅÀ WíÀ XÀ X*À XKÀ XuÀ X”À X¢À X¨À XÀÀ X×À XÛÀ XÜÀ Y(À Y.À YVÀ YÀ Y–À Y¸À YâÀ ZÀ ZÀ ZÀ Z/À ZFÀ ZJÀ ZKÀ Z„À Z À Z¸À ZÌÀ ZÒÀ ZûÀ ZÿÀ [ À [À [?À [hÀ [lÀ [mÀ [yÀ [¬À [ÅÀ [×À [İÀ \À \EÀ \IÀ \JÀ \VÀ \‰À \¢À \´À \ºÀ \ÕÀ ]
+À ]À ],À ]kÀ ]—À ]›À ]œÀ ]¨À ]ÛÀ ]ôÀ ^À ^À ^'À ^\À ^bÀ ^~À ^½À ^éÀ ^íÀ ^îÀ _@À _`À _‡À _˜À _ïÀ `À `!À `yÀ `€À `„À `…À `æÀ aÀ a(À aGÀ aŒÀ aÀ a‘À aÀ aªÀ aêÀ bLÀ bPÀ bQÀ b]À b¯À bØÀ c+À c/À c0À c<À cUÀ c´À c¸À c¹À cÅÀ d
+À d5À dqÀ d¯À d³À dµÀ d¶À dëÀ dïÀ e=À eÀ eÂÀ eÆÀ fÀ fbÀ f°À fûÀ gIÀ grÀ gvÀ gÃÀ hÀ h`À hwÀ h{À h‰À hÀ hÜÀ i$À isÀ i†À iÕÀ jÀ jhÀ jÀ jÒÀ k#À k_À k`À klÀ kŸÀ k¸À kÊÀ kĞÀ kìÀ l*À l0À lMÀ l}À lÀ l‚À lÀ lÁÀ lÚÀ lìÀ lòÀ mÀ mLÀ mRÀ moÀ mŸÀ m£À m¤À m°À mãÀ nÀ nÀ nÀ ncÀ n‰À nŸÀ nùÀ nıÀ nşÀ o_À oˆÀ o¡À oÀÀ pÀ p	À p
+À pÀ p#À pcÀ pÅÀ pÉÀ pÊÀ pÖÀ q(À qQÀ q¤À q¨À q©À qµÀ qÎÀ r-À r1À r3À r4À ruÀ r©À sÀ sGÀ sHÀ sTÀ s”À s¥À s©À sªÀ s¶À tÀ t À t$À t&À t'À tRÀ tVÀ t¦À tÛÀ tßÀ u*À utÀ u¼À vÀ v9À vnÀ vtÀ v¹À wÀ wHÀ wbÀ wšÀ wĞÀ wäÀ wåÀ wñÀ x3À x4À x@À xxÀ xyÀ x‡À xˆÀ x½À xÃÀ yÀ y,À y2À yvÀ y½À yÎÀ yğÀ zÀ z!À zKÀ zhÀ zvÀ z|À z¸À zÜÀ zòÀ {'À {_À {‡À {À {³À {õÀ |À |À |!À |"À |hÀ |nÀ |¬À |²À |ËÀ }	À })À }TÀ }€À }À }”À }¹À }ÙÀ }İÀ }ŞÀ }êÀ ~À ~2À ~IÀ ~MÀ ~NÀ ~ZÀ ~­À ~èÀ À À À À %À \À „À ’À ˜À ºÀ ¾À ¿À ËÀ €À €OÀ €fÀ €lÀ €pÀ €qÀ €}À €ÂÀ €íÀ %À 9À MÀ oÀ –À ÀÀ ÉÀ ĞÀ ÔÀ ÖÀ ×À ‚(À ‚,À ‚{À ‚ĞÀ ƒÀ ƒnÀ ƒ}À ƒ~À ƒŠÀ ƒÙÀ ƒşÀ ƒÿÀ „À „^À „ À „ÁÀ „ÚÀ „ŞÀ „ßÀ …À …#À …sÀ …ŒÀ …’À …ÛÀ †À †	À †YÀ † À †ÎÀ †íÀ ‡À ‡3À ‡AÀ ‡GÀ ‡oÀ ‡À ‡£À ‡¹À ‡ÍÀ ‡øÀ ‡şÀ ˆÀ ˆÀ ˆÀ ˆ_À ˆeÀ ˆ£À ˆ©À ˆÂÀ ˆÈÀ ‰À ‰_À ‰À ‰¿À ‰êÀ ŠÀ Š$À Š*À ŠOÀ ŠoÀ ŠsÀ ŠtÀ Š€À Š¥À Š¾À ŠçÀ ‹.À ‹2À ‹3À ‹?À ‹QÀ ‹}À ‹‘À ‹•À ‹–À ‹°À ‹ÒÀ ŒÀ Œ*À ŒnÀ ŒŸÀ ŒïÀ À !À IÀ sÀ —À ŸÀ ¥À ©À ªÀ ¶À ßÀ À À #À $À 0À gÀ ~À ŒÀ ’À ´À ¸À ¹À ÅÀ À IÀ `À fÀ jÀ kÀ wÀ ¼À çÀ 7À KÀ _À À ¨À ÒÀ ÛÀ âÀ æÀ èÀ éÀ ‘0À ‘4À ‘…À ‘±À ’À ’FÀ ’`À ’ˆÀ ’±À ’ÇÀ ’İÀ ’ùÀ “3À “7À “9À “:À “ƒÀ “‡À “ÃÀ “úÀ “ûÀ ”4À ”8À ”‡À ”¼À ”ìÀ •DÀ •YÀ •oÀ •›À •ÉÀ •òÀ –À –&À –'À –3À –tÀ –uÀ –³À –¹À —À —QÀ —WÀ ——À —±À —ÿÀ ˜7À ˜oÀ ˜‘À ˜¾À ˜âÀ ˜ğÀ ˜öÀ ™À ™)À ™-À ™.À ™rÀ ™xÀ ™ÇÀ šÀ š;À šSÀ švÀ š•À š£À š©À šÁÀ š×À šÛÀ šÜÀ šèÀ ›À ›À ›)À ›`À ›yÀ ›™À ›¼À ›ÉÀ œ À œ#À œEÀ œ{À œÀ œ¹À œÎÀ œÚÀ œçÀ œûÀ À À À À VÀ ZÀ ªÀ ¾À òÀ À À [À À ¤À äÀ ıÀ ŸÀ Ÿ/À ŸTÀ ŸÀ ŸšÀ Ÿ¸À ŸÇÀ ŸøÀ  4À  >À  MÀ  ~À  »À  ÅÀ ¡À ¡#À ¡BÀ ¡eÀ ¡zÀ ¡{À ¡‡À ¡ĞÀ ¡ÑÀ ¢"À ¢BÀ ¢SÀ ¢oÀ ¢‹À ¢™À ¢ŸÀ ¢µÀ ¢ËÀ ¢ÏÀ ¢ĞÀ £À £À £dÀ £wÀ £}À £ËÀ ¤À ¤^À ¤À ¤…À ¤ÊÀ ¤àÀ ¤æÀ ¥!À ¥nÀ ¥{À ¥ŠÀ ¥«À ¥åÀ ¥éÀ ¦À ¦À ¦6À ¦–À ¦À ¦¾À ¦ÂÀ ¦ÃÀ ¦èÀ §À §À §À §qÀ §wÀ §ÇÀ §ÚÀ §àÀ ¨.À ¨wÀ ¨ÁÀ ¨âÀ ¨èÀ ©0À ©XÀ ©À ©²À ©àÀ ªÀ ªÀ ªÀ ª1À ªGÀ ªKÀ ªLÀ ª¥À ª´À ªºÀ ªòÀ «À «3À «VÀ «uÀ «ƒÀ «‰À «¡À «·À «»À «¼À ¬À ¬À ¬À ¬WÀ ¬‡À ¬¤À ¬ÌÀ ¬íÀ ¬ûÀ ­À ­À ­1À ­5À ­6À ­BÀ ­vÀ ­wÀ ­ƒÀ ­ºÀ ­ÏÀ ­óÀ ®À ®À ®À ®JÀ ®{À ®‚À ®ƒÀ ®œÀ ®¼À ®ãÀ ¯
+À ¯/À ¯XÀ ¯À ¯ À ¯ÌÀ ¯áÀ ¯íÀ ¯úÀ °À °À °À °À °%À °jÀ °•À °©À ±	À ±À ±UÀ ±¥À ±©À ±«À ±¬À ±ÙÀ ±İÀ ²&À ²7À ²;À ²ŒÀ ²À ²ÙÀ ³%À ³6À ³:À ³…À ³ÓÀ ´$À ´tÀ ´xÀ ´†À ´ŠÀ ´ÓÀ µÀ µgÀ µ°À µÿÀ ¶4À ¶TÀ ¶ZÀ ¶«À ¶ëÀ ¶ìÀ ·	À ·
+À ·MÀ ·SÀ ·¢À ·òÀ ¸	À ¸À ¸bÀ ¸cÀ ¸³À ¸äÀ ¸êÀ ¹9À ¹‰À ¹ À ¹¬À ¹ÿÀ º À ºKÀ ºoÀ º‡À ºˆÀ ºÍÀ »À »DÀ »JÀ »À »ÕÀ ¼À ¼_À ¼ŸÀ ¼ À ¼íÀ ½>À ½À ½àÀ ½æÀ ¾.À ¾}À ¾ŠÀ ¾À ¾ŞÀ ¾êÀ ¾ğÀ ¿6À ¿‚À ¿¶À ¿òÀ ¿óÀ ¿ÿÀ À@À ÀBÀ ÀCÀ ÀŠÀ ÀÁÀ ÀèÀ ÀîÀ Á6À Á…À ÁÒÀ ÂÀ Â\À Â]À ÂœÀ Â·À Â¸À Ã À ÃÀ ÃQÀ ÃxÀ ÃÀ ÃŸÀ ÃÔÀ ÃàÀ ÃüÀ ÄMÀ ÄQÀ ÄRÀ Ä^À Ä”À ÄÌÀ ÄßÀ ÄåÀ Å#À Å€À Å„À Å†À Å‡À ÅÄÀ ÅÚÀ ÅğÀ ÆÀ Æ7À ÆRÀ ÆwÀ ÆŒÀ ÆÀ ÆËÀ ÆøÀ ÇÀ ÇDÀ ÇfÀ ÇtÀ ÇzÀ Ç­À ÇÈÀ ÇşÀ ÈÀ È:À ÈvÀ È¥À È½À ÈÃÀ È×À É	À É8À É>À ÉBÀ ÉCÀ ÉOÀ ÉtÀ ÉÀ É¸À É¼À É½À ÉÉÀ ÉÛÀ Ê	À ÊÀ Ê!À Ê"À Ê<À ÊNÀ ÊdÀ Ê„À ÊˆÀ Ê‰À ÊŸÀ Ê«À Ê¬À ÊÖÀ Ê÷À ËÀ Ë6À ËNÀ ËTÀ ËXÀ ËYÀ ËoÀ ËpÀ Ë|À Ë•À ËÆÀ ËáÀ ËüÀ ÌÀ ÌÀ ÌÀ ÌÀ Ì2À ÌiÀ ÌmÀ ÌnÀ ÌzÀ ÌµÀ ÌÑÀ ÌçÀ ÌüÀ ÍÀ Í1À ÍYÀ Í¦À Í¬À Í°À Í±À ÍÇÀ ÍâÀ ÍîÀ Î.À Î>À Î\À ÎƒÀ ÎšÀ Î¾À ÎÑÀ ÎöÀ ÏÀ Ï@À ÏeÀ ÏrÀ ÏÀ Ï»À ÏÅÀ ÏáÀ Ğ	À Ğ+À ĞIÀ Ğ^À Ğ¤À Ğ¯À ĞÿÀ ÑÀ Ñ%À Ñ/À Ñ3À Ñ4À Ñ@À ÑSÀ ÑnÀ Ñ…À ÑšÀ ÑÀ Ñ À Ñ¡À ÑÈÀ ÑÌÀ ÒÀ ÒkÀ ÒÀ Ò¸À ÒÚÀ ÒàÀ Ó0À ÓAÀ ÓGÀ ÓŒÀ ÓĞÀ ÓÑÀ ÓİÀ ÔÀ ÔÀ ÔÀ Ô_À Ô{À ÔÀ Ô­À ÔÕÀ ÔëÀ ÔóÀ ÔùÀ Õ/À Õ3À Õ4À Õ@À ÕwÀ ÕÀ Õ·À ÕÎÀ ÕôÀ ÖÀ Ö"À Ö4À ÖKÀ ÖqÀ ÖÀ Ö©À Ö¸À ÖäÀ ÖúÀ ×À ×À ×#À ×)À ×-À ×.À ×:À ×zÀ ×ŠÀ ×¥À ×ÔÀ ×ıÀ ØDÀ ØaÀ Ø}À ØÙÀ ØæÀ ØğÀ ØøÀ ÙÀ ÙÀ ÙÀ ÙÀ ÙÀ ÙKÀ ÙOÀ ÙŸÀ ÙíÀ ÚÀ Ú<À ÚfÀ ÚlÀ Ú¼À ÚØÀ ÚŞÀ ÛÀ Û$À ÛiÀ Û}À ÛÀ ÛÉÀ ÛÜÀ ÛôÀ ÜÀ Ü;À ÜbÀ ÜcÀ Ü“À Ü™À ÜäÀ ÜÿÀ İÀ İ;À İuÀ İ›À İÌÀ İîÀ İüÀ ŞÀ ŞÀ Ş3À Ş7À Ş8À ŞwÀ Ş­À ŞÎÀ ŞúÀ ßÀ ß+À ß1À ßMÀ ßcÀ ßgÀ ßhÀ ßtÀ ßÒÀ ßÓÀ ßßÀ à%À àAÀ àVÀ àsÀ à›À à±À à¹À à¿À àõÀ àùÀ àúÀ áÀ á=À áVÀ á}À á”À á»À á×À áéÀ âÀ âÀ â.À âTÀ â‚À âÀ âœÀ âÈÀ âŞÀ âæÀ âóÀ ãÀ ãÀ ãÀ ãÀ ãÀ ã^À ãnÀ ã‰À ã¸À ãáÀ ä)À äFÀ äbÀ ä¼À äÉÀ äÓÀ äÛÀ äîÀ äøÀ äüÀ äşÀ äÿÀ å1À å5À åÀ åÈÀ åñÀ åõÀ æAÀ æŠÀ æµÀ æ»À çÀ ç'À ç-À çrÀ çÀ çŸÀ çÚÀ çíÀ èÀ è'À èLÀ èsÀ ètÀ è¤À èªÀ èõÀ éÀ éÀ éLÀ é†À é¬À éİÀ éÿÀ êÀ êÀ ê.À êDÀ êHÀ êIÀ êˆÀ ê¾À êßÀ ëÀ ë.À ë<À ëBÀ ë^À ëtÀ ëxÀ ëyÀ ë…À ë©À ëùÀ ëúÀ ìÀ ìLÀ ìhÀ ì}À ìšÀ ìÌÀ ìâÀ ìêÀ ìğÀ í&À í*À í+À í7À ínÀ í‡À í®À íÅÀ íôÀ îÀ î"À î>À îPÀ îgÀ îÀ îÃÀ îÎÀ îİÀ ï	À ïÀ ï'À ï4À ïHÀ ïNÀ ïRÀ ïSÀ ï_À ïŸÀ ï¯À ïÊÀ ïùÀ ğ"À ğrÀ ğÀ ğ«À ñÀ ñÀ ñÀ ñ$À ñ7À ñAÀ ñEÀ ñGÀ ñHÀ ñkÀ ñoÀ ñ½À òÀ òPÀ ò‡À òªÀ ò°À ó À óÀ ó#À óhÀ ó¬À ó­À óÂÀ óÛÀ óÜÀ óıÀ ôÀ ô6À ôiÀ ôoÀ ô‡À ô‹À ôŒÀ ô˜À ôÇÀ ôÈÀ ôÔÀ õÀ õ-À õHÀ õqÀ õ½À õØÀ öÀ ö9À ö@À öuÀ öÀ ö·À öËÀ öÑÀ ÷À ÷À ÷À ÷À ÷OÀ ÷hÀ ÷À ÷¦À ÷ÌÀ ÷èÀ ÷úÀ øÀ ø,À øCÀ øiÀ ø–À ø¡À ø°À øÜÀ øòÀ øúÀ ùÀ ùÀ ù!À ù%À ù&À ù2À ùrÀ ù‚À ùÀ ùÌÀ ùõÀ úJÀ úgÀ úƒÀ ú˜À ú°À úìÀ û)À û<À ûIÀ ûSÀ û[À ûnÀ ûxÀ û|À û~À ûÀ û¡À û¥À ûêÀ ü+À ü/À ümÀ ü‹À üÀ üÉÀ ı	À ıLÀ ıƒÀ ıÀ ı¤À ıõÀ şBÀ ş’À ş¥À ş«À şğÀ ÿ4À ÿ5À ÿAÀ ÿÀ ÿ‚À ÿÀ ÿÔÀ ÿğÀ À "À JÀ `À hÀ nÀ ¤À ¨À ©À µÀ ìÀÀ,ÀCÀiÀ…À—ÀµÀÇÀŞÀÀ1À<ÀKÀwÀÀ•À¢À¶À¼ÀÀÀÁÀÍÀÀÀ8ÀgÀÀ×ÀÀÀÀ1À;À?ÀAÀBÀ†ÀŠÀÛÀÀ[À‘À®ÀÈÀçÀÀ!ÀEÀXÀyÀ˜À¯ÀÒÀÓÀ"À(ÀIÀOÀÀËÀñÀÀ&À@À^ÀlÀrÀ®ÀÆÀşÀ	&À	,À	BÀ	FÀ	GÀ	_À	ˆÀ	À	¿À	ßÀ	íÀ	óÀ
+À
+#À
+'À
+(À
+DÀ
+aÀ
+qÀ
+ŒÀ
+¦À
+´À
+ºÀ
+ÎÀ
+äÀ
+èÀ
+éÀ
+õÀ;ÀgÀ¤ÀØÀÀÀÀÀ^ÀmÀqÀµÀùÀ#À)ÀHÀNÀ„ÀœÀ­ÀÖÀîÀÀ)ÀCÀtÀ•À¬ÀÑÀÒÀğÀöÀEÀ]À}ÀÀ®ÀÈÀÖÀÜÀğÀÀ
+ÀÀ;ÀAÀŒÀ§À­ÀøÀşÀ8ÀkÀŠÀ´ÀÕÀãÀéÀÀÀÀÀ+ÀFÀ[À…À¢ÀñÀCÀJÀNÀOÀ[À¡À½ÀÒÀïÀÀ-À5À;ÀqÀuÀvÀ‚À¹ÀÒÀæÀôÀúÀûÀÀBÀÀœÀ¬ÀÍÀìÀÀ)À=ÀaÀÀ½ÀÊÀÔÀòÀúÀÀÀÀBÀnÀÇÀÍÀÀ.ÀkÀqÀ”À¬ÀºÀÔÀâÀÀ0ÀlÀ»À
+ÀNÀŠÀ”ÀºÀÃÀíÀÀÀÀ'ÀQÀdÀnÀrÀsÀÀÅÀñÀ5À‹ÀÀ‘À’À×ÀÛÀÀ#À1À5ÀÀ‘ÀÔÀûÀÀ:À@ÀvÀÀŸÀÏÀçÀÀÀMÀnÀoÀ{À»À¼ÀÈÀ À *À ?À \À „À šÀ ¢À ¨À ŞÀ âÀ ãÀ ïÀ!&À!?À!SÀ!aÀ!gÀ!hÀ!{À!­À!ÊÀ!ÚÀ!ûÀ"À"=À"UÀ"iÀ"À"ºÀ"éÀ"öÀ# À#À#&À#9À#CÀ#DÀ#nÀ#šÀ#ìÀ#òÀ$9À$SÀ$À$”À$¶À$ÎÀ$ÜÀ$öÀ%À%5À%RÀ%À%İÀ&,À&pÀ&¬À&¶À&ÜÀ&åÀ'À'0À'7À'8À'HÀ'rÀ'…À'À'“À'”À' À'æÀ(À(eÀ(iÀ(kÀ(lÀ(‘À(«À(ßÀ(íÀ(îÀ)'À)5À)7À)8À){À)­À)ÌÀ)ÒÀ* À*_À*eÀ*´À*ßÀ*öÀ+À+[À+œÀ+²À+ÓÀ+ğÀ,À,,À,-À,EÀ,FÀ,fÀ,lÀ,À,ºÀ,ÔÀ,ùÀ-À-'À--À-FÀ-[À-tÀ-ŠÀ-À-À-ÚÀ.
+À.*À.UÀ.sÀ.À.‡À.À.´À.¸À.¹À/À/HÀ/bÀ/hÀ/«À/ñÀ0+À0PÀ0€À0£À0±À0·À0ÓÀ0éÀ0íÀ0îÀ0úÀ1À1%À1:À1NÀ1“À1ÜÀ2(À2tÀ2¯À2ÅÀ2ÉÀ2ÊÀ2ÖÀ2éÀ3À3À3À3À3(À3NÀ3ªÀ3®À3¯À3»À3òÀ41À4ˆÀ4½À4ØÀ4êÀ5"À57À5CÀ5‡À5™À5ØÀ6À6,À6ˆÀ6—À6µÀ7À7qÀ7ÎÀ7İÀ8
+À8.À8HÀ8À8À8½À8ŞÀ8öÀ9/À9>À9LÀ9VÀ9kÀ9wÀ9™À9½À9ÅÀ9ËÀ9íÀ:"À:fÀ:ˆÀ:¬À:´À:ºÀ:¾À:¿À:ËÀ;À;;À;‚À;ßÀ;ãÀ;åÀ;æÀ<À<MÀ<†À<šÀ<ºÀ<ÎÀ<ğÀ=À=5À=WÀ=mÀ=ƒÀ=£À=ÃÀ=ëÀ>À>-À>1À>2À>‚À>ºÀ>ÀÀ?À?RÀ?sÀ?†À?¤À?ÀÀ?ÎÀ?ÔÀ?éÀ?ÿÀ@À@#À@$À@hÀ@nÀ@ºÀAÀA
+ÀAZÀAšÀAêÀB9ÀBxÀBÉÀBûÀCÀCHÀCgÀCuÀC{ÀC“ÀC©ÀCÉÀCÍÀCÎÀD
+ÀDÀD_ÀD—ÀDÍÀDîÀEÀE=ÀEKÀEQÀEmÀEƒÀE£ÀE§ÀE¨ÀE´ÀFÀFÀFPÀF™ÀF¼ÀFÂÀGÀGcÀG}ÀG~ÀG•ÀG–ÀGåÀHÀH
+ÀHVÀH¥ÀHÊÀHõÀIÀI5ÀICÀIIÀIoÀI…ÀI¥ÀI©ÀIªÀIüÀJÀJBÀJxÀJ™ÀJÅÀJèÀJöÀJüÀK8ÀKTÀKŒÀK´ÀKºÀKĞÀKÔÀKÕÀLÀLÀL<ÀLRÀLrÀLvÀLwÀLºÀLÛÀLıÀMÀM3ÀM7ÀM8ÀM{ÀMœÀM¾ÀMÔÀMôÀMøÀMùÀN<ÀN]ÀNÀN•ÀNµÀN¹ÀNºÀNüÀO;ÀOjÀO€ÀO ÀO¤ÀO¥ÀOÔÀPÀP:ÀPPÀPpÀPtÀPuÀPšÀPæÀQÀQ7ÀQ=ÀQdÀQÀQ¿ÀQÅÀQŞÀRÀR:ÀR€ÀR†ÀR¨ÀRÍÀSÀSÀS7ÀSyÀSÀS’ÀS–ÀS—ÀS£ÀSéÀT ÀT]ÀT›ÀTµÀTíÀTñÀTòÀTşÀULÀU‹ÀU´ÀUõÀVÀVKÀVÀV–ÀVÀV¡ÀV¢ÀV®ÀVåÀVşÀW4ÀWWÀW¤ÀWÇÀXÀX`ÀX–ÀXÁÀXÛÀXïÀXûÀY$ÀYBÀYVÀYmÀY†ÀY×ÀYäÀYõÀZ+ÀZCÀZMÀZ\ÀZ´ÀZÔÀ[À[?À[eÀ[À[™À[ÖÀ\À\À\LÀ\VÀ\À\¢À\ĞÀ\çÀ\õÀ\ıÀ]À]À]À]À]UÀ]ƒÀ]‡À]ˆÀ]”À]ÙÀ^À^KÀ^À^âÀ_GÀ_À_¢À_¤À_¥À_êÀ`À`MÀ`aÀ`‚À`¶À`ØÀ`îÀaÀa$ÀaCÀajÀaÀa¤Àa¥ÀaøÀbÀbÀb9ÀbXÀbnÀbrÀbsÀbšÀb­ÀbÊÀbßÀbúÀcÀc+ÀcHÀcdÀc|Àc’Àc˜ÀcœÀcÀcåÀcÿÀdÀd(ÀdAÀdOÀdUÀdvÀdˆÀdÊÀdãÀdğÀe	Àe!Àe'Àe+Àe,ÀeeÀekÀe»ÀfÀf<ÀfBÀfÀf©ÀfÚÀfúÀg%ÀgDÀgRÀgXÀgpÀg‡Àg¢Àg¦Àg§ÀgãÀgéÀh8ÀhpÀh¦ÀhÇÀhóÀiÀi$Ài*ÀiFÀi]ÀixÀi|Ài}Ài¾Ài¿ÀiËÀiØÀjÀj1Àj{Àj|Àj‘Àj°Àj÷Àk0ÀkxÀk³ÀkĞÀkëÀlÀl$ÀlBÀl\Àl²ÀlºÀlÇÀlêÀlğÀlôÀlõÀmÀm]Àm©Àm÷Àn;Àn?Àn@ÀnLÀneÀn~ÀnÁÀnÖÀnõÀo<ÀouÀo¿ÀoúÀpÀp2ÀpLÀpkÀp‰Àp£ÀpûÀqÀqÀq)ÀqLÀqRÀqVÀqWÀqsÀqŠÀq‹ÀqÁÀqÇÀqæÀrÀr2ÀrSÀruÀr’ÀrªÀrÌÀrÒÀrÖÀr×ÀròÀsÀs(Às,Às-ÀsIÀsgÀsuÀs{Às|Às•Às·ÀsŞÀsëÀt!ÀtKÀtÀtÙÀu%Àu†ÀuÅÀuàÀuüÀvÀv ÀvvÀv¨ÀwÀw5Àw{ÀwÆÀwÌÀwĞÀwÑÀx&ÀxqÀxÀx´ÀxÎÀxŞÀxóÀyÀyUÀy^ÀykÀyÀy£Ày´Ày¸Ày¹ÀyÅÀyüÀz<ÀzJÀzPÀzhÀzƒÀz¿ÀzãÀzıÀ{À{)À{KÀ{–À{ºÀ{ÃÀ{ĞÀ|	À|À|À|À| À|nÀ|¨À|¼À|ÂÀ|ÚÀ}À} À}:À}vÀ}¸À}ÁÀ}ÈÀ}ÌÀ}ÍÀ}ÙÀ}ÿÀ~!À~RÀ~VÀ~WÀ~cÀ~¤À~ÃÀ~ŞÀ~ëÀÀ,À2À6À7ÀCÀˆÀ³ÀéÀ€=À€¢À€¦À€¨À€©À€íÀ€ñÀAÀŠÀÁÀÅÀ‚À‚OÀ‚bÀ‚À‚áÀƒÀƒ"ÀƒEÀƒ[Àƒ~Àƒ“Àƒ”ÀƒİÀƒãÀ„2À„kÀ„•À„¬À„ÎÀ„ïÀ„ıÀ…À…À…3À…SÀ…WÀ…XÀ…dÀ…ªÀ…íÀ†*À†hÀ†‚À†ºÀ†¾À†¿À‡À‡UÀ‡xÀ‡~À‡ÎÀˆÀˆ9Àˆ:ÀˆFÀˆ”Àˆ³ÀˆÙÀˆùÀ‰GÀ‰YÀ‰sÀ‰¯À‰ñÀ‰úÀŠÀŠÀŠÀŠÀŠIÀŠhÀŠÀŠ”ÀŠ¥À‹À‹À‹À‹À‹À‹(À‹iÀ‹ËÀ‹ÏÀ‹ĞÀ‹ÜÀŒ!ÀŒLÀŒ™ÀŒğÀŒôÀŒöÀŒ÷À1À5ÀiÀ³À´ÀîÀòÀ&ÀpÀqÀ©À­ÀáÀ'À(ÀdÀhÀœÀêÀëÀ-À1ÀeÀ¿ÀÀÀ‘À‘À‘;À‘—À‘˜À‘ØÀ‘ÜÀ’À’fÀ’gÀ’£À’§À’ÛÀ“)À“*À“dÀ“hÀ“°À“üÀ” À”PÀ”–À”ÁÀ”ÅÀ•À•	À•XÀ• À•éÀ•ïÀ–9À–SÀ–kÀ–ƒÀ–™À–²À–ÌÀ–ìÀ—À—+À—EÀ—YÀ—jÀ—pÀ—qÀ—»À˜À˜À˜GÀ˜HÀ˜˜À˜ÃÀ˜ÄÀ™À™1À™XÀ™YÀ™§À™ÔÀ™ÕÀš%ÀšUÀš„Àš…ÀšÊÀ›À›À›/À›lÀ›mÀ›”À›ËÀ›ÌÀœÀœ7Àœ8ÀœDÀœÀœŸÀœ£Àœ¤Àœ°ÀœíÀÀ5ÀmÀ¥ÀÙÀÀOÀ—ÀáÀŸ%ÀŸaÀŸrÀŸyÀŸ}ÀŸ~ÀŸŠÀŸÏÀŸúÀ À NÀ mÀ ŒÀ §À ÈÀ ëÀ¡À¡KÀ¡vÀ¡™À¡¶À¡½À¡ÁÀ¡ÃÀ¡ÄÀ¢À¢À¢bÀ¢¯À¢ÍÀ¢ÑÀ£ À£pÀ£‘À£•À£ØÀ£ÜÀ¤.À¤2À¤@À¤DÀ¤†À¤¢À¤äÀ¥À¥UÀ¥[À¥§À¥òÀ¦À¦À¦,À¦=À¦iÀ¦À¦§À¦¸À¦÷À§À§EÀ§^À§¡À§¢À§®À§ôÀ¨5À¨9À¨:À¨FÀ¨ƒÀ¨¯À¨ÕÀ¨ñÀ¨÷À¨ûÀ¨üÀ©MÀ©À©¹À©¿ÀªÀªPÀª˜ÀªÓÀªÙÀ«*À«uÀ«šÀ« À«½À«ÛÀ«ëÀ¬À¬"À¬9À¬†À¬À¬¤À¬¨À¬©À¬ÑÀ¬×À­À­DÀ­tÀ­ºÀ­ÚÀ­õÀ®BÀ®ZÀ®`À®dÀ®eÀ®qÀ®—À®˜À®ãÀ®úÀ¯ À¯DÀ¯jÀ¯kÀ¯wÀ¯›À¯œÀ¯¨À¯ÍÀ¯äÀ°À°"À°9À°}À°ºÀ°ÒÀ°ØÀ°ÜÀ°İÀ°éÀ±#À±AÀ±BÀ±NÀ±sÀ±ŒÀ±®À±²À±³À±¿À±ÑÀ²À²wÀ²ŸÀ²ÂÀ²ÖÀ²ÚÀ²ÛÀ²çÀ³"À³BÀ³FÀ³GÀ³SÀ³˜À³ÃÀ³×À´À´1À´KÀ´cÀ´€À´‡À´›À´öÀ´ıÀµRÀµfÀµzÀµšÀµ¿ÀµÛÀ¶À¶À¶À¶À¶À¶À¶RÀ¶VÀ¶¢À¶îÀ·;À·‡À·ÕÀ¸&À¸AÀ¸EÀ¸”À¸âÀ¹3À¹‚À¹ÍÀºÀºkÀº®Àº²ÀºøÀ»EÀ»‘À»àÀ¼'À¼tÀ¼©À¼ÚÀ½À½À½#À½IÀ½JÀ½”À½¤À½ªÀ½úÀ¾6À¾<À¾À¾»À¾ÁÀ¿À¿HÀ¿—À¿æÀÀÀÀÀÀ$ÀÀ*ÀÀqÀÀ“ÀÀ™ÀÀ§ÀÀÔÀÀøÀÀşÀÁÀÁIÀÁQÀÁWÀÁŠÀÁµÀÁ»ÀÁæÀÂ_ÀÂšÀÂ÷ÀÃ<ÀÃWÀÃaÀÃgÀÃyÀÃ¦ÀÃÈÀÃäÀÃÿÀÄ ÀÄHÀÄœÀÄ­ÀÄ¼ÀÄÉÀÄÓÀÄÛÀÄåÀÄ÷ÀÄıÀÅÀÅÀÅXÀÅ¨ÀÅàÀÅşÀÆ-ÀÆyÀÆ}ÀÆ~ÀÆÈÀÆæÀÆìÀÇ<ÀÇxÀÇ~ÀÇÓÀÈÀÈÀÈUÀÈÀÈİÀÉ,ÀÉNÀÉTÀÉ¦ÀÉõÀÉûÀÊÀÊÀÊ^ÀÊŠÀÊÀÊÀÊÔÀËÀËÀËÀËdÀËlÀËrÀË·ÀËâÀËèÀÌÀÌ€ÀÌ¹ÀÌşÀÍÀÍÀÍ ÀÍMÀÍoÀÍ‹ÀÍ¦ÀÍÇÀÍñÀÎEÀÎVÀÎeÀÎrÀÎ|ÀÎ„ÀÎÀÎ ÀÎ¦ÀÎ¶ÀÎ¼ÀÏÀÏYÀÏÀÏ«ÀÏÚÀĞ*ÀĞ.ÀĞ/ÀĞÀĞÎÀÑÀÑgÀÑmÀÑºÀÑÆÀÑÌÀÒÀÒgÀÒ|ÀÒ½ÀÒâÀÒãÀÓ2ÀÓ€ÀÓÌÀÔÀÔaÀÔ—ÀÔÀÔêÀÔöÀÔüÀÕMÀÕ˜ÀÕ°ÀÕóÀÖÀÖÀÖfÀÖ|ÀÖ‚ÀÖÍÀÖêÀÖúÀ×À×EÀ×XÀ×bÀ×fÀ×gÀ×sÀ×ØÀ×èÀØÀØ=ÀØLÀØuÀØ}ÀØÀØšÀØÀØŸÀØ«ÀØğÀÙÀÙ9ÀÙIÀÙfÀÙºÀÙØÀÙğÀÚKÀÚVÀÚeÀÚ®ÀÚãÀÛÀÛUÀÛºÀÜÀÜÀÜ«ÀÜ¾ÀİÀİPÀİªÀŞÀŞÀŞÀŞ(ÀŞCÀŞZÀŞpÀŞŒÀŞåÀŞòÀŞıÀß>ÀßFÀßYÀßcÀß|Àß’ÀßñÀßúÀà ÀàÀàÀàÀàAÀàEÀà”ÀàãÀá4Àá]ÀáaÀárÀávÀáÃÀáÒÀáÖÀâÀâÀâLÀâPÀâ^ÀâbÀâ°ÀâŞÀãÀãQÀãiÀãÀã™ÀãªÀãúÀä6Àä<ÀäYÀävÀä¥ÀäºÀä»ÀäûÀåÀåRÀåŸÀå¥ÀåÜÀåşÀæÀæ-ÀæKÀæYÀæ_ÀævÀæ›Àæ½ÀæÃÀæÇÀæÈÀç(Àç.ÀçmÀçsÀçÂÀçÑÀèÀèYÀè]Àè’Àè®ÀèÕÀèüÀé
+ÀéÀé0ÀéPÀéTÀéUÀéaÀé§ÀéêÀéîÀéïÀéûÀê;ÀêbÀêpÀêvÀê¤Àê¨Àê©ÀêµÀêüÀë.ÀëÀëœÀëêÀëîÀëïÀëûÀì@ÀìkÀì±ÀìÅÀìæÀíÀíÀízÀíƒÀíŠÀíÀíÀí‘ÀíáÀî0ÀîHÀîvÀîŸÀï ÀïÀï>ÀïDÀïÀïàÀğÀğÀğPÀğrÀğ„Àğ¡Àğ¿ÀğÍÀğÓÀğêÀñÀñÀñÀñ(Àñ[ÀñoÀñÀñ‡ÀñºÀñ¾Àñ¿ÀñËÀñşÀòÀò$Àò*Àò]ÀòaÀòbÀònÀò¡ÀòµÀòÇÀòÍÀó ÀóÀóÀóÀóDÀóXÀójÀópÀó£Àó§Àó¨Àó´Àó÷ÀôÀôÀô$Àô`ÀôdÀôeÀôqÀô—Àô˜Àô¤ÀôöÀõDÀõHÀõIÀõUÀõbÀõ¢Àõ¶ÀõÙÀõßÀöÀöÀöÀö Àö9ÀöOÀöjÀönÀöoÀö{Àö”Àö¨ÀöÊÀö×ÀöôÀöúÀöşÀöÿÀ÷À÷QÀ÷”À÷˜À÷™À÷¥À÷ËÀ÷íÀøÀøÀøÀøÀøKÀø_ÀømÀøsÀø•Àø™ÀøšÀø¦ÀøæÀøúÀùÀùÀù<Àù@ÀùAÀùMÀù’Àù½ÀúÀúÀúÀúÀúEÀú^Àú€Àú†Àú¤ÀúÄÀúÛÀû2Àû;ÀûBÀûFÀûHÀûIÀû‡Àû‹ÀûÖÀü"ÀüsÀüÀÀüèÀüìÀüıÀıÀıNÀı]ÀıaÀı–ÀıšÀı×ÀıÛÀıéÀıíÀş7ÀşÀş´ÀşüÀÿÀÿ*ÀÿEÀÿVÀÿ¦ÀÿâÀÿèÀ À $À SÀ hÀ iÀ ¯À µÀ ÀOÀ_ÀeÀœÀÀÀÓÀñÀÀÀ$À<ÀaÀƒÀ‰ÀÀÀŞÀôÀúÀ9À?ÀÀÀëÀ%À)À^ÀzÀ¡ÀÈÀÖÀÜÀüÀÀ À!À-ÀsÀÏÀÓÀÔÀàÀ ÀGÀUÀ[À‰ÀÀÀšÀáÀÀdÀÀÏÀÓÀÔÀàÀ%ÀPÀ—À«ÀÌÀéÀ	À	]À	fÀ	mÀ	qÀ	sÀ	tÀ	£À	§À	øÀ
+IÀ
+”À
+¹À
+úÀ4À:À„ÀÄÀÅÀøÀÀÀÀ^À‰ÀÑÀÕÀ×ÀØÀÀ;À‹ÀÖÀøÀ	À(ÀSÀŠÀ¿ÀÜÀğÀÀ*ÀcÀ˜À™ÀèÀÀÀfÀ³ÀÔÀÚÀÀnÀ½ÀÀRÀpÀ«ÀÒÀÀ@ÀNÀTÀoÀÀ“À”ÀÊÀõÀÀ<ÀWÀeÀkÀ’À¦ÀÏÀñÀ÷ÀûÀüÀOÀŒÀ¶ÀëÀÀÀ ÀMÀgÀÀ²À¸À¼À½ÀıÀQÀ‡ÀÈÀôÀÀÀ@ÀeÀÀ°À¶ÀºÀ»ÀêÀ:ÀnÀ­À×ÀåÀëÀ!ÀDÀmÀÀ•À™ÀšÀİÀ$ÀdÀ£À¹ÀĞÀÑÀİÀ$ÀVÀWÀ—À³À¹ÀÀ-À3À]À–ÀÒÀÚÀÀLÀTÀZÀ‚À¸ÀîÀöÀ.ÀhÀpÀvÀzÀ{À«ÀîÀòÀóÀ À CÀ À  À »À çÀ!À!PÀ![À!dÀ!jÀ!nÀ!oÀ!–À!ÀÀ!ıÀ"À"7À"cÀ"‰À"ÌÀ"×À"àÀ"æÀ"êÀ"ëÀ#À#7À#vÀ#“À#®À#ÚÀ$ À$CÀ$NÀ$WÀ$]À$aÀ$bÀ$ˆÀ$°À$îÀ%À%&À%RÀ%xÀ%»À%ÆÀ%ÏÀ%ÕÀ%ÙÀ%ÚÀ%æÀ&+À&VÀ&uÀ&•À&ÂÀ'À'<À'CÀ'_À'}À'ƒÀ'ÇÀ'ËÀ'ÍÀ'ÎÀ(À(dÀ(§À(­À)À)7À)MÀ)zÀ)–À)»À)ŞÀ*À*À*AÀ*WÀ*uÀ*“À*¯À*İÀ+À+1À+[À+À+†À+ŠÀ+ŒÀ+À+ÜÀ+øÀ+üÀ,KÀ,À,³À-À-À-PÀ-lÀ-€À-À-ÎÀ.À.@À.RÀ.oÀ.À.›À.¡À.¸À.ØÀ.ÜÀ.İÀ.éÀ/0À/bÀ/¥À/©À/ªÀ/¶À/ûÀ0&À0kÀ0oÀ0qÀ0rÀ0µÀ0øÀ1À1À1WÀ1À1ĞÀ2À2RÀ2À2À2šÀ2áÀ3À3À3@À3pÀ3tÀ3vÀ3wÀ3©À3­À3üÀ4À4À4cÀ4À4ÔÀ5À5aÀ5À5“À5”À5ÙÀ5ıÀ6À6.À6MÀ6[À6aÀ6yÀ6™À6À6À6ªÀ6êÀ6ÿÀ7À7À7AÀ7EÀ7FÀ7RÀ7—À7ÂÀ8	À8À8À8À8MÀ8QÀ8›À8äÀ9À9@À9DÀ9RÀ9VÀ9™À9ÏÀ:À:€À:À:´À:ÏÀ:İÀ:öÀ;À;À;$À;8À;XÀ;\À;]À;iÀ;°À;âÀ<À<À<	À<À<ZÀ<…À<ÃÀ<ÇÀ<ÉÀ<ÊÀ<şÀ=À=À=À=RÀ=“À=ÄÀ=ıÀ>\À>]À>«À>ÉÀ>ÏÀ? À?:À?YÀ?lÀ?ŠÀ?¤À?²À?¸À?ÕÀ?èÀ@À@=À@CÀ@YÀ@]À@^À@jÀ@•À@–À@äÀA2ÀAtÀA‘ÀA’ÀAÀA·ÀAÒÀAòÀBÀBÀBÀBÀBVÀBoÀB¦ÀB³ÀBäÀBöÀCÀC'ÀC-ÀCfÀCvÀC ÀC³ÀC½ÀCÁÀCÂÀCÎÀDÀD>ÀD€ÀD„ÀD†ÀD‡ÀDÕÀEÀEÀEXÀE\ÀE§ÀEøÀFÀFÀFÀF"ÀFbÀF¥ÀFØÀGÀG+ÀGHÀGjÀG‹ÀG»ÀGíÀHÀHÀHEÀH^ÀHƒÀH¬ÀHÁÀHÂÀIÀI>ÀI]ÀIpÀIÀI¨ÀI¶ÀI¼ÀIÏÀIåÀIéÀIêÀJ.ÀJlÀJrÀJÃÀKÀKÀK\ÀK«ÀKßÀLÀL+ÀLPÀLvÀL„ÀLŠÀL©ÀL¿ÀLÃÀLÄÀMÀM;ÀM[ÀMmÀMŠÀM¦ÀM´ÀMºÀMÏÀMåÀMéÀMêÀN9ÀNRÀNXÀNÀNâÀO1ÀOsÀOÂÀPÀPEÀPnÀPƒÀP‰ÀP°ÀPßÀPúÀQ ÀQBÀQPÀQVÀQqÀQ‡ÀQ‹ÀQŒÀQØÀRÀRÀRZÀR`ÀR‡ÀRºÀR×ÀRÿÀS#ÀS1ÀS7ÀSTÀSjÀSnÀSoÀS{ÀSÀSŸÀS³ÀS·ÀS¸ÀSÄÀSïÀSğÀT&ÀT2ÀToÀTpÀTÀÀTÆÀUÀUGÀU–ÀU°ÀUÒÀVÀVÀVÀVÀVeÀV¦ÀVÚÀVîÀVôÀW/ÀWlÀWªÀWÄÀWüÀX ÀXÀXÀX[ÀX„ÀX¬ÀXÆÀYÀYDÀYMÀYTÀYXÀYYÀYeÀYœÀYÊÀYÖÀZ1ÀZ†ÀZÑÀZüÀ[À[?À[UÀ[²À[ËÀ[èÀ[üÀ\(À\UÀ\uÀ\~À\‹À\—À\®À\ÜÀ]À].À]4À]KÀ]YÀ]lÀ]À]¬À^
+À^+À^LÀ^eÀ^~À^‡À^À^À^ÈÀ^ÛÀ^åÀ^éÀ^êÀ^öÀ_7À_fÀ_jÀ_kÀ_wÀ_¼À_çÀ`)À`~À`ÁÀaÀaÀa!Àa"ÀaqÀauÀaƒÀa‡ÀaËÀbÀbWÀbÀb°Àb¶ÀcÀc5Àc;ÀcjÀc½ÀcÓÀcéÀd&Àd:Àd;ÀdtÀdÀd™Àd³ÀdÑÀdßÀdåÀdüÀeÀeÀeÀekÀe‡Àe–Àe°ÀeËÀeÙÀeßÀeóÀf	ÀfÀfÀfIÀfJÀfVÀf‚ÀfƒÀfÀfÆÀg ÀgKÀgXÀgyÀgÀg¥ÀgÅÀgøÀgüÀgıÀh	ÀhÀh;ÀhPÀhTÀhV   /RenderProxyBoxRenderProxyBoxMixinHitTestBehavior!RenderProxyBoxWithHitTestBehaviorRenderConstrainedBoxRenderLimitedBoxRenderAspectRatioRenderIntrinsicWidthRenderIntrinsicHeightRenderIgnoreBaselineRenderOpacityRenderAnimatedOpacityMixinRenderAnimatedOpacityRenderShaderMaskRenderBackdropFilterCustomClipperShapeBorderClipper_RenderCustomClipRenderClipRectRenderClipRRectRenderClipRSuperellipseRenderClipOvalRenderClipPath_RenderPhysicalModelBaseRenderPhysicalModelRenderPhysicalShapeDecorationPositionRenderDecoratedBoxRenderTransformRenderFittedBoxRenderFractionalTranslationRenderPointerListenerRenderMouseRegionRenderRepaintBoundaryRenderIgnorePointerRenderOffstageRenderAbsorbPointerRenderMetaDataRenderSemanticsGestureHandlerRenderSemanticsAnnotationsRenderBlockSemanticsRenderMergeSemanticsRenderExcludeSemanticsRenderIndexedSemanticsRenderLeaderLayerRenderFollowerLayerRenderAnnotatedRegion2flutter.rendering.RenderFollowerLayer.leaderAnchor¦For example, when [leaderAnchor] and [followerAnchor] are both
+[Alignment.topLeft], this [RenderFollowerLayer] will be top left aligned
+with the linked [RenderLeaderLayer]. When [leaderAnchor] is
+[Alignment.bottomLeft] and [followerAnchor] is [Alignment.topLeft], this
+[RenderFollowerLayer] will be left aligned with the linked
+[RenderLeaderLayer], and its top edge will line up with the
+[RenderLeaderLayer]'s bottom edge. ‹«
