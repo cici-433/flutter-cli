@@ -2,8 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_scaffold_demo/app/app.dart';
 import 'package:flutter_scaffold_demo/app/app_scope.dart';
 
-void main() {
+Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  final scope = AppScope.create();
+  final scope = await AppScope.create();
+  FlutterError.onError = (details) {
+    scope.logger.error('flutter_error', error: details.exception, stackTrace: details.stack, tag: 'flutter');
+  };
   runApp(App(scope: scope));
 }

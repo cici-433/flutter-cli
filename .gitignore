@@ -1,3 +1,17 @@
 .fvm/
 .dart_tool/
+.dart-tool/
 .pub-cache/
+.dartServer/
+.dart-cli-completion/
+.vscode/
+.idea/
+*.iml
+.DS_Store
+build/
+Library/
+.config/
+.flutter
+.fvmrc
+.flutter-plugins
+.flutter-plugins-dependencies
