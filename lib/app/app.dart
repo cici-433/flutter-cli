@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_scaffold_demo/app/app_scope.dart';
 import 'package:flutter_scaffold_demo/app/router/app_router.dart';
 
-class App extends StatelessWidget {
-  const App({super.key, required this.scope});
-
-  final AppScope scope;
+class App extends ConsumerWidget {
+  const App({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final AppScope scope = ref.watch(appScopeProvider);
     return MaterialApp(
       title: 'Layered Modular Demo',
       theme: ThemeData(
@@ -16,7 +16,7 @@ class App extends StatelessWidget {
       ),
       navigatorKey: scope.router.navigatorKey,
       initialRoute: AppRouter.shellRoute,
-      routes: AppRouter.buildRoutes(scope),
+      routes: AppRouter.buildRoutes(),
     );
   }
 }

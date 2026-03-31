@@ -1,22 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:scaffold_core/core_router/core_router.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_scaffold_demo/feature/login/presentation/viewmodels/login_view_model.dart';
+import 'package:flutter_scaffold_demo/app/app_scope.dart';
 
-class LoginPage extends StatefulWidget {
-  const LoginPage({
-    super.key,
-    required this.viewModel,
-    required this.router,
-  });
-
-  final LoginViewModel viewModel;
-  final CoreRouter router;
+class LoginPage extends ConsumerStatefulWidget {
+  const LoginPage({super.key});
 
   @override
-  State<LoginPage> createState() => _LoginPageState();
+  ConsumerState<LoginPage> createState() => _LoginPageState();
 }
 
-class _LoginPageState extends State<LoginPage> {
+class _LoginPageState extends ConsumerState<LoginPage> {
   final TextEditingController _accountController = TextEditingController(
     text: 'demo_user',
   );
@@ -25,31 +19,24 @@ class _LoginPageState extends State<LoginPage> {
   );
 
   @override
-  void initState() {
-    super.initState();
-    widget.viewModel.addListener(_onViewModelChanged);
-  }
-
-  @override
   void dispose() {
-    widget.viewModel.removeListener(_onViewModelChanged);
-    widget.viewModel.dispose();
     _accountController.dispose();
     _passwordController.dispose();
     super.dispose();
   }
 
-  void _onViewModelChanged() {
-    setState(() {});
-    final session = widget.viewModel.session;
-    if (session != null && mounted) {
-      widget.router.pop();
-    }
-  }
-
   @override
   Widget build(BuildContext context) {
-    final vm = widget.viewModel;
+    final router = ref.watch(routerProvider);
+    final state = ref.watch(loginControllerProvider);
+
+    ref.listen(loginControllerProvider, (previous, next) {
+      final session = next.valueOrNull;
+      if (session != null) {
+        router.pop();
+      }
+    });
+
     return Scaffold(
       appBar: AppBar(title: const Text('Login 模块')),
       body: Padding(
@@ -71,20 +58,20 @@ class _LoginPageState extends State<LoginPage> {
             ),
             const SizedBox(height: 12),
             ElevatedButton(
-              onPressed: vm.loading
+              onPressed: state.isLoading
                   ? null
                   : () {
-                      vm.login(
+                      ref.read(loginControllerProvider.notifier).login(
                         account: _accountController.text,
                         password: _passwordController.text,
                       );
                     },
-              child: Text(vm.loading ? '登录中...' : '登录'),
+              child: Text(state.isLoading ? '登录中...' : '登录'),
             ),
-            if (vm.errorMessage != null) ...<Widget>[
+            if (state.hasError) ...<Widget>[
               const SizedBox(height: 12),
               Text(
-                vm.errorMessage!,
+                state.error.toString(),
                 style: TextStyle(color: Theme.of(context).colorScheme.error),
               ),
             ],

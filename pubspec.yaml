@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.6.1
   scaffold_core:
     path: packages/scaffold_core
   dio: ^5.4.0

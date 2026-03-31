@@ -1,43 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:scaffold_core/core_router/core_router.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_scaffold_demo/app/router/app_router.dart';
+import 'package:flutter_scaffold_demo/app/app_scope.dart';
 import 'package:flutter_scaffold_demo/feature/mine/presentation/viewmodels/mine_view_model.dart';
 
-class MinePage extends StatefulWidget {
-  const MinePage({
-    super.key,
-    required this.viewModel,
-    required this.router,
-  });
-
-  final MineViewModel viewModel;
-  final CoreRouter router;
+class MinePage extends ConsumerWidget {
+  const MinePage({super.key});
 
   @override
-  State<MinePage> createState() => _MinePageState();
-}
-
-class _MinePageState extends State<MinePage> {
-  @override
-  void initState() {
-    super.initState();
-    widget.viewModel.addListener(_onChanged);
-    widget.viewModel.refreshOrderCount();
-  }
-
-  @override
-  void dispose() {
-    widget.viewModel.removeListener(_onChanged);
-    super.dispose();
-  }
-
-  void _onChanged() {
-    setState(() {});
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    final vm = widget.viewModel;
+  Widget build(BuildContext context, WidgetRef ref) {
+    final vm = ref.watch(mineControllerProvider);
     return Padding(
       padding: const EdgeInsets.all(16),
       child: Column(
@@ -47,7 +19,11 @@ class _MinePageState extends State<MinePage> {
           const SizedBox(height: 8),
           Text(vm.session == null ? '当前未登录' : '账号: ${vm.session!.userName}'),
           const SizedBox(height: 8),
-          Text('通过 OrderQueryService 获取的订单总数: ${vm.orderCount}'),
+          vm.orderCount.when(
+            loading: () => const Text('订单总数加载中...'),
+            error: (error, _) => Text('订单总数加载失败: $error'),
+            data: (count) => Text('通过 OrderQueryService 获取的订单总数: $count'),
+          ),
           const SizedBox(height: 8),
           Text('最近认证事件: ${vm.lastAuthEvent}'),
           const SizedBox(height: 12),
@@ -55,11 +31,13 @@ class _MinePageState extends State<MinePage> {
             spacing: 8,
             children: <Widget>[
               ElevatedButton(
-                onPressed: () => widget.router.push(AppRouter.loginRoute),
+                onPressed: () => ref.read(routerProvider).push(AppRouter.loginRoute),
                 child: const Text('登录/切换'),
               ),
               OutlinedButton(
-                onPressed: vm.session == null ? null : vm.logout,
+                onPressed: vm.session == null
+                    ? null
+                    : () => ref.read(mineControllerProvider.notifier).logout(),
                 child: const Text('退出登录'),
               ),
             ],

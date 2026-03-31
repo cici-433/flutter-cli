@@ -1,3 +1,4 @@
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:scaffold_core/core_common/module_event_bus.dart';
 import 'package:scaffold_core/core_logger/logger.dart';
 import 'package:scaffold_core/core_router/core_router.dart';
@@ -18,10 +19,6 @@ import 'package:flutter_scaffold_demo/domain/auth/login_use_case.dart';
 import 'package:flutter_scaffold_demo/domain/order/create_order_use_case.dart';
 import 'package:flutter_scaffold_demo/domain/order/fetch_orders_use_case.dart';
 import 'package:flutter_scaffold_demo/domain/order/order_query_service.dart';
-import 'package:flutter_scaffold_demo/feature/home/presentation/viewmodels/home_view_model.dart';
-import 'package:flutter_scaffold_demo/feature/login/presentation/viewmodels/login_view_model.dart';
-import 'package:flutter_scaffold_demo/feature/mine/presentation/viewmodels/mine_view_model.dart';
-import 'package:flutter_scaffold_demo/feature/order/presentation/viewmodels/order_view_model.dart';
 
 class AppScope {
   AppScope({
@@ -91,36 +88,48 @@ class AppScope {
     scope.logger.info('app_scope initialized', tag: 'app');
     return scope;
   }
-
-  LoginViewModel createLoginViewModel() {
-    return LoginViewModel(
-      loginUseCase: loginUseCase,
-      eventBus: eventBus,
-    );
-  }
-
-  HomeViewModel createHomeViewModel() {
-    return HomeViewModel(
-      authSessionService: authSessionService,
-      orderQueryService: orderQueryService,
-      eventBus: eventBus,
-    );
-  }
-
-  MineViewModel createMineViewModel() {
-    return MineViewModel(
-      authSessionService: authSessionService,
-      logoutUseCase: logoutUseCase,
-      orderQueryService: orderQueryService,
-      eventBus: eventBus,
-    );
-  }
-
-  OrderViewModel createOrderViewModel() {
-    return OrderViewModel(
-      fetchOrdersUseCase: fetchOrdersUseCase,
-      createOrderUseCase: createOrderUseCase,
-      eventBus: eventBus,
-    );
-  }
 }
+
+final appScopeProvider = Provider<AppScope>(
+  (ref) => throw UnimplementedError(),
+);
+
+final appLoggerProvider = Provider<AppLogger>((ref) {
+  return ref.watch(appScopeProvider).logger;
+});
+
+final eventBusProvider = Provider<ModuleEventBus>((ref) {
+  return ref.watch(appScopeProvider).eventBus;
+});
+
+final routerProvider = Provider<CoreRouter>((ref) {
+  return ref.watch(appScopeProvider).router;
+});
+
+final storageProvider = Provider<CoreStorage>((ref) {
+  return ref.watch(appScopeProvider).storage;
+});
+
+final authSessionServiceProvider = Provider<AuthSessionService>((ref) {
+  return ref.watch(appScopeProvider).authSessionService;
+});
+
+final orderQueryServiceProvider = Provider<OrderQueryService>((ref) {
+  return ref.watch(appScopeProvider).orderQueryService;
+});
+
+final loginUseCaseProvider = Provider<LoginUseCase>((ref) {
+  return ref.watch(appScopeProvider).loginUseCase;
+});
+
+final logoutUseCaseProvider = Provider<LogoutUseCase>((ref) {
+  return ref.watch(appScopeProvider).logoutUseCase;
+});
+
+final fetchOrdersUseCaseProvider = Provider<FetchOrdersUseCase>((ref) {
+  return ref.watch(appScopeProvider).fetchOrdersUseCase;
+});
+
+final createOrderUseCaseProvider = Provider<CreateOrderUseCase>((ref) {
+  return ref.watch(appScopeProvider).createOrderUseCase;
+});

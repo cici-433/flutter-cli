@@ -1,66 +1,59 @@
-import 'package:flutter/foundation.dart';
 import 'package:scaffold_core/core_common/module_event_bus.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter_scaffold_demo/app/app_scope.dart';
 import 'package:flutter_scaffold_demo/domain/order/create_order_use_case.dart';
 import 'package:flutter_scaffold_demo/domain/order/fetch_orders_use_case.dart';
 import 'package:flutter_scaffold_demo/domain/order/order_info.dart';
 
-class OrderViewModel extends ChangeNotifier {
-  OrderViewModel({
-    required FetchOrdersUseCase fetchOrdersUseCase,
-    required CreateOrderUseCase createOrderUseCase,
-    required ModuleEventBus eventBus,
-  })  : _fetchOrdersUseCase = fetchOrdersUseCase,
-        _createOrderUseCase = createOrderUseCase,
-        _eventBus = eventBus;
+final orderControllerProvider =
+    AutoDisposeAsyncNotifierProvider<OrderController, List<OrderInfo>>(
+  OrderController.new,
+);
 
-  final FetchOrdersUseCase _fetchOrdersUseCase;
-  final CreateOrderUseCase _createOrderUseCase;
-  final ModuleEventBus _eventBus;
+class OrderController extends AutoDisposeAsyncNotifier<List<OrderInfo>> {
+  @override
+  Future<List<OrderInfo>> build() async {
+    return _fetchOrders(forceRefresh: false);
+  }
 
-  bool _loading = false;
-  String? _errorMessage;
-  List<OrderInfo> _orders = <OrderInfo>[];
+  Future<List<OrderInfo>> _fetchOrders({required bool forceRefresh}) async {
+    final FetchOrdersUseCase fetchOrdersUseCase =
+        ref.read(fetchOrdersUseCaseProvider);
+    final ModuleEventBus eventBus = ref.read(eventBusProvider);
 
-  bool get loading => _loading;
-  String? get errorMessage => _errorMessage;
-  List<OrderInfo> get orders => List<OrderInfo>.unmodifiable(_orders);
+    final orders = await fetchOrdersUseCase.execute(forceRefresh: forceRefresh);
+    eventBus.publish(
+      ModuleEvent(
+        sourceModule: 'order',
+        topic: 'orders_synced',
+        message: '订单列表已同步，共 ${orders.length} 条',
+        timestamp: DateTime.now(),
+      ),
+    );
+    return orders;
+  }
 
   Future<void> load({bool forceRefresh = false}) async {
-    _loading = true;
-    _errorMessage = null;
-    notifyListeners();
-    try {
-      final orders = await _fetchOrdersUseCase.execute(forceRefresh: forceRefresh);
-      _orders = orders;
-      _eventBus.publish(
-        ModuleEvent(
-          sourceModule: 'order',
-          topic: 'orders_synced',
-          message: '订单列表已同步，共 ${orders.length} 条',
-          timestamp: DateTime.now(),
-        ),
-      );
-    } catch (error) {
-      _errorMessage = error.toString();
-    } finally {
-      _loading = false;
-      notifyListeners();
-    }
+    state = const AsyncLoading();
+    state = await AsyncValue.guard(
+      () => _fetchOrders(forceRefresh: forceRefresh),
+    );
   }
 
   Future<void> createMockOrder() async {
-    _loading = true;
-    _errorMessage = null;
-    notifyListeners();
-    try {
+    final CreateOrderUseCase createOrderUseCase =
+        ref.read(createOrderUseCaseProvider);
+    final ModuleEventBus eventBus = ref.read(eventBusProvider);
+
+    state = const AsyncLoading();
+    state = await AsyncValue.guard(() async {
       final now = DateTime.now();
-      final orders = await _createOrderUseCase.execute(
+      final orders = await createOrderUseCase.execute(
         title: '演示订单 ${now.hour}:${now.minute}:${now.second}',
         amount: 88 + now.second.toDouble(),
       );
-      _orders = orders;
       final created = orders.first;
-      _eventBus.publish(
+      eventBus.publish(
         ModuleEvent(
           sourceModule: 'order',
           topic: 'order_created',
@@ -68,11 +61,7 @@ class OrderViewModel extends ChangeNotifier {
           timestamp: DateTime.now(),
         ),
       );
-    } catch (error) {
-      _errorMessage = error.toString();
-    } finally {
-      _loading = false;
-      notifyListeners();
-    }
+      return orders;
+    });
   }
 }
