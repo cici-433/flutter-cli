@@ -14,6 +14,7 @@ class App extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
       ),
+      navigatorKey: scope.router.navigatorKey,
       initialRoute: AppRouter.shellRoute,
       routes: AppRouter.buildRoutes(scope),
     );

@@ -1,5 +1,7 @@
 import 'package:scaffold_core/core_common/module_event_bus.dart';
 import 'package:scaffold_core/core_logger/logger.dart';
+import 'package:scaffold_core/core_router/core_router.dart';
+import 'package:scaffold_core/core_router/navigator_core_router.dart';
 import 'package:flutter_scaffold_demo/data/auth/in_memory_auth_session_service.dart';
 import 'package:flutter_scaffold_demo/app/core/network.dart';
 import 'package:flutter_scaffold_demo/data/auth/login_local_data_source.dart';
@@ -24,6 +26,7 @@ class AppScope {
   AppScope({
     required this.logger,
     required this.eventBus,
+    required this.router,
     required this.authSessionService,
     required this.orderQueryService,
     required this.loginUseCase,
@@ -34,6 +37,7 @@ class AppScope {
 
   final AppLogger logger;
   final ModuleEventBus eventBus;
+  final CoreRouter router;
   final AuthSessionService authSessionService;
   final OrderQueryService orderQueryService;
   final LoginUseCase loginUseCase;
@@ -44,8 +48,9 @@ class AppScope {
   factory AppScope.create() {
     final logger = AppLogger();
     final eventBus = ModuleEventBus();
+    final router = NavigatorCoreRouter();
     final authSessionService = InMemoryAuthSessionService();
-    final networkClient = AppNetwork().client;
+    final networkClient = AppNetwork(auth: authSessionService).client;
     final loginRemoteDataSource = LoginRemoteDataSource(networkClient);
     final loginLocalDataSource = LoginLocalDataSource();
     final loginRepository = LoginRepositoryImpl(
@@ -66,6 +71,7 @@ class AppScope {
     return AppScope(
       logger: logger,
       eventBus: eventBus,
+      router: router,
       authSessionService: authSessionService,
       orderQueryService: orderQueryService,
       loginUseCase: loginUseCase,

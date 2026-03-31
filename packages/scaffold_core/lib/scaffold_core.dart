@@ -4,6 +4,7 @@
 /// - 事件总线（core_common）
 /// - 日志（core_logger）
 /// - 网络客户端（core_network）
+/// - 路由（core_router）
 ///
 /// 设计原则：
 /// - 不依赖 Flutter/App 代码，只使用 Dart
@@ -18,6 +19,8 @@ export 'core_network/network_client.dart';
 export 'core_network/types.dart';
 export 'core_network/errors.dart';
 export 'core_network/serializer.dart';
+export 'core_router/core_router.dart';
+export 'core_router/navigator_core_router.dart';
 export 'core_network/interceptors/auth_interceptor.dart';
 export 'core_network/interceptors/header_injector_interceptor.dart';
 export 'core_network/interceptors/logging_interceptor.dart';

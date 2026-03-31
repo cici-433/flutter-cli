@@ -1,11 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:scaffold_core/core_common/module_event_bus.dart';
+import 'package:scaffold_core/core_router/core_router.dart';
+import 'package:flutter_scaffold_demo/app/router/app_router.dart';
 import 'package:flutter_scaffold_demo/feature/home/presentation/viewmodels/home_view_model.dart';
 
 class HomePage extends StatefulWidget {
-  const HomePage({super.key, required this.viewModel});
+  const HomePage({
+    super.key,
+    required this.viewModel,
+    required this.router,
+  });
 
   final HomeViewModel viewModel;
+  final CoreRouter router;
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -48,7 +55,7 @@ class _HomePageState extends State<HomePage> {
           ],
           const SizedBox(height: 12),
           ElevatedButton(
-            onPressed: () => Navigator.of(context).pushNamed('/login'),
+            onPressed: () => widget.router.push(AppRouter.loginRoute),
             child: Text(vm.session == null ? '去登录' : '切换账号'),
           ),
           const SizedBox(height: 16),

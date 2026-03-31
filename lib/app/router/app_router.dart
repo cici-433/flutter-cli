@@ -11,7 +11,7 @@ class AppRouter {
     return <String, WidgetBuilder>{
       shellRoute: (BuildContext context) => ShellPage(scope: scope),
       loginRoute: (BuildContext context) =>
-          LoginPage(viewModel: scope.createLoginViewModel()),
+          LoginPage(viewModel: scope.createLoginViewModel(), router: scope.router),
     };
   }
 }

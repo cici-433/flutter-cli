@@ -33,8 +33,8 @@ class _ShellPageState extends State<ShellPage> {
   @override
   Widget build(BuildContext context) {
     final pages = <Widget>[
-      HomePage(viewModel: _homeViewModel),
-      MinePage(viewModel: _mineViewModel),
+      HomePage(viewModel: _homeViewModel, router: widget.scope.router),
+      MinePage(viewModel: _mineViewModel, router: widget.scope.router),
       OrderPage(viewModel: _orderViewModel),
     ];
     return Scaffold(

@@ -1,10 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:scaffold_core/core_router/core_router.dart';
 import 'package:flutter_scaffold_demo/feature/login/presentation/viewmodels/login_view_model.dart';
 
 class LoginPage extends StatefulWidget {
-  const LoginPage({super.key, required this.viewModel});
+  const LoginPage({
+    super.key,
+    required this.viewModel,
+    required this.router,
+  });
 
   final LoginViewModel viewModel;
+  final CoreRouter router;
 
   @override
   State<LoginPage> createState() => _LoginPageState();
@@ -37,7 +43,7 @@ class _LoginPageState extends State<LoginPage> {
     setState(() {});
     final session = widget.viewModel.session;
     if (session != null && mounted) {
-      Navigator.of(context).pop();
+      widget.router.pop();
     }
   }
 

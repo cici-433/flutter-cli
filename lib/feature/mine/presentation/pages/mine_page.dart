@@ -1,10 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:scaffold_core/core_router/core_router.dart';
+import 'package:flutter_scaffold_demo/app/router/app_router.dart';
 import 'package:flutter_scaffold_demo/feature/mine/presentation/viewmodels/mine_view_model.dart';
 
 class MinePage extends StatefulWidget {
-  const MinePage({super.key, required this.viewModel});
+  const MinePage({
+    super.key,
+    required this.viewModel,
+    required this.router,
+  });
 
   final MineViewModel viewModel;
+  final CoreRouter router;
 
   @override
   State<MinePage> createState() => _MinePageState();
@@ -48,7 +55,7 @@ class _MinePageState extends State<MinePage> {
             spacing: 8,
             children: <Widget>[
               ElevatedButton(
-                onPressed: () => Navigator.of(context).pushNamed('/login'),
+                onPressed: () => widget.router.push(AppRouter.loginRoute),
                 child: const Text('登录/切换'),
               ),
               OutlinedButton(
