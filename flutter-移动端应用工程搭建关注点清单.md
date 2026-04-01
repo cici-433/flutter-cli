@@ -40,7 +40,22 @@
   - **媒体与资源**：图片统一用 CachedNetworkImage/extended_image；全局占位/失败图；内存/磁盘缓存策略；常用变换（裁剪/圆角/模糊）；资源命名与分发规范。
   - **总结**：把网络、路由、存储、图片等通用能力统一封装收口为基础组件，业务只面向统一接口复用，从而减少重复造轮子并提升一致性、稳定性与可维护性
 - **规范与约束（防代码腐化）**：
-  - **代码风格门禁**：flutter_lints/analyzer 规则；Dart format 强制；import 顺序与文件命名规范；Pre-commit 校验。
+  - **代码风格门禁**：flutter_lints/analyzer 规则；Dart format 强制；import 顺序与文件命名规范；Pre-commit 校验。让代码在进入主干前就被统一校验，而不是靠人工review兜底。
+    - 一般分4层：
+      - **规则定义**：使用官方推荐的flutter_lints/Dart analyzer。
+        - analyzer 负责静态分析类型/语法错误，并调整错误等级，对影响质量/隐藏bug的项提升到error，例如。
+          - unused_import 导入但未使用
+          - unused_local_variable 未使用的局部变量
+          - dead_code 永远不会执行到的代码
+        - linter规则，则是设置了一些代码风格规则。
+          - avoid_returning_null_for_future 函数返回类型是 Future<T> / FutureOr<T> （非可空）时，却返回 null
+          - cancel_subscriptions 创建了 StreamSubscription 但没有在合适时机取消（cancel）
+          - close_sinks 创建了 StreamController /sink 等可关闭对象，但没有 close
+          - unawaited_futures （调用返回 Future 的方法却没有 await /没有显式标注为“故意不等待”）
+          - use_build_context_synchronously （在 await 之后继续使用 BuildContext）
+      - **自动修复**：IDE保存时自动执行dart format，让团队成员的代码风格一致。避免不必要的代码冲突。例如一行的宽度设置为80
+      - **本地门禁pre-commit**：通过git hooks脚本，在提交前对代码进行格式化、静态检查校验。
+      - **ci门禁**：在ci构建时，对代码静态检查校验。
   - **异常兜底机制**：FlutterError.onError + runZonedGuarded；禁止空 `try-catch` 吞错；记录到 Crashlytics/Sentry 并上报关键上下文（接口名、用户态、网络态）。
   - **设计系统（Design System）**：Theme/ColorScheme/Typography/Spacing 统一；基础组件（Button/Toast/Dialog/Skeleton）下沉；暗色模式与多尺寸适配策略落地。
   - **总结**：通过统一的代码风格门禁、异常处理规范与设计系统组件约束，把质量规则前置并制度化，持续抑制代码腐化，保证长期一致性与可维护性。

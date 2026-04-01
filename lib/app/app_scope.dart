@@ -87,11 +87,16 @@ class AppScope {
   /// - 路由注册中心构建
   /// - 守卫型路由包装器组装
   /// - 深链来源、H5 兜底与外部唤起策略接入
-  static Future<AppScope> create() async {
-    final logger = AppLogger(
-      minLevel: LogLevel.debug,
-      formatter: const LineLogFormatter(includeStackTrace: false),
-    );
+  ///
+  /// 可选参数：
+  /// - [logger]：允许由应用入口传入统一 logger（例如与异常兜底共享同一个实例）。
+  static Future<AppScope> create({AppLogger? logger}) async {
+    final logger0 =
+        logger ??
+        AppLogger(
+          minLevel: LogLevel.debug,
+          formatter: const LineLogFormatter(includeStackTrace: false),
+        );
     final eventBus = ModuleEventBus();
     final storage = CoreStorage();
     await storage.initialize();
@@ -121,7 +126,7 @@ class AppScope {
       },
       onUnhandledUri: (Uri originalUri, Uri? fallbackUri) async {
         if (fallbackUri == null) {
-          logger.warning(
+          logger0.warning(
             'deep_link_unhandled_without_fallback',
             tag: 'router',
             error: originalUri.toString(),
@@ -134,7 +139,7 @@ class AppScope {
           mode: LaunchMode.externalApplication,
         );
         if (!launched) {
-          logger.warning(
+          logger0.warning(
             'deep_link_fallback_launch_failed',
             tag: 'router',
             error: fallbackUri.toString(),
@@ -161,7 +166,7 @@ class AppScope {
     final createOrderUseCase = CreateOrderUseCase(orderRepository);
     final orderQueryService = OrderQueryServiceImpl(fetchOrdersUseCase);
     final scope = AppScope(
-      logger: logger,
+      logger: logger0,
       eventBus: eventBus,
       router: router,
       routeRegistry: routeRegistry,

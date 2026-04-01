@@ -31,6 +31,7 @@ export 'core_router/guarded_core_router.dart';
 export 'core_router/navigator_core_router.dart';
 export 'core_storage/core_storage.dart';
 export 'core_ui/core_ui.dart';
+export 'core_error/error_guard.dart';
 export 'core_network/interceptors/auth_interceptor.dart';
 export 'core_network/interceptors/header_injector_interceptor.dart';
 export 'core_network/interceptors/logging_interceptor.dart';
