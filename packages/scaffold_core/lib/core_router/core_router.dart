@@ -20,22 +20,13 @@ abstract class CoreRouter {
   GlobalKey<NavigatorState> get navigatorKey;
 
   /// 入栈导航（push）。
-  Future<T?> push<T extends Object?>(
-    String location, {
-    Object? extra,
-  });
+  Future<T?> push<T extends Object?>(String location, {Object? extra});
 
   /// 替换当前页面（pushReplacement）。
-  Future<T?> replace<T extends Object?>(
-    String location, {
-    Object? extra,
-  });
+  Future<T?> replace<T extends Object?>(String location, {Object? extra});
 
   /// 清栈到目标页面（通常等价于“跳转并清空历史”）。
-  Future<T?> go<T extends Object?>(
-    String location, {
-    Object? extra,
-  });
+  Future<T?> go<T extends Object?>(String location, {Object? extra});
 
   /// 是否可以返回（pop）。
   bool canPop();

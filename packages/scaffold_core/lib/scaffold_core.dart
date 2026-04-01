@@ -13,13 +13,21 @@
 /// 使用方式：
 /// - 推荐通过本入口文件统一 import/export，减少上层对目录结构的直接依赖
 library;
+
 export 'core_common/module_event_bus.dart';
 export 'core_logger/logger.dart';
 export 'core_network/network_client.dart';
 export 'core_network/types.dart';
 export 'core_network/errors.dart';
 export 'core_network/serializer.dart';
+export 'core_router/core_deep_link.dart';
+export 'core_router/core_route_codec.dart';
+export 'core_router/core_route_definition.dart';
+export 'core_router/core_route_guard.dart';
+export 'core_router/core_route_registry.dart';
+export 'core_router/core_route_state.dart';
 export 'core_router/core_router.dart';
+export 'core_router/guarded_core_router.dart';
 export 'core_router/navigator_core_router.dart';
 export 'core_storage/core_storage.dart';
 export 'core_ui/core_ui.dart';

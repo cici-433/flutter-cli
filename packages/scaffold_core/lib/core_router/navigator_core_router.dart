@@ -18,8 +18,8 @@ class NavigatorCoreRouter extends CoreRouter {
   NavigatorCoreRouter({
     GlobalKey<NavigatorState>? navigatorKey,
     bool Function(Route<dynamic> route)? popUntilPredicate,
-  })  : _navigatorKey = navigatorKey ?? GlobalKey<NavigatorState>(),
-        _popUntilPredicate = popUntilPredicate;
+  }) : _navigatorKey = navigatorKey ?? GlobalKey<NavigatorState>(),
+       _popUntilPredicate = popUntilPredicate;
 
   final GlobalKey<NavigatorState> _navigatorKey;
   final bool Function(Route<dynamic> route)? _popUntilPredicate;
@@ -28,30 +28,21 @@ class NavigatorCoreRouter extends CoreRouter {
   GlobalKey<NavigatorState> get navigatorKey => _navigatorKey;
 
   @override
-  Future<T?> push<T extends Object?>(
-    String location, {
-    Object? extra,
-  }) {
+  Future<T?> push<T extends Object?>(String location, {Object? extra}) {
     final state = _navigatorKey.currentState;
     if (state == null) return Future<T?>.value(null);
     return state.pushNamed<T>(location, arguments: extra);
   }
 
   @override
-  Future<T?> replace<T extends Object?>(
-    String location, {
-    Object? extra,
-  }) {
+  Future<T?> replace<T extends Object?>(String location, {Object? extra}) {
     final state = _navigatorKey.currentState;
     if (state == null) return Future<T?>.value(null);
     return state.pushReplacementNamed<T, T>(location, arguments: extra);
   }
 
   @override
-  Future<T?> go<T extends Object?>(
-    String location, {
-    Object? extra,
-  }) {
+  Future<T?> go<T extends Object?>(String location, {Object? extra}) {
     final state = _navigatorKey.currentState;
     if (state == null) return Future<T?>.value(null);
     return state.pushNamedAndRemoveUntil<T>(
