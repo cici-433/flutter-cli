@@ -20,6 +20,7 @@ export 'core_network/network_client.dart';
 export 'core_network/types.dart';
 export 'core_network/errors.dart';
 export 'core_network/serializer.dart';
+export 'core_network/crypto.dart';
 export 'core_router/core_deep_link.dart';
 export 'core_router/core_route_codec.dart';
 export 'core_router/core_route_definition.dart';

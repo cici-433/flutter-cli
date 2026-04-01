@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 
 import 'package:dio/dio.dart';
+import 'crypto.dart';
 import 'errors.dart';
 import 'serializer.dart';
 import 'types.dart';
@@ -12,6 +13,7 @@ import 'types.dart';
 /// - 统一请求/响应/错误模型
 /// - 固定使用 Dio 作为底层引擎（支持配置 BaseOptions/拦截器）
 /// - 序列化策略可替换（默认 JSON）
+/// - 支持可插拔的请求/响应加解密（由应用层实现，core 负责调用时机）
 ///
 /// 与 Dio 的关系：
 /// - 本类将 [NetworkRequest] 映射为 Dio 的 [RequestOptions] 并发起请求
@@ -21,22 +23,29 @@ class NetworkClient {
   NetworkClient({
     NetworkClientOptions options = const NetworkClientOptions(),
     NetworkSerializer serializer = const JsonNetworkSerializer(),
+
+    /// 应用层提供的加解密实现（可选）。
+    ///
+    /// 若为 null，则不启用加解密流程。
+    NetworkCrypto? crypto,
     Dio? dio,
     BaseOptions? baseOptions,
     List<Interceptor>? dioInterceptors,
-  })  : _options = options,
-        _serializer = serializer,
-        _dio = dio ??
-            Dio(
-              baseOptions ??
-                  BaseOptions(
-                    baseUrl: options.baseUrl ?? '',
-                    connectTimeout: options.connectTimeout,
-                    receiveTimeout: options.receiveTimeout,
-                    headers: options.defaultHeaders,
-                    responseType: ResponseType.bytes,
-                  ),
-            ) {
+  }) : _options = options,
+       _serializer = serializer,
+       _crypto = crypto,
+       _dio =
+           dio ??
+           Dio(
+             baseOptions ??
+                 BaseOptions(
+                   baseUrl: options.baseUrl ?? '',
+                   connectTimeout: options.connectTimeout,
+                   receiveTimeout: options.receiveTimeout,
+                   headers: options.defaultHeaders,
+                   responseType: ResponseType.bytes,
+                 ),
+           ) {
     if (dioInterceptors != null && dioInterceptors.isNotEmpty) {
       _dio.interceptors.addAll(dioInterceptors);
     }
@@ -44,16 +53,20 @@ class NetworkClient {
 
   final NetworkClientOptions _options;
   final NetworkSerializer _serializer;
+  final NetworkCrypto? _crypto;
   final Dio _dio;
 
   /// 统一请求入口
   ///
   /// 流程：
   /// 1. 取消令牌检查
-  /// 2. [NetworkRequest] -> Dio [Options]/data
-  /// 3. 通过 Dio 发送请求（拦截器链在 Dio 内部执行）
-  /// 4. 将 Dio Response 解码为 [NetworkResponse]
-  /// 5. 将底层异常归一化为 [NetworkException]
+  /// 2. 解析 URL + 合并 headers
+  /// 3. 使用 [NetworkSerializer] 序列化请求体（得到 bytes）
+  /// 4. 可选：使用 [NetworkCrypto.encrypt] 对请求体加密/签名（由应用层提供）
+  /// 5. 通过 Dio 发送请求（拦截器链在 Dio 内部执行）
+  /// 6. 可选：使用 [NetworkCrypto.decrypt] 解密响应 bytes（由应用层提供）
+  /// 7. 按 responseType 解码为 [NetworkResponse]
+  /// 8. 将底层异常归一化为 [NetworkException]
   Future<NetworkResponse<T>> request<T>(
     NetworkRequest request, {
     CancelToken? cancelToken,
@@ -90,6 +103,32 @@ class NetworkClient {
         }
       }
 
+      final crypto = _crypto;
+      if (crypto != null && crypto.shouldEncrypt(current)) {
+        NetworkCryptoResult result;
+        try {
+          result = await crypto.encrypt(
+            NetworkCryptoRequest(
+              uri: uri,
+              request: current,
+              headers: Map<String, String>.from(headers),
+              bodyBytes: bodyBytes,
+            ),
+          );
+        } catch (e) {
+          throw NetworkException(
+            type: NetworkErrorType.serialization,
+            message: 'Request encryption failed: ${e.toString()}',
+            request: current,
+            cause: e,
+          );
+        }
+        if (result.headers != null && result.headers!.isNotEmpty) {
+          headers.addAll(result.headers!);
+        }
+        bodyBytes = result.bodyBytes ?? bodyBytes;
+      }
+
       final options = Options(
         method: current.method.name.toUpperCase(),
         headers: headers,
@@ -105,8 +144,7 @@ class NetworkClient {
         options: options,
         cancelToken: cancelToken,
       );
-      final response = _decodeResponse<T>(current, resp);
-      return response;
+      return await _decodeResponse<T>(current, resp);
     } on TimeoutException catch (e) {
       throw NetworkException(
         type: NetworkErrorType.timeout,
@@ -201,7 +239,6 @@ class NetworkClient {
     return null;
   }
 
-
   /// 兼容型快捷方法：POST JSON Map
   ///
   /// - 适合快速接入 legacy 接口
@@ -281,7 +318,8 @@ class NetworkClient {
   /// - 否则将 [NetworkClientOptions.baseUrl] 与 path 直接拼接
   /// - queryParameters 会与 URL 自带 query 合并，同名参数以后者覆盖前者
   Uri _resolveUri(String path, Map<String, String> queryParameters) {
-    final isAbsolute = path.startsWith('http://') || path.startsWith('https://');
+    final isAbsolute =
+        path.startsWith('http://') || path.startsWith('https://');
     final base = _options.baseUrl ?? '';
     final raw = isAbsolute ? path : (base + path);
     final uri = Uri.parse(raw);
@@ -302,10 +340,10 @@ class NetworkClient {
   /// - 仅将 2xx 视为成功响应，否则抛出 [NetworkException]（badResponse）
   /// - 底层以 bytes 读取响应，再由 [NetworkSerializer] 解码
   /// - 始终保留原始字节到 [NetworkResponse.rawBytes]，便于调试/二次解析
-  NetworkResponse<T> _decodeResponse<T>(
+  Future<NetworkResponse<T>> _decodeResponse<T>(
     NetworkRequest request,
     Response<dynamic> resp,
-  ) {
+  ) async {
     final statusCode = resp.statusCode ?? 0;
     final headers = <String, String>{};
     resp.headers.forEach((String name, List<String> values) {
@@ -321,26 +359,42 @@ class NetworkClient {
         responseHeaders: headers,
       );
     }
-    List<int> bytes;
-    final data = resp.data;
-    if (data is List<int>) {
-      bytes = List<int>.from(data);
-    } else if (data is String) {
-      bytes = utf8.encode(data);
-    } else {
-      bytes = utf8.encode(jsonEncode(data));
+    final wireBytes = _extractWireBytes(resp.data);
+    var payloadBytes = wireBytes;
+    final crypto = _crypto;
+    if (crypto != null && crypto.shouldDecrypt(request)) {
+      try {
+        payloadBytes = await crypto.decrypt(
+          NetworkCryptoResponse(
+            uri: resp.requestOptions.uri,
+            request: request,
+            statusCode: statusCode,
+            headers: headers,
+            bodyBytes: wireBytes,
+          ),
+        );
+      } catch (e) {
+        throw NetworkException(
+          type: NetworkErrorType.serialization,
+          message: 'Response decryption failed: ${e.toString()}',
+          request: request,
+          statusCode: statusCode,
+          responseHeaders: headers,
+          cause: e,
+        );
+      }
     }
     Object? decoded;
     try {
       switch (request.responseType) {
         case NetworkResponseType.bytes:
-          decoded = bytes;
+          decoded = payloadBytes;
           break;
         case NetworkResponseType.text:
-          decoded = utf8.decode(bytes);
+          decoded = utf8.decode(payloadBytes);
           break;
         case NetworkResponseType.json:
-          decoded = _serializer.decode(bytes);
+          decoded = _serializer.decode(payloadBytes);
           break;
       }
     } catch (e) {
@@ -358,8 +412,20 @@ class NetworkClient {
       statusCode: statusCode,
       headers: headers,
       data: decoded as T,
-      rawBytes: bytes,
+      rawBytes: wireBytes,
     );
+  }
+
+  /// 将 Dio 返回的 response.data 统一抽取为 bytes（wire bytes）。
+  ///
+  /// 约定：
+  /// - Dio 在 ResponseType.bytes 模式下通常返回 List<int>
+  /// - 若 data 为 String 或其它类型，按 UTF-8 文本处理或 JSON 编码后转 bytes
+  List<int> _extractWireBytes(dynamic data) {
+    if (data == null) return const <int>[];
+    if (data is List<int>) return List<int>.from(data);
+    if (data is String) return utf8.encode(data);
+    return utf8.encode(jsonEncode(data));
   }
 
   NetworkException _mapDioError(DioException e, NetworkRequest request) {

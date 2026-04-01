@@ -14,6 +14,9 @@
   - ApiResponse（通用业务协议响应模型）
   - NetworkClientOptions（baseUrl、默认头、超时）
   - 取消使用 Dio 的 CancelToken（直接透传）
+- 加解密协议：[crypto.dart](crypto.dart)
+  - NetworkCrypto（由应用层实现，core 负责串联调用时机）
+  - NetworkCryptoRequest/Response（加密/解密上下文）
 - 错误模型：[errors.dart](errors.dart)
   - NetworkErrorType（timeout/network/badResponse/cancelled/serialization/business/unknown）
   - NetworkErrorCodes（统一错误码：网络层负数区间 + 业务码透传）
@@ -35,11 +38,14 @@
 
 ## 数据流与执行顺序
 
-1. 应用构造 NetworkClient（可配置 options、serializer、Dio 与其拦截器）
+1. 应用构造 NetworkClient（可配置 options、serializer、crypto、Dio 与其拦截器）
 2. 发起请求：`client.request(request)`
-3. 客户端构造 Dio Options 与请求体字节并调用 Dio
-4. 客户端根据 responseType + serializer 解码，得到 NetworkResponse
-5. 出现异常时归一化为 NetworkException（基于 DioException 映射）
+3. 客户端解析 URI、合并 headers，并用 serializer 将 body 序列化为 bytes
+4. 若启用 crypto：对请求 bytes 加密/签名，并可追加/覆盖 headers
+5. 客户端构造 Dio Options 并调用 Dio
+6. 若启用 crypto：对响应 bytes 解密为明文字节
+7. 客户端根据 responseType + serializer 解码，得到 NetworkResponse
+8. 出现异常时归一化为 NetworkException（基于 DioException 映射）
 
 ## 快速使用
 
@@ -266,6 +272,55 @@ class ProtoSerializer extends NetworkSerializer {
 final client = NetworkClient(serializer: ProtoSerializer());
 ```
 
+## 接口加解密（由应用层提供实现）
+
+core_network 只负责“串联调用时机”，不内置任何算法与密钥管理。应用层通过实现 [NetworkCrypto](crypto.dart) 注入加解密逻辑。
+
+约定：
+
+- 请求加密发生在 serializer.encode 之后（拿到请求体 bytes 后再加密/签名）
+- 响应解密发生在 serializer.decode 之前（先把 wire bytes 解密为明文字节，再按 json/text/bytes 解码）
+- `NetworkResponse.rawBytes` 始终保留“网络原始字节”（wire bytes，通常为加密后的响应体）
+- 加密/解密失败会抛出 NetworkException（type=serialization），便于在上层统一降级与埋点
+
+与拦截器的关系：
+
+- 由于加密发生在 Dio 发送前，因此 Dio 拦截器链看到的是“加密后的 body bytes”以及注入后的签名/nonce 等 headers
+- 若需要打印明文请求/响应，建议在应用层实现 NetworkCrypto 时自行埋点（注意脱敏），或在加密前后各自记录必要字段
+
+示例：
+
+```dart
+import 'package:scaffold_core/core_network/crypto.dart';
+import 'package:scaffold_core/core_network/network_client.dart';
+import 'package:scaffold_core/core_network/types.dart';
+
+class AppCrypto extends NetworkCrypto {
+  const AppCrypto();
+
+  @override
+  NetworkCryptoResult encrypt(NetworkCryptoRequest request) {
+    // TODO: 将 request.bodyBytes 加密，并返回密文 bytes
+    // TODO: 如需签名/nonce，可通过 headers 注入
+    return NetworkCryptoResult(
+      headers: const {'x-crypto': '1'},
+      bodyBytes: request.bodyBytes,
+    );
+  }
+
+  @override
+  List<int> decrypt(NetworkCryptoResponse response) {
+    // TODO: 将 response.bodyBytes 解密为明文字节
+    return response.bodyBytes;
+  }
+}
+
+final client = NetworkClient(
+  options: const NetworkClientOptions(baseUrl: 'https://api.example.com'),
+  crypto: const AppCrypto(),
+);
+```
+
 ## 配置 Dio 引擎
 
 ```dart
@@ -303,10 +358,17 @@ sequenceDiagram
     participant S as 服务端
 
     App->>NC: 发起请求 client.request(request)
-    NC->>DIO: 构造Options + 序列化body，requestUri(...)
+    NC->>NC: 序列化body -> bytes
+    alt 启用crypto
+      NC->>NC: 加密/签名（bytes + headers）
+    end
+    NC->>DIO: 构造Options，requestUri(...)
     DIO->>S: 发送HTTP请求
     S->>DIO: 返回响应
     DIO->>NC: 返回Response(bytes)
+    alt 启用crypto
+      NC->>NC: 解密响应bytes -> 明文字节
+    end
     NC->>NC: 统一解码（JSON/Text/Bytes）
     NC->>App: 返回NetworkResponse
 
