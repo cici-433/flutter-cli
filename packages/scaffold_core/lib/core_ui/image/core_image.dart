@@ -130,9 +130,10 @@ class CoreImage extends StatelessWidget {
 
   /// 默认占位视图。
   Widget _defaultPlaceholder(BuildContext context) {
+    final base = Theme.of(context).colorScheme.surfaceContainerHighest;
     return DecoratedBox(
       decoration: BoxDecoration(
-        color: Theme.of(context).colorScheme.surfaceVariant.withOpacity(0.6),
+        color: base.withValues(alpha: 0.6),
       ),
     );
   }
@@ -140,7 +141,7 @@ class CoreImage extends StatelessWidget {
   /// 默认错误视图。
   Widget _defaultError(BuildContext context) {
     return ColoredBox(
-      color: Theme.of(context).colorScheme.surfaceVariant,
+      color: Theme.of(context).colorScheme.surfaceContainerHighest,
       child: Center(
         child: Icon(
           Icons.broken_image_outlined,

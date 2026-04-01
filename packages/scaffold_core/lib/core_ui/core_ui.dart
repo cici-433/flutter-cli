@@ -9,5 +9,7 @@
 /// - 让业务页面复用统一的列表交互模式
 /// - 将“分页状态管理”和“分页列表渲染”解耦
 /// - 通过统一导出减少上层对目录结构的感知
+library;
+
 export 'list/core_paged_list.dart';
 export 'image/core_image.dart';

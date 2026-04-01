@@ -78,16 +78,54 @@ void main() {
 /// - main() 保持“装配入口”清晰
 /// - 便于未来扩展：例如读取远端配置、初始化 APM/埋点、预热缓存等
 Future<void> _bootstrap(AppLogger logger) async {
-  /// 创建应用依赖容器。
-  ///
-  /// 说明：
-  /// - 这里传入 logger，保证与兜底/上报使用同一份日志实例
-  final scope = await AppScope.create(logger: logger);
-  runApp(
-    ProviderScope(
-      /// 将真实 scope 注入到 appScopeProvider，供各模块按需读取（ref.watch/ref.read）。
-      overrides: <Override>[appScopeProvider.overrideWithValue(scope)],
-      child: const App(),
-    ),
+  final context = StartupContext(logger: logger);
+  final runner = StartupRunner(
+    context: context,
+    tasks: <StartupTask>[
+      StartupTask(
+        id: 'app_scope',
+        phase: StartupPhase.main,
+        run: (ctx) async {
+          final scope = await AppScope.create(logger: logger);
+          ctx.set('app_scope', scope);
+        },
+      ),
+      StartupTask(
+        id: 'run_app',
+        phase: StartupPhase.main,
+        dependsOn: const <String>['app_scope'],
+        run: (ctx) {
+          final scope = ctx.get<AppScope>('app_scope')!;
+          runApp(
+            ProviderScope(
+              overrides: <Override>[appScopeProvider.overrideWithValue(scope)],
+              child: const App(),
+            ),
+          );
+        },
+      ),
+    ],
+  );
+
+  final report = await runner.run(
+    phases: const <StartupPhase>[StartupPhase.main],
+  );
+  logger.info(
+    'startup_report',
+    tag: 'startup',
+    fields: <String, Object?>{
+      'duration_ms': report.duration.inMilliseconds,
+      'has_failure': report.hasFailure,
+      'tasks': report.results
+          .map(
+            (r) => <String, Object?>{
+              'id': r.id,
+              'phase': r.phase.name,
+              'duration_ms': r.duration.inMilliseconds,
+              'success': r.isSuccess,
+            },
+          )
+          .toList(growable: false),
+    },
   );
 }
