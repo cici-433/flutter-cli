@@ -12,3 +12,4 @@ dependencies:
   dio: ^5.4.0
   mmkv: ^2.4.0
   uni_links: ^0.5.1
+  cached_network_image: ^3.3.1
